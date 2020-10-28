@@ -50,7 +50,7 @@
     - PUT
     - PATCH
     - DELETE
-    - OPTION
+    - OPTIONS
     - HEAD
 
 ## مفهوم http status codes
