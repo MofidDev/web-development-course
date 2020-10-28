@@ -33,7 +33,7 @@
 
 - این آدرس فرمت مشخصی دارد که به آن URL می‌گوییم.
 - 
-    <div dir="ltr">
+    <div dir="ltr" style="text-align:left;">
 
     ```
     <protocol(scheme)>://<user>:<pass>@<host>:<port>/<path>?<query>#<frag>
