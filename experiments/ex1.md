@@ -1,6 +1,6 @@
 <div dir="rtl" style="text-align:justify;">
 
-# مقدمات
+# مقدمه
 
 ## معماری برنامه‌های تحت وب
 

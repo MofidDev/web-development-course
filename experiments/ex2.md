@@ -20,9 +20,9 @@
 - high performance
 - low complexity
 
-## چگونه stateless بودن http را مدیریت کنیم؟
+## چگونه stateless بودن http را برطرف کنیم؟
 
-- Http Cookie
+- HTTP Cookie
 - JSON Web Token (TWT)
 
 ## مفهوم uniform resource locator
@@ -30,8 +30,14 @@
 - در پروتکل http برای ارسال درخواست به سرور باید از یک آدرس برای مشخص کردن مقصد درخواست استفاده کنیم.
 
 - این آدرس فرمت مشخصی دارد که به آن URL می‌گوییم.
-
 - 
+    <div dir="ltr">
+
+    ```
+    <protocol(scheme)>://<user>:<pass>@<host>:<port>/<path>?<query>#<frag>
+    ```
+
+    </div>
 
 ## مفهوم http methods
 
@@ -47,10 +53,10 @@
 
 ## مفهوم http status codes
 
-- 2xx ()
-- 3xx ()
-- 4xx ()
-- 5xx ()
+- 2xx (Success)
+- 3xx (Redirection)
+- 4xx (Client Error)
+- 5xx (Server Error)
 
 ## مفهوم http header
 
@@ -65,6 +71,8 @@
 ## نصب httpie
 
 ## نصب postman
+
+## سایت httpbin
 
 ## نصب EditThisCookie
 

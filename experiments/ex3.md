@@ -1,6 +1,6 @@
 <div dir="rtl" style="text-align:justify;">
 
-# راه‌اندازی یک پروژه
+# آماده‌سازی محیط توسعه
 
 ## d
 
