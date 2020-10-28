@@ -2,8 +2,10 @@
 
 # آماده‌سازی محیط توسعه و نوشتن اولین پروژه
 
-## نصب ابزارهای لازم
+## vscode_liveserver.txt
+## install tools
+## nodejs installation verification.txt
+## directory structure
 
-- 
 
 </div>
