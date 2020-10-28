@@ -6,8 +6,14 @@
 
 - به مجموعه شامل یک درخواست و پاسخ به این درخواست که بین کلاینت و سرور تبادل می‌شود یک تراکنش http می‌گوییم.
 
-- http request: درخواست کلاینت به سرور است
-- http response: پاسخ سرور برای کلاینت است
+- http request: درخواست کلاینت به سرور
+- http response: پاسخ سرور برای کلاینت
+
+## با http چه فایل‌هایی را می‌توانیم منتقل کنیم؟
+
+- Text Documents: html, xml, json
+- Multimedia: mp4, jpg, mkv
+- Application: pdf, zip, rar
 
 ## http is stateless یعنی چه؟ 
 
@@ -19,11 +25,6 @@
 
 - high performance
 - low complexity
-
-## چگونه stateless بودن http را برطرف کنیم؟
-
-- HTTP Cookie
-- JSON Web Token (TWT)
 
 ## مفهوم uniform resource locator
 
@@ -63,6 +64,26 @@
 - هدرها اطلاعات تکمیلی درباره هر تراکنش http را نگهداری می‌کنند.
 
 - هدر ممکن است در  req یا res یا هر دو ظاهر شود.
+
+## چگونه stateless بودن http را برطرف کنیم؟
+
+- HTTP Cookie
+- JSON Web Token (JWT)
+
+## احراز هویت در http
+
+- Session Based Authentication
+- Token Based Authentication
+
+## مفهوم proxy
+
+- پراکسی به بیان ساده یک کامپیوتر است که میان کلاینت و سرور قرار گرفته و بعنوان واسط نقش‌های مختلفی ایفا می‌کند.
+
+- انواع پراکسی‌ها
+    - forward proxy
+    - reverse proxy
+
+- کاربرد پراکسی‌ها
 
 ## نصب choco
 
