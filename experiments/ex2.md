@@ -14,6 +14,7 @@
 - Text Documents: html, xml, json
 - Multimedia: mp4, jpg, mkv
 - Application: pdf, zip, rar
+- ...
 
 ## http is stateless یعنی چه؟ 
 
