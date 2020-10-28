@@ -1,22 +1,32 @@
 <div dir="rtl" style="text-align:justify;">
 
-# تمرین عملی http
+# تمارین عملی http
 
-## نصب choco
+## نصب ابزارهای لازم
 
-## نصب python
+- نصب choco
 
-## نصب httpie
+- نصب python
 
-## نصب postman
+- نصب httpie
 
-## سایت httpbin
-
-## نصب EditThisCookie
-
-## نصب Wappalyzer
+- نصب postman
 
 ## مشاهده پیام‌های پروتکل http
+
+- httpie
+
+## اتصال به یک api آزمایشی با postman
+
+- httpbin
+
+## مشاهده کوکی‌های فعال در یک صفحه وب
+
+- EditThisCookie
+
+## مشاهده تکنولوژی‌های یک صفحه وب
+
+- Wappalyzer
 
 </div>
 
