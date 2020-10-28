@@ -7,5 +7,4 @@
 ## nodejs installation verification.txt
 ## directory structure
 
-
 </div>
