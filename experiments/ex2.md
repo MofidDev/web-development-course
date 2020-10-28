@@ -94,7 +94,14 @@
     - reverse proxy
 
 - کاربرد پراکسی‌ها
-    - 
+    - To avoid browsing restrictions 
+    - To block access to certain content 
+    - To protect online identity 
+    - Load Balancing
+    - Protection from attacks 
+    - Caching 
+    - SSL encryption
+    - Logging
 
 ## نصب choco
 
