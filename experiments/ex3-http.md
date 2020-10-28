@@ -4,13 +4,33 @@
 
 ## نصب ابزارهای لازم
 
+- نصب postman
+    - https://www.postman.com
+
 - نصب choco
+    - https://chocolatey.org
 
 - نصب python
 
+    <div dir="ltr" style="text-align:left;">
+
+    ```
+    choco install python --pre
+    ```
+    
+    </div>
+
 - نصب httpie
 
-- نصب postman
+    <div dir="ltr" style="text-align:left;">
+
+    ```
+    pip install --upgrade pip setuptools
+
+    pip install --upgrade httpie
+    ```
+   
+    </div>
 
 ## مشاهده تراکنش‌های پروتکل http
 
