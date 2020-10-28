@@ -72,8 +72,11 @@
 
 ## احراز هویت در http
 
-- Session Based Authentication
-- Token Based Authentication
+- کلاینت همیشه باید خود را به سرور معرفی کند. چون از پروتکل http استفاده می‌کنیم و این پروتکل stateless طراحی شده است.
+
+- راه‌های متداول احراز هویت:
+    - Session Based Authentication
+    - Token Based Authentication
 
 ## مفهوم امضای دیجیتال
 
