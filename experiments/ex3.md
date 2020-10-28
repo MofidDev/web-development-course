@@ -1,7 +1,23 @@
 <div dir="rtl" style="text-align:justify;">
 
-# آماده‌سازی محیط توسعه
+# تست اجر
 
-## d
+## نصب choco
+
+## نصب python
+
+## نصب httpie
+
+## نصب postman
+
+## سایت httpbin
+
+## نصب EditThisCookie
+
+## نصب Wappalyzer
+
+## مشاهده پیام‌های پروتکل http
 
 </div>
+
+

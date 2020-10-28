@@ -102,21 +102,5 @@
     - Caching 
     - SSL encryption
     - Logging
-
-## نصب choco
-
-## نصب python
-
-## نصب httpie
-
-## نصب postman
-
-## سایت httpbin
-
-## نصب EditThisCookie
-
-## نصب Wappalyzer
-
-## مشاهده پیام‌های پروتکل http
-
+    
 </div>
