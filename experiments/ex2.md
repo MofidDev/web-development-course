@@ -75,6 +75,14 @@
 - Session Based Authentication
 - Token Based Authentication
 
+## مفهوم امضای دیجیتال
+
+- public key & private key
+- cryptography algorithms
+    - HS256
+    - RS256
+
+
 ## مفهوم proxy
 
 - پراکسی به بیان ساده یک کامپیوتر است که میان کلاینت و سرور قرار گرفته و بعنوان واسط نقش‌های مختلفی ایفا می‌کند.
@@ -84,6 +92,7 @@
     - reverse proxy
 
 - کاربرد پراکسی‌ها
+    
 
 ## نصب choco
 
