@@ -150,4 +150,8 @@ git reset experiments/ex5-git.md
 
 git checkout -- experiments/ex5-git.md
 
+## چگونه آدرس یک ریموت را تغییر دهیم؟
+
+git remote set-url origin https://github.com/MofidDev/web-development-course.git
+
 </div>
