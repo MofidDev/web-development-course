@@ -25,4 +25,22 @@
 
 ## ساختن اولین مخزن
 
+## چه طور conflict بین لوکال و ریموت را برطرف کنیم؟
+
+## چگونه آخرین کامیت را ریست کنیم؟
+
+git reset --soft HEAD^
+if you want to keep your changes
+
+git reset --hard HEAD^
+if you don't care about keeping the changes you made
+
+## چگونه فایل را از استیج خارج کنیم؟
+
+git reset experiments/ex5-git.md
+
+## چگونه تغییرات unstaged را revert کنیم؟
+
+git checkout -- experiments/ex5-git.md
+
 </div>
