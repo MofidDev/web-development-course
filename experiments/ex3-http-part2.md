@@ -9,6 +9,7 @@
 
 - نصب choco
     - https://chocolatey.org
+    - https://chocolatey.org/docs/installation
     -
         <div dir="ltr">
 
@@ -23,7 +24,7 @@
     <div dir="ltr" style="text-align:left;">
 
     ```
-    choco install python --pre
+    choco install python
     ```
     
     </div>
@@ -33,9 +34,13 @@
     <div dir="ltr" style="text-align:left;">
 
     ```
+    python --version
+
     pip install --upgrade pip setuptools
 
     pip install --upgrade httpie
+
+    pip --version
     ```
    
     </div>
