@@ -15,7 +15,7 @@
         ```
         Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
         ```
-        
+
         </div>
 
 - نصب python
@@ -67,6 +67,10 @@
 ## اتصال به یک api آزمایشی با postman
 
 - httpbin
+
+    - https://httpbin.org/post
+    - https://httpbin.org/image
+    - https://httpbin.org/uuid
 
 ## مشاهده کوکی‌های فعال در یک صفحه وب
 
