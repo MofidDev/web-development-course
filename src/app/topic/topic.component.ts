@@ -1,8 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BehaviorSubject, Subscription } from 'rxjs';
-import { Topic } from '../topic.model';
-import { TopicService } from '../topic.service';
+import { Topic } from './topic.model';
+import { TopicService } from './topic.service';
 
 @Component({
   selector: 'app-topic',
