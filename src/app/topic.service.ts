@@ -67,5 +67,12 @@ export class TopicService {
     return false;
   }
 
+  getTopicByPath(path: string): Topic {
+    for (const item of this.topics) {
+      if (item.path == path) return item;
+    }
+    return undefined;
+  }
+
   constructor() {}
 }
