@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.scss'],
 })
 export class IntroComponent implements OnInit {
-  protected topics = [
+  topics = [
     {
       title: 'Introduction',
-      path: 'intro',
+      path: 'introduction',
     },
     {
       title: 'HTTP',
@@ -32,8 +32,8 @@ export class IntroComponent implements OnInit {
       path: 'js',
     },
     {
-      title: 'Components',
-      path: 'components',
+      title: 'Component',
+      path: 'component',
     },
     {
       title: 'Data Binding',
@@ -48,7 +48,7 @@ export class IntroComponent implements OnInit {
       path: 'navigation',
     },
     {
-      title: 'Http Client',
+      title: 'HTTP Client',
       path: 'http-client',
     },
     {
