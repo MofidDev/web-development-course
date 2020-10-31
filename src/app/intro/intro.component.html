@@ -1,0 +1,23 @@
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3">سلام، خوش آمدید!</h1>
+        <p>
+            در این کلاس مفاهیم و اصول برنامه نویسی تحت وب برای دانش‌آموزان دبیرستان مفید بیان می‌شود و این مخزن
+            مربوط به طرح درس‌های این دوره می‌باشد. باتوجه به اینکه این دوره جزو دوره‌های آموزش تکنولوژی محسوب
+            می‌شود، ممکن است آموزش‌های فنی آن در آینده‌ای نزدیک منسوخ شود یا محتوای ارائه شده تنها بخشی از
+            تکنولوژی‌های جدید را پوشش دهد.
+        </p>
+    </div>
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-4" *ngFor="let item of topics">
+                <div class="card mb-4">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h5 class="card-title text-center font-weight-bold">{{item.title}}</h5>
+                        <a [routerLink]="['topic', item.path]" class="btn btn-primary">ورود به تاپیک</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

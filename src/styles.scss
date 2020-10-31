@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons");
 
+html {
+  height: 100%;
+}
+
 body {
-    direction: rtl;
-    text-align: right;
-    font-family: 'Vazir', sans-serif;
+  direction: rtl;
+  text-align: right;
+  font-family: "Vazir", sans-serif;
+}
+
+.jumbotron {
+  padding: 0;
+  padding-top: 8rem;
+  margin: 0;
 }
