@@ -14,17 +14,12 @@
 
 ## کانفیگ اولیه گیت در سیستم‌عامل
 
-- 
-    <div dir="ltr">
-
-    ```
-    git config --global user.email "you@example.com"
-
-    git config --global user.name "Your Name"
-
-    ```
-
-    </div>
+- ```bash
+  git config --global user.email "you@example.com"
+  ```
+- ```bash
+  git config --global user.name "Your Name"
+  ```
 
 ## گیت به چه دردی می‌خورد؟
 
@@ -41,26 +36,14 @@
 
 - در گیت همه چیز با یک مخزن شروع می‌شود. معمولا پوشه اصلی پروژه را بعنوان مخزن آن پروژه در نظر میگیریم. اما حتما باید به گیت اعلام کنیم که کدام پوشه را بعنوان مخزن درنظر بگیرد.
 
-- 
-    <div dir="ltr">
-
-    ```
-    git init
-    ```
-
-    </div>
-
+- ```bash
+  git init
+  ```
 - ممکن است نخواهید مخزن را خوتان بسازید. مثلا پروژه قبلا ایجاد شده و تازه می‌‌خواهید به آن اضافه شوید یا مواردی مشابه این که در این حالت باید به گیت بگویید یک کپی یا کلون از آن مخزن برای شما ایجاد کند.
 
-- 
-    <div dir="ltr">
-
-    ```
-    git clone
-    ```
-    
-    </div>
-
+- ```bash
+  git clone
+  ```
 
 ## مفهوم staging
 
@@ -69,16 +52,18 @@
 - در ادبیات گیت به این فایل ها که گیت حواسش به تغییرات آن ها هست را tracked files می‌گویند.
 
 - در ادبیات گیت به تغییراتی که قرار است در کامیت بعدی بیایند را staged changes می‌گویند.
--
-    <div dir="ltr">
 
-    ```
-    git add a.html
-    git add -A
-    git add .
-    ```
-    
-    </div>
+- ```bash
+  git add a.html
+  ```
+
+- ```bash
+  git add -A
+  ```
+
+- ```bash
+  git add .
+  ```
 
 ## مفهوم commit
 
