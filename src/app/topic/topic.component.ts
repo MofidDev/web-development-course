@@ -33,6 +33,6 @@ export class TopicComponent implements OnInit, OnDestroy {
   }
 
   getMDSrc(topic: Topic): string {
-    return '/assets/content/' + topic.file;
+    return './assets/content/' + topic.file;
   }
 }
