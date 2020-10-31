@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Topic } from '../topic.model';
+import { TopicService } from '../topic.service';
 
 @Component({
   selector: 'app-intro',
@@ -6,58 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.scss'],
 })
 export class IntroComponent implements OnInit {
-  topics = [
-    {
-      title: 'Introduction',
-      path: 'introduction',
-    },
-    {
-      title: 'HTTP',
-      path: 'http',
-    },
-    {
-      title: 'GIT',
-      path: 'git',
-    },
-    {
-      title: 'HTML',
-      path: 'html',
-    },
-    {
-      title: 'CSS',
-      path: 'css',
-    },
-    {
-      title: 'JS',
-      path: 'js',
-    },
-    {
-      title: 'Component',
-      path: 'component',
-    },
-    {
-      title: 'Data Binding',
-      path: 'data-binding',
-    },
-    {
-      title: 'Service',
-      path: 'service',
-    },
-    {
-      title: 'Navigation',
-      path: 'navigation',
-    },
-    {
-      title: 'HTTP Client',
-      path: 'http-client',
-    },
-    {
-      title: 'Deployment',
-      path: 'deployment',
-    },
-  ];
+  topics: Topic[] = [];
 
-  constructor() {}
+  constructor(private topicService: TopicService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.topics = this.topicService.getAllTopics();
+  }
 }
