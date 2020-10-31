@@ -4,9 +4,9 @@ import { IntroComponent } from './intro/intro.component';
 import { TopicComponent } from './topic/topic.component';
 
 const routes: Routes = [
-  { path: '/intro', component: IntroComponent },
+  { path: 'intro', component: IntroComponent },
   {
-    path: '/topic/:topic',
+    path: 'topic/:topic',
     component: TopicComponent,
   },
   {
