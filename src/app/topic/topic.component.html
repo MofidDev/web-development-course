@@ -3,4 +3,7 @@
         {{topic.title}}
     </h1>
     <button class="btn btn-primary" routerLink="/">بازگشت به خانه</button>
+    <br />
+    <div markdown [src]="'/assets/content/ex1-intro.md'" (load)="onMDLoad($event)" (error)="onMDError($event)">
+    </div>
 </div>

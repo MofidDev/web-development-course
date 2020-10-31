@@ -27,4 +27,12 @@ export class TopicComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.paramSub.unsubscribe();
   }
+
+  onMDLoad(event) {
+    console.log(event);
+  }
+
+  onMDError(event) {
+    console.log(event);
+  }
 }
