@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { BehaviorSubject, Subscription } from 'rxjs';
 import { Topic } from '../topic.model';
 import { TopicService } from '../topic.service';
 
@@ -28,11 +28,11 @@ export class TopicComponent implements OnInit, OnDestroy {
     this.paramSub.unsubscribe();
   }
 
-  onMDLoad(event) {
+  onMDError(event) {
     console.log(event);
   }
 
-  onMDError(event) {
-    console.log(event);
+  getMDSrc(topic: Topic): string {
+    return '/assets/content/' + topic.file;
   }
 }

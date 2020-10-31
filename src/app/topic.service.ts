@@ -22,6 +22,11 @@ export class TopicService {
       file: 'git.md',
     },
     {
+      title: 'Environment Setup',
+      path: 'env-setup',
+      file: 'env-setup.md',
+    },
+    {
       title: 'HTML',
       path: 'html',
       file: 'html.md',
