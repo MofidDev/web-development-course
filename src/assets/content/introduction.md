@@ -1,8 +1,4 @@
-<link rel="stylesheet" src="../css/custom.css">
-
 <div dir="rtl" style="text-align:justify;">
-
-# مقدمه
 
 ## معرفی دوره
 
