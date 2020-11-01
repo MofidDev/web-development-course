@@ -1,5 +1,3 @@
-<div dir="rtl" style="text-align:justify;">
-
 ## نصب گیت در کامپیوتر
 
 - https://git-scm.com
@@ -140,5 +138,3 @@ git checkout -- experiments/ex5-git.md
 ## چگونه آدرس یک ریموت را تغییر دهیم؟
 
 git remote set-url origin https://github.com/MofidDev/web-development-course.git
-
-</div>

@@ -1,5 +1,3 @@
-<div dir="rtl" style="text-align:justify;">
-
 ## نصب ابزارهای لازم
 
 - [NodeJS](https://nodejs.org/en)
@@ -15,5 +13,3 @@
 ## ایجاد اولین پروژه
 
 ## اجرای اولین پروژه
-
-</div>
