@@ -1,9 +1,15 @@
 <div class="container">
-    <h1>
-        {{topic.titlefa}}
-    </h1>
-    <button class="btn btn-primary" routerLink="/">بازگشت به خانه</button>
-    <br />
-    <div markdown [src]="getMDSrc(topic)" (error)="onMDError($event)">
+
+    <div class="topic-header">
+        <h1>
+            {{topic.titlefa}}
+        </h1>
+    
+        <button class="btn btn-primary" routerLink="/">بازگشت به خانه</button>
     </div>
+
+    <div class="topic-container">
+        <div markdown [src]="getMDSrc(topic)" (error)="onMDError($event)"></div>
+    </div>
+
 </div>

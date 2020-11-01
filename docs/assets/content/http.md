@@ -1,7 +1,5 @@
 <div dir="rtl" style="text-align:justify;">
 
-# پروتکل HTTP
-
 ## مفهوم http transaction
 
 - به مجموعه شامل یک درخواست و پاسخ به این درخواست که بین کلاینت و سرور تبادل می‌شود یک تراکنش http می‌گوییم.

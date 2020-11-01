@@ -1,7 +1,5 @@
 <div dir="rtl" style="text-align:justify;">
 
-# گیت
-
 ## نصب گیت در کامپیوتر
 
 - https://git-scm.com
