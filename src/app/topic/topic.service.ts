@@ -80,7 +80,7 @@ export class TopicService {
     },
     {
       title: 'HTTP Client',
-      titlefa: 'درخواست‌های HTTP',
+      titlefa: 'ارتباط با API',
       path: 'http-client',
       file: 'http-client.md',
     },

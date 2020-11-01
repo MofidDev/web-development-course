@@ -18,16 +18,21 @@ pre {
   direction: ltr;
 }
 
-a:hover{
+.navbar-brand {
+  margin-right: 0;
+  white-space: normal;
+}
+
+a:hover {
   text-decoration: none;
 }
 
 .container-bg {
-  padding-top: 3rem;;
-  background-color: #CFD8DC;
+  padding-top: 3rem;
+  background-color: #cfd8dc;
 }
 
 footer {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
   padding: 1rem;
 }
