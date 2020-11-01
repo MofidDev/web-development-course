@@ -28,13 +28,9 @@
 - در پروتکل http برای ارسال درخواست به سرور باید از یک آدرس برای مشخص کردن مقصد درخواست استفاده کنیم.
 
 - این آدرس فرمت مشخصی دارد که به آن URL می‌گوییم.
--   <div dir="ltr" style="text-align:left;">
-
-  ```
+- ```
   <protocol(scheme)>://<user>:<pass>@<host>:<port>/<path>?<query>#<frag>
   ```
-
-    </div>
 
 ## مفهوم http methods
 
@@ -118,39 +114,43 @@
   - همیشه جای خالی یک Package Manager خوب در ویندوز احساس میشد که چوکو این مسئله را تا حد بسیار زیادی برطرف کرده است.
   - https://chocolatey.org
   - https://chocolatey.org/docs/installation
-  -    <div dir="ltr">
+  - <div dir="ltr">
 
-    ```
-    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    ```
+  ```powershell
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+  ```
 
        </div>
 
 - نصب python
 
-    <div dir="ltr" style="text-align:left;">
+  - ```powershell
+    choco install python
+    ```
 
   ```
-  choco install python
-  ```
 
-    </div>
+  ```
 
 - نصب httpie
 
-    <div dir="ltr" style="text-align:left;">
-
+  ```powershell
+    python --version
   ```
-  python --version
 
+  ```powershell
   pip install --upgrade pip setuptools
+  ```
 
+  ```powershell
   pip install --upgrade httpie
 
-  pip --version
   ```
 
-    </div>
+  ```powershell
+  pip --version
+
+  ```
 
 ## مشاهده تراکنش‌های پروتکل http
 
@@ -159,22 +159,27 @@
 
 ## مشاهده پیام‌های پروتکل http
 
-- httpie
--    <div dir="ltr" style="text-align:left;">
+- ## httpie
 
-  ```
+  ```powershell
   http -v https://httpie.org/hello --offline
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies/set?name=hosein
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies Cookie:name=hosein;family=ghanbari
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies/delete?family=ghanbari Cookie:name=hosein;family=ghanbari
   ```
-
-     </div>
 
 ## اتصال به یک api آزمایشی با postman
 

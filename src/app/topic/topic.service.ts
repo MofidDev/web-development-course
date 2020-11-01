@@ -20,7 +20,7 @@ export class TopicService {
     },
     {
       title: 'GIT',
-      titlefa: 'ورژن کنترل سیستم: گیت',
+      titlefa: 'ورژن کنترل سیستم گیت',
       path: 'git',
       file: 'git.md',
     },
@@ -61,6 +61,12 @@ export class TopicService {
       file: 'component.md',
     },
     {
+      title: 'Directive',
+      titlefa: 'دستورالعمل‌ها (دیرکتیو)',
+      path: 'directive',
+      file: 'directive.md',
+    },
+    {
       title: 'Data Binding',
       titlefa: 'الحاق داده',
       path: 'data-binding',
@@ -71,6 +77,18 @@ export class TopicService {
       titlefa: 'خدمت',
       path: 'service',
       file: 'service.md',
+    },
+    {
+      title: 'Form',
+      titlefa: 'فرم‌های ورود اطلاعات',
+      path: 'form',
+      file: 'form.md',
+    },
+    {
+      title: 'Pipe',
+      titlefa: 'تغییر شکل خروجی با پایپ',
+      path: 'pipe',
+      file: 'pipe.md',
     },
     {
       title: 'Navigation',
