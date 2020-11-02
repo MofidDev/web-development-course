@@ -112,21 +112,6 @@
 
 - وقتی می‌خواهیم یک مخزن داشته باشیم و به در یکی از پوشه‌های آن به یک مخزن گیت دیگر ارجاع دهیم باید به گیت اعلام کنیم که جداگانه فایل های مخزن مذکور را رهگیری نکند بلکه کل آن‌ها را بعنوان یک زیرماژول درنظر بگیرد.
 
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-    <ol>
-      <li>یک مخزن عمومی در گیت‌هاب با اکانت خودتان تعریف کنید.</li>
-      <li>به این مخزن سه فایل html اضافه کنید که هر فایل شامل عنوان و متن یک خبر باشد.</li>
-      <li>اسم مخزن را به شکل <kbd>news-project</kbd> تعریف کنید.</li>
-      <li>اسم فایل‌های html به شکل رو تعریف کنید: <kbd>n1.html</kbd> <kbd>n2.html</kbd> <kbd>n3.html</kbd></li>
-      <li>آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.</li>
-    </ol>
-    </p>
-  </div>
-</div>
-
 ## چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
 
 - ```bash
@@ -159,16 +144,16 @@
     git diff tag1 tag2 -- some/file/name
     ```
 
+- لیست فایل‌های تغییر یافته
+
+  - ```bash
+    git diff tag1 tag2 --stat
+    ```
+
 - مقایسه لاگ تغییرات
 
   - ```bash
     git log tag1..tag2
-    ```
-
-- لیست فایل‌های تغییرات
-
-  - ```bash
-    git diff tag1 tag2 --stat
     ```
 
 ## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
@@ -258,6 +243,39 @@ git show g2345dfgertq4e5314wergertg
 - ```bash
   git remote set-url origin https://github.com/MofidDev/git-tutorial.git
   ```
+
+<div class="card text-white bg-success mb-3">
+  <div class="card-body">
+    <h6 class="card-title">تکلیف</h6>
+    <p class="card-text">
+    <ol>
+      <li>یک مخزن عمومی در گیت‌هاب با اکانت خودتان تعریف کنید.</li>
+      <li>به این مخزن سه فایل html اضافه کنید که هر فایل شامل عنوان و متن یک خبر باشد.</li>
+      <li>برای تهیه خبر می‌توانید به سایت‌های خبرگزاری مراجعه کنید.</li>
+      <li>اسم مخزن را به شکل <kbd>news-project</kbd> تعریف کنید.</li>
+      <li>اسم فایل‌های html را به شکل روبه‌رو تعریف کنید: <kbd>n1.html</kbd> <kbd>n2.html</kbd> <kbd>n3.html</kbd></li>
+      <li>آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.</li>
+    </ol>
+    </p>
+  </div>
+</div>
+
+<div class="card text-white bg-success mb-3">
+  <div class="card-body">
+    <h6 class="card-title">تکلیف</h6>
+    <p class="card-text">
+    <ol>
+      <li>مخزن <kbd>git-tutorial</kbd> در صفحه گروه توسعه‌دهندگان مفید را fork کنید.</li>
+      <li>یک فایل html ایجاد کنید و اسم این فایل را مطابق ذیل برابر با شماره کلاسی خود قرار دهید.</li>
+      <li>مثلا اگر شماره کلاسی شما 7 باشد باید فایل <kbd>std7.html</kbd> را به مخزن اضافه کنید.</li>
+      <li>در این فایل html باید نام و نام خانوادگی خود را قرار دهید</li>
+      <li>در نهایت تغییرات لوکال خود را به ریموت منتقل کنید.</li>
+      <li>حالا یک درخواست pull request یا merge request در مخزن اصلی ثبت کنید.</li>
+      <li>در سامانه LMS آدرس مخزن فورک شده در اکانت خودتان را در تکلیف مربوطه ثبت کنید.</li>
+    </ol>
+    </p>
+  </div>
+</div>
 
 ## برای مطالعه بیشتر
 
