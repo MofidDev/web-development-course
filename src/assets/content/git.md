@@ -135,12 +135,21 @@
 
 ## چگونه بین دو تگ مقایسه کنیم؟
 
-- ```bash
-  git diff tag1 tag2
-  git log tag1..tag2
-  git diff tag1 tag2 --stat
-  git diff tag1 tag2 -- some/file/name
-  ```
+### مقایسه خط به خط همه تغییرات
+
+- git diff tag1 tag2
+
+### مقایسه خط به خط تغییرات یک فایل خاص
+
+- git diff tag1 tag2 -- some/file/name
+
+### مقایسه لاگ تغییرات
+
+- git log tag1..tag2
+
+### لیست فایل‌های تغییرات
+
+- git diff tag1 tag2 --stat
 
 ## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
 
@@ -233,7 +242,8 @@ git show g2345dfgertq4e5314wergertg
 ## برای مطالعه بیشتر
 
 - https://try.github.io
-- https://guides.github.com/
+- https://docs.github.com
+- https://guides.github.com
 - https://git-scm.com/docs
 - pgp (pretty good privacy)
 - git blame
