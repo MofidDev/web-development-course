@@ -43,7 +43,7 @@ export class TopicService {
       file: 'css.md',
     },
     {
-      title: 'MINI PROJECT',
+      title: '[MINI PROJECT]',
       titlefa: 'پروژه اول',
       path: 'project-1',
       file: 'project-1.md',
@@ -127,7 +127,7 @@ export class TopicService {
       file: 'deployment.md',
     },
     {
-      title: 'FINAL PROJECT',
+      title: '[FINAL PROJECT]',
       titlefa: 'پروژه دوم',
       path: 'project-2',
       file: 'project-2.md',
