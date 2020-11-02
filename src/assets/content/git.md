@@ -158,10 +158,23 @@
 
 ## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
 
+- ```bash
+  git diff HEAD
+  ```
+
 ## چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
 
-git show v01
-git show g2345dfgertq4e5314wergertg
+- ```bash
+  git show HEAD
+  ```
+
+- ```bash
+  git show tag1
+  ```
+
+- ```bash
+  git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
+  ```
 
 ## چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
 
