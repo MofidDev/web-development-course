@@ -1,5 +1,7 @@
+// fonts
 @import url("https://fonts.googleapis.com/css?family=Material+Icons");
 
+// common
 html {
   height: 100%;
 }
@@ -18,30 +20,46 @@ pre {
   direction: ltr;
 }
 
-.navbar-brand {
-  margin-right: 0;
-  white-space: normal;
-}
-
 a:hover {
   text-decoration: none;
 }
 
-.container-bg {
-  padding-top: 3rem;
-  background-color: #cfd8dc;
+// layout
+
+.layout {
+  .navbar-brand {
+    margin-right: 0;
+    white-space: normal;
+  }
+
+  .container-bg {
+    padding-top: 3rem;
+    background-color: #cfd8dc;
+  }
+
+  @media (max-width: 576px) {
+    .container {
+      padding: 0;
+    }
+  }
+
+  footer {
+    background-color: #cfd8dc;
+    padding: 1rem;
+  }
 }
 
-.topic-header {
-  padding: 0 4rem;
-}
+// topic
 
-.topic-container {
-  padding: 4rem;
-  padding-top: 2rem;
-}
+.topic {
+  .topic-header {
+    padding: 0 4rem;
+  }
 
-footer {
-  background-color: #cfd8dc;
-  padding: 1rem;
+  @media (min-width: 576px) {
+    .topic-container {
+      padding: 4rem;
+      padding-top: 2rem;
+    }
+  }
 }

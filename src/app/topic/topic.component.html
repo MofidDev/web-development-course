@@ -1,19 +1,23 @@
 <div class="container">
 
-    <div class="topic-header">
-        <h1>
-            {{topic.titlefa}}
-        </h1>
+    <div class="topic">
+        
+        <div class="topic-header">
+            <h1>
+                {{topic.titlefa}}
+            </h1>
+        
+            <button class="btn btn-primary align-middle" routerLink="/">
+                <i class="material-icons align-middle">keyboard_backspace</i>
+                &nbsp;
+                <span>بازگشت به خانه</span>
+            </button>
+        </div>
     
-        <button class="btn btn-primary align-middle" routerLink="/">
-            <i class="material-icons align-middle">keyboard_backspace</i>
-            &nbsp;
-            <span>بازگشت به خانه</span>
-        </button>
-    </div>
-
-    <div class="topic-container">
-        <div markdown [src]="getMDSrc(topic)" (error)="onMDError($event)"></div>
+        <div class="topic-container">
+            <div markdown [src]="getMDSrc(topic)" (error)="onMDError($event)"></div>
+        </div>
+        
     </div>
 
 </div>
