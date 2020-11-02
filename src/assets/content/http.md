@@ -100,9 +100,7 @@
 
 <div dir="rtl" style="text-align:justify;">
 
-# تمارین عملی http
-
-## نصب ابزارهای لازم
+## ابزارهای کار با پروتکل http
 
 - نصب postman
 
@@ -114,13 +112,10 @@
   - همیشه جای خالی یک Package Manager خوب در ویندوز احساس میشد که چوکو این مسئله را تا حد بسیار زیادی برطرف کرده است.
   - https://chocolatey.org
   - https://chocolatey.org/docs/installation
-  - <div dir="ltr">
 
-  ```powershell
+  - ```powershell
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
   ```
-
-       </div>
 
 - نصب python
 
@@ -128,28 +123,22 @@
     choco install python
     ```
 
-  ```
-
-  ```
-
 - نصب httpie
 
-  ```powershell
+  - ```powershell
     python --version
   ```
 
-  ```powershell
+  -```powershell
   pip install --upgrade pip setuptools
   ```
 
-  ```powershell
+  - ```powershell
   pip install --upgrade httpie
-
   ```
 
-  ```powershell
+  - ```powershell
   pip --version
-
   ```
 
 ## مشاهده تراکنش‌های پروتکل http
