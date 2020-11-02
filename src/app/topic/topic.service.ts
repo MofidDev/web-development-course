@@ -120,6 +120,12 @@ export class TopicService {
       path: 'deployment',
       file: 'deployment.md',
     },
+    {
+      title: 'Project',
+      titlefa: 'پروژه پایانی',
+      path: 'project',
+      file: 'project.md',
+    },
   ];
 
   getAllTopics(): Topic[] {
