@@ -149,6 +149,7 @@
 ## برای مطالعه بیشتر
 
 - https://try.github.io
+- https://guides.github.com/
 - https://git-scm.com/docs
 - pgp (pretty good privacy)
 - git blame
