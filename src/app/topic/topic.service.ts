@@ -20,7 +20,7 @@ export class TopicService {
     },
     {
       title: 'GIT',
-      titlefa: 'ورژن کنترل سیستم گیت',
+      titlefa: 'ورژن کنترل سیستم، گیت',
       path: 'git',
       file: 'git.md',
     },

@@ -5,10 +5,18 @@
 ## ثبت‌نام در گیت‌هاب
 
 - http://github.com
+- https://github.com/MofidDev
 
-- تکلیف: در گیت‌هاب ثبت‌نام کنید و نام کاربری (username) خود را به همراه نام و نام‌خانوادگی تان به آدرس ایمیل مدرس ارسال کنید
+<div class="card text-white bg-success mb-3">
+  <div class="card-body">
+    <h6 class="card-title"><strong>تکلیف</strong></h6>
+    <p class="card-text">
+   در سایت گیت‌هاب ثبت‌نام کنید و نام کاربری (username) خود را در تکلیف مربوطه در LMS ثبت کنید.
+    </p>
+  </div>
+</div>
 
-## کانفیگ اولیه گیت در سیستم‌عامل
+## کانفیگ اولیه گیت در سیستم
 
 - ```bash
   git config --global user.email "you@example.com"
@@ -98,13 +106,48 @@
 
 - وقتی می‌خواهیم یک مخزن داشته باشیم و به در یکی از پوشه‌های آن به یک مخزن گیت دیگر ارجاع دهیم باید به گیت اعلام کنیم که جداگانه فایل های مخزن مذکور را رهگیری نکند بلکه کل آن‌ها را بعنوان یک زیرماژول درنظر بگیرد.
 
+<div class="card text-white bg-success mb-3">
+  <div class="card-body">
+    <h6 class="card-title"><strong>تکلیف</strong></h6>
+    <p class="card-text">
+   در اکانت خودتان در گیت‌هاب یک مخزن جدید بسازید و آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.
+    </p>
+  </div>
+</div>
+
 ## چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
+
+- ```bash
+  git status
+  ```
 
 ## چگونه از راهنمای گیت استفاده کنیم؟
 
+- ```bash
+  git help diff
+  ```
+
 ## چگونه تاریخچه کارها در گیت را ببینیم؟
 
-## چگونه جزئیات یک کامیت خاص را ببینیم؟
+- ```bash
+  git log
+  ```
+
+## چگونه بین دو تگ مقایسه کنیم؟
+
+- ```bash
+  git diff tag1 tag2
+  git log tag1..tag2
+  git diff tag1 tag2 --stat
+  git diff tag1 tag2 -- some/file/name
+  ```
+
+## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
+
+## چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
+
+git show v01
+git show g2345dfgertq4e5314wergertg
 
 ## چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
 
