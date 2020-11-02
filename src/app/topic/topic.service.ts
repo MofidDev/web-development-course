@@ -43,6 +43,12 @@ export class TopicService {
       file: 'css.md',
     },
     {
+      title: 'PROJECT ONE',
+      titlefa: 'پروژه 1',
+      path: 'project-1',
+      file: 'project-1.md',
+    },
+    {
       title: 'JavaScript',
       titlefa: 'جاوا اسکریپت',
       path: 'javascript',
@@ -121,10 +127,10 @@ export class TopicService {
       file: 'deployment.md',
     },
     {
-      title: 'Final Project',
+      title: 'PROJECT TWO',
       titlefa: 'پروژه پایانی',
-      path: 'project',
-      file: 'project.md',
+      path: 'project-2',
+      file: 'project-2.md',
     },
   ];
 
