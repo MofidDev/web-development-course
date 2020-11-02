@@ -121,7 +121,7 @@ export class TopicService {
       file: 'deployment.md',
     },
     {
-      title: 'Project',
+      title: 'Final Project',
       titlefa: 'پروژه پایانی',
       path: 'project',
       file: 'project.md',
