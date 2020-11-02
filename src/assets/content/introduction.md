@@ -42,6 +42,7 @@
 
 - how things look VS how things work
 - public access VS private access
+- data persistence and databases
 
 ## رویکرد توسعه محصول mvp
 
