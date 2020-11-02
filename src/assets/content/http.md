@@ -14,9 +14,7 @@
 
 ## http is stateless یعنی چه؟
 
-- طراحی پروتکل http به گونه‌ای است که یادش نمی‌ماند کلاینتی که درخواست ارسال می‌کند چه کسی است؟ آیا قبلا درخواست ارسال کرده است یا نه؟ هویت او احراز شده است یا نه؟
-
-- به عبارت دیگر هر تراکنش http مستقل از هر تراکنش دیگر اتفاق می‌افتد و برای نگهداری وضعیت کاربر باید از مکانیزم دیگری در کنار http استفاده کنیم.
+- طراحی پروتکل http به گونه‌ای است که یادش نمی‌ماند کلاینتی که درخواست ارسال می‌کند چه کسی است؟ آیا قبلا درخواست ارسال کرده است یا نه؟ هویت او احراز شده است یا نه؟ به عبارت دیگر هر تراکنش http مستقل از هر تراکنش دیگر اتفاق می‌افتد و برای نگهداری وضعیت کاربر باید از مکانیزم دیگری در کنار http استفاده کنیم.
 
 ## چرا پروتکل http را stateless طراحی کردند؟
 
@@ -46,10 +44,31 @@
 
 ## مفهوم http status codes
 
-- 2xx (Success)
-- 3xx (Redirection)
-- 4xx (Client Error)
-- 5xx (Server Error)
+- **2xx** _Success_
+
+  - 200 OK
+  - 201 Created
+  - 204 No Content
+
+- **3xx** _Redirection_
+
+  - 301 Moved Permanently
+  - 302 FOUND
+
+- **4xx** _Client Error_
+
+  - 403 Forbidden
+  - 405 Method Not Allowed
+  - 422 Unprocessable Entity
+  - 429 Too Many Requests
+  - 451 Unavailable For Legal Reasons
+
+- **5xx** _Server Error_
+
+  - 500 Internal Server Error
+  - 501 Not Implemented
+  - 502 Bad Gateway
+  - 503 Service Unavailable
 
 ## مفهوم http header
 
@@ -68,7 +87,9 @@
 
 - راه‌های متداول احراز هویت:
   - Session Based Authentication
+    - <img class="img-fluid" src="./assets/image/session_based_authentication.jpg" />
   - Token Based Authentication
+    - <img class="img-fluid" src="./assets/image/token_based_authentication.jpg" />
 
 ## مفهوم امضای دیجیتال
 
@@ -84,7 +105,9 @@
 - انواع پراکسی‌ها
 
   - forward proxy
+    - <img class="img-fluid" src="./assets/image/forward_proxy.jpg">
   - reverse proxy
+    - <img class="img-fluid" src="./assets/image/reverse_proxy.jpg">
 
 - کاربرد پراکسی‌ها
   - To avoid browsing restrictions
@@ -122,14 +145,19 @@
   - ```powershell
     choco install python
     ```
+    ```
+    python --version
+    ```
 
 - نصب httpie
 
   - ```powershell
-    python --version
     pip install --upgrade pip setuptools
     pip install --upgrade httpie
+    ```
+    ```
     pip --version
+    http --version
     ```
 
 ## مشاهده تراکنش‌های پروتکل http

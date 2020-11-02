@@ -20,6 +20,10 @@ pre {
   direction: ltr;
 }
 
+li > p {
+  margin-bottom: 0;
+}
+
 a:hover {
   text-decoration: none;
 }
