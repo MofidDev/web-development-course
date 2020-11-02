@@ -5,11 +5,16 @@
 ## ثبت‌نام در گیت‌هاب
 
 - http://github.com
+- https://github.com/explore
+
+## گروه توسعه‌دهندگان مفید
+
 - https://github.com/MofidDev
+- MofidDev@gmail.com
 
 <div class="card text-white bg-success mb-3">
   <div class="card-body">
-    <h6 class="card-title"><strong>تکلیف</strong></h6>
+    <h6 class="card-title">تکلیف</h6>
     <p class="card-text">
    در سایت گیت‌هاب ثبت‌نام کنید و نام کاربری (username) خود را در تکلیف مربوطه در LMS ثبت کنید.
     </p>
@@ -110,7 +115,11 @@
   <div class="card-body">
     <h6 class="card-title"><strong>تکلیف</strong></h6>
     <p class="card-text">
-   در اکانت خودتان در گیت‌هاب یک مخزن جدید بسازید و آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.
+    <ol>
+      <li>یک مخزن عمومی در گیت‌هاب با اکانت خودتان تعریف کنید.</li>
+      <li>به این مخزن سه فایل html اضافه کنید که هر فایل شامل عنوان و متن یک خبر باشد.</li>
+      <li>آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.</li>
+    </ol>
     </p>
   </div>
 </div>
