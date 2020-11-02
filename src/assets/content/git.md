@@ -231,6 +231,12 @@
   git remote add origin https://github.com/MofidDev/git-tutorial.git
   ```
 
+## چگونه آدرس یک ریموت را تغییر دهیم؟
+
+- ```bash
+  git remote set-url origin https://github.com/MofidDev/git-tutorial.git
+  ```
+
 ## چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
 
 - ```bash
@@ -243,23 +249,15 @@
   git rm test.html
   ```
 
-## چگونه از گیت برای پیدا کردن باگ کمک بگیریم؟
-
-## چگونه کامیت ها یا تگ ها را امضا کنیم؟
-
-## چگونه کاری کنیم که تغییرات در ساب ماژول در وضعیت مخزن والد دیده نشود؟
-
-## چه طور conflict بین لوکال و ریموت را برطرف کنیم؟
-
 ## چگونه آخرین کامیت را ریست کنیم؟
 
-- if you want to keep your changes
+- اگر می‌خواهید تغییرات حفظ شود
 
   - ```bash
     git reset --soft HEAD^
     ```
 
-- if you don't care about keeping the changes you made
+- اگر نمی‌خواهید تغییرات حفظ شود
   - ```bash
     git reset --hard HEAD^
     ```
@@ -274,12 +272,6 @@
 
 - ```bash
   git checkout -- notes/n1.md
-  ```
-
-## چگونه آدرس یک ریموت را تغییر دهیم؟
-
-- ```bash
-  git remote set-url origin https://github.com/MofidDev/git-tutorial.git
   ```
 
 <div class="card text-white bg-success mb-3">
