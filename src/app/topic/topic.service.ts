@@ -44,7 +44,7 @@ export class TopicService {
     },
     {
       title: 'PROJECT ONE',
-      titlefa: 'پروژه 1',
+      titlefa: 'پروژه اول',
       path: 'project-1',
       file: 'project-1.md',
     },
@@ -128,7 +128,7 @@ export class TopicService {
     },
     {
       title: 'PROJECT TWO',
-      titlefa: 'پروژه پایانی',
+      titlefa: 'پروژه دوم',
       path: 'project-2',
       file: 'project-2.md',
     },
