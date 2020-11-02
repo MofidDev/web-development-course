@@ -314,6 +314,7 @@
 - https://docs.github.com
 - https://guides.github.com
 - https://git-scm.com/docs
+- https://git-scm.com/docs/gittutorial
 - pgp (pretty good privacy)
 - git blame
 - git bisect
