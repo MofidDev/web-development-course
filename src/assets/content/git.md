@@ -5,6 +5,7 @@
 ## ثبت‌نام در گیت‌هاب
 
 - http://github.com
+- https://github.com/join
 - https://github.com/explore
 
 ## گروه توسعه‌دهندگان مفید
@@ -113,11 +114,13 @@
 
 <div class="card text-white bg-success mb-3">
   <div class="card-body">
-    <h6 class="card-title"><strong>تکلیف</strong></h6>
+    <h6 class="card-title">تکلیف</h6>
     <p class="card-text">
     <ol>
       <li>یک مخزن عمومی در گیت‌هاب با اکانت خودتان تعریف کنید.</li>
       <li>به این مخزن سه فایل html اضافه کنید که هر فایل شامل عنوان و متن یک خبر باشد.</li>
+      <li>اسم مخزن را به شکل <kbd>news-project</kbd> تعریف کنید.</li>
+      <li>اسم فایل‌های html به شکل رو تعریف کنید: <kbd>n1.html</kbd> <kbd>n2.html</kbd> <kbd>n3.html</kbd></li>
       <li>آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.</li>
     </ol>
     </p>
@@ -144,21 +147,29 @@
 
 ## چگونه بین دو تگ مقایسه کنیم؟
 
-### مقایسه خط به خط همه تغییرات
+- مقایسه خط به خط همه تغییرات
 
-- git diff tag1 tag2
+  - ```bash
+    git diff tag1 tag2
+    ```
 
-### مقایسه خط به خط تغییرات یک فایل خاص
+- مقایسه خط به خط تغییرات یک فایل خاص
 
-- git diff tag1 tag2 -- some/file/name
+  - ```bash
+    git diff tag1 tag2 -- some/file/name
+    ```
 
-### مقایسه لاگ تغییرات
+- مقایسه لاگ تغییرات
 
-- git log tag1..tag2
+  - ```bash
+    git log tag1..tag2
+    ```
 
-### لیست فایل‌های تغییرات
+- لیست فایل‌های تغییرات
 
-- git diff tag1 tag2 --stat
+  - ```bash
+    git diff tag1 tag2 --stat
+    ```
 
 ## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
 
