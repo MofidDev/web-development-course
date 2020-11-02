@@ -1,5 +1,3 @@
-<div dir="rtl" style="text-align:justify;">
-
 ## مفهوم http transaction
 
 - به مجموعه شامل یک درخواست و پاسخ به این درخواست که بین کلاینت و سرور تبادل می‌شود یک تراکنش http می‌گوییم.
@@ -100,6 +98,8 @@
 
 </div>
 
+<div dir="rtl" style="text-align:justify;">
+
 # تمارین عملی http
 
 ## نصب ابزارهای لازم
@@ -114,27 +114,42 @@
   - همیشه جای خالی یک Package Manager خوب در ویندوز احساس میشد که چوکو این مسئله را تا حد بسیار زیادی برطرف کرده است.
   - https://chocolatey.org
   - https://chocolatey.org/docs/installation
+  - <div dir="ltr">
 
-    ```
-    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    ```
+  ```powershell
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+  ```
+
+       </div>
 
 - نصب python
 
+  - ```powershell
+    choco install python
+    ```
+
   ```
-  choco install python
+
   ```
 
 - نصب httpie
 
+  ```powershell
+    python --version
   ```
-  python --version
 
+  ```powershell
   pip install --upgrade pip setuptools
+  ```
 
+  ```powershell
   pip install --upgrade httpie
 
+  ```
+
+  ```powershell
   pip --version
+
   ```
 
 ## مشاهده تراکنش‌های پروتکل http
@@ -144,17 +159,25 @@
 
 ## مشاهده پیام‌های پروتکل http
 
-- httpie
+- ## httpie
 
-  ```
+  ```powershell
   http -v https://httpie.org/hello --offline
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies/set?name=hosein
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies Cookie:name=hosein;family=ghanbari
+  ```
 
+  ```powershell
   http -v httpbin.org/cookies/delete?family=ghanbari Cookie:name=hosein;family=ghanbari
   ```
 

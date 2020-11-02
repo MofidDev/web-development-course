@@ -1,5 +1,3 @@
-<div dir="rtl" style="text-align:justify;">
-
 ## نصب گیت در کامپیوتر
 
 - https://git-scm.com
@@ -103,7 +101,9 @@
 
 ## pull چیکار می‌کند؟
 
-git fetch && git merge
+- ```bash
+  git fetch && git merge
+  ```
 
 ## چگونه بدون مرج تغییرات ریموت را در لوکال بگیریم؟
 
@@ -123,22 +123,31 @@ git fetch && git merge
 
 ## چگونه آخرین کامیت را ریست کنیم؟
 
-git reset --soft HEAD^
-if you want to keep your changes
+- if you want to keep your changes
 
-git reset --hard HEAD^
-if you don't care about keeping the changes you made
+  - ```bash
+    git reset --soft HEAD^
+    ```
+
+- if you don't care about keeping the changes you made
+  - ```bash
+    git reset --hard HEAD^
+    ```
 
 ## چگونه فایل را از استیج خارج کنیم؟
 
-git reset experiments/ex5-git.md
+- ```bash
+  git reset notes/n1.md
+  ```
 
 ## چگونه تغییرات unstaged را revert کنیم؟
 
-git checkout -- experiments/ex5-git.md
+- ```bash
+  git checkout -- notes/n1.md
+  ```
 
 ## چگونه آدرس یک ریموت را تغییر دهیم؟
 
-git remote set-url origin https://github.com/MofidDev/web-development-course.git
-
-</div>
+- ```bash
+  git remote set-url origin https://github.com/MofidDev/web-development-course.git
+  ```
