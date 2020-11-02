@@ -36,10 +36,13 @@
 
 - امروزه معماری‌های نوین دیگری هم در برنامه‌های تحت وب مورد استفاده قرار می‌گیرد که موضوع این دوره نمی‌باشد.
 
+- <img  class="img-fluid" src="./assets/image/client_server_architecture.jpg" />
+
 ## مقایسه بین برنامه‌نویسی فرانت‌اند و بک‌اند
 
 - how things look VS how things work
 - public access VS private access
+- data persistence and databases
 
 ## رویکرد توسعه محصول mvp
 

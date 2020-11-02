@@ -1,6 +1,6 @@
 ## مفهوم http transaction
 
-- به مجموعه شامل یک درخواست و پاسخ به این درخواست که بین کلاینت و سرور تبادل می‌شود یک تراکنش http می‌گوییم.
+- به مجموعه شامل یک درخواست و پاسخ به این درخواست که بین کلاینت و سرور مبادله می‌شود یک تراکنش http می‌گوییم.
 
 - http request: درخواست کلاینت به سرور
 - http response: پاسخ سرور برای کلاینت
@@ -164,3 +164,15 @@
 ## مشاهده تکنولوژی‌های یک صفحه وب
 
 - Wappalyzer
+
+## برای مطالعه بیشتر
+
+- [Hypertext Transfer Protocol -- HTTP/1.0](https://tools.ietf.org/html/rfc1945)
+- [Hypertext Transfer Protocol -- HTTP/1.1](https://tools.ietf.org/html/rfc2068)
+- [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://tools.ietf.org/html/rfc7540)
+- [HTTP State Management Mechanism](https://tools.ietf.org/html/rfc6265)
+- [JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519)
+- [The 'Basic' HTTP Authentication Scheme](https://tools.ietf.org/html/rfc7617)
+- [HTTP Digest Access Authentication](https://tools.ietf.org/html/rfc7616)
+- [The OAuth 2.0 Authorization Framework: Bearer Token Usage](https://tools.ietf.org/html/rfc6750)
+- [Uniform Resource Identifier (URI): Generic Syntax](https://tools.ietf.org/html/rfc3986)
