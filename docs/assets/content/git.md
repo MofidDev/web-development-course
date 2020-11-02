@@ -71,12 +71,6 @@
 
 ## مفهوم tag
 
-## مفهوم pgp
-
-## مفهوم blame
-
-## مفهوم bisect
-
 ## مفهوم submodule
 
 ## چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
@@ -151,3 +145,11 @@
 - ```bash
   git remote set-url origin https://github.com/MofidDev/web-development-course.git
   ```
+
+## برای مطالعه بیشتر
+
+- https://try.github.io
+- https://git-scm.com/docs
+- pgp (pretty good privacy)
+- git blame
+- git bisect

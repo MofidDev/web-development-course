@@ -28,9 +28,9 @@
 - در پروتکل http برای ارسال درخواست به سرور باید از یک آدرس برای مشخص کردن مقصد درخواست استفاده کنیم.
 
 - این آدرس فرمت مشخصی دارد که به آن URL می‌گوییم.
-- ```
-  <protocol(scheme)>://<user>:<pass>@<host>:<port>/<path>?<query>#<frag>
-  ```
+  - ```
+    <protocol(scheme)>://<user>:<pass>@<host>:<port>/<path>?<query>#<frag>
+    ```
 
 ## مفهوم http methods
 
@@ -100,9 +100,7 @@
 
 <div dir="rtl" style="text-align:justify;">
 
-# تمارین عملی http
-
-## نصب ابزارهای لازم
+## ابزارهای کار با پروتکل http
 
 - نصب postman
 
@@ -114,13 +112,10 @@
   - همیشه جای خالی یک Package Manager خوب در ویندوز احساس میشد که چوکو این مسئله را تا حد بسیار زیادی برطرف کرده است.
   - https://chocolatey.org
   - https://chocolatey.org/docs/installation
-  - <div dir="ltr">
 
-  ```powershell
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-  ```
-
-       </div>
+  - ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    ```
 
 - نصب python
 
@@ -128,58 +123,31 @@
     choco install python
     ```
 
-  ```
-
-  ```
-
 - نصب httpie
 
-  ```powershell
+  - ```powershell
     python --version
-  ```
-
-  ```powershell
-  pip install --upgrade pip setuptools
-  ```
-
-  ```powershell
-  pip install --upgrade httpie
-
-  ```
-
-  ```powershell
-  pip --version
-
-  ```
+    pip install --upgrade pip setuptools
+    pip install --upgrade httpie
+    pip --version
+    ```
 
 ## مشاهده تراکنش‌های پروتکل http
 
 - Chrome DevTools
-- با قسمت توسعه‌دهندگان مرور کروم یا فایرفاکس خیلی کار داریم اما در اینجا فقط به تب Network و قابلیت‌های آن اشاره می‌کنیم.
+  - با قسمت توسعه‌دهندگان مرور کروم یا فایرفاکس خیلی کار داریم اما در اینجا فقط به تب Network و قابلیت‌های آن اشاره می‌کنیم.
 
 ## مشاهده پیام‌های پروتکل http
 
 - ## httpie
 
-  ```powershell
-  http -v https://httpie.org/hello --offline
-  ```
-
-  ```powershell
-  http -v httpbin.org/cookies/set?name=hosein
-  ```
-
-  ```powershell
-  http -v httpbin.org/cookies
-  ```
-
-  ```powershell
-  http -v httpbin.org/cookies Cookie:name=hosein;family=ghanbari
-  ```
-
-  ```powershell
-  http -v httpbin.org/cookies/delete?family=ghanbari Cookie:name=hosein;family=ghanbari
-  ```
+  - ```powershell
+    http -v https://httpie.org/hello --offline
+    http -v httpbin.org/cookies/set?name=hosein
+    http -v httpbin.org/cookies
+    http -v httpbin.org/cookies Cookie:name=hosein;family=ghanbari
+    http -v httpbin.org/cookies/delete?family=ghanbari Cookie:name=hosein;family=ghanbari
+    ```
 
 ## اتصال به یک api آزمایشی با postman
 
