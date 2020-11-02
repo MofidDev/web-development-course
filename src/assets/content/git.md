@@ -234,7 +234,7 @@
 ## چگونه آدرس یک ریموت را تغییر دهیم؟
 
 - ```bash
-  git remote set-url origin https://github.com/MofidDev/git-tutorial.git
+  git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
   ```
 
 ## چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
