@@ -92,9 +92,9 @@ export class TopicService {
     },
     {
       title: 'Observables',
-      titlefa: 'معماری تولیدکننده و مصرف‌کننده',
-      path: 'navigation',
-      file: 'navigation.md',
+      titlefa: 'الگوی publish و subscribe',
+      path: 'observables',
+      file: 'observables.md',
     },
     {
       title: 'Form',
