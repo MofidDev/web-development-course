@@ -2,6 +2,12 @@
 
 - https://git-scm.com
 
+## شرکت‌های ارائه‌دهنده خدمات گیت
+
+- https://github.com
+- https://gitlab.com
+- https://bitbucket.org
+
 ## ثبت‌نام در گیت‌هاب
 
 - http://github.com
@@ -50,7 +56,7 @@
     git init
     ```
 
-- ممکن است نخواهید مخزن را خوتان بسازید. مثلا پروژه قبلا ایجاد شده و تازه می‌‌خواهید به آن اضافه شوید یا مواردی مشابه این که در این حالت باید به گیت بگویید یک کپی یا کلون از آن مخزن برای شما ایجاد کند.
+- برای دفعات بعدی وقتی که قبلا مخزن ایجاد شده می‌توانید یک کلون از مخزن تهیه کنید و کار با گیت را ادامه دهید.
 
   - ```bash
     git clone https://github.com/MofidDev/git-tutorial.git
@@ -86,6 +92,10 @@
   git commit -m "initial commit"
   ```
 
+## کارهای پایه در گیت
+
+- <img class="img-fluid" src="./assets/image/git_basic_usage.jpg" />
+
 ## مفهوم branch
 
 - بدون برنچ یا شاخه، همیشه به صورت خطی پروژه را جلو می‌بریم. اما وقتی از برنچ‌ها استفاده می‌کنیم اعضای تیم یا خودمان می‌توانیم به صورت موازی روی قسمت‌های مختلف کار کنیم. برنچ ممکن است یک نسخه خاص از پروژه باشد یا مثلا اضافه کردن یک قابلیت خاص به پروژه.
@@ -108,171 +118,234 @@
 
 - در گیت می‌توانیم تعدادی تغییرات ثبت شده - کامیت‌ها یا تگ‌ها - را به یک ریموت پوش کنیم یا بفرستیم که ریموت از تغییرات لوکال ما مطلع شود.
 
-## مفهوم fetch
+## مفهوم pull
 
-- آخرین تغییرات را با مقایسه بین ریموت و لوکال متوجه می‌شویم اما هیچ فایلی از ریموت دریافت نمی‌شود
+- آخرین تغییرات از ریموت دریافت می‌شود و با فایل‌های لوکال مرج می‌شود.
+- با این کار مطمئن می‌شویم که آخرین تغییرات ریموت را در لوکال دریافت کرده‌ایم.
 
 ## مفهوم submodule
 
 - وقتی می‌خواهیم یک مخزن داشته باشیم و به در یکی از پوشه‌های آن به یک مخزن گیت دیگر ارجاع دهیم باید به گیت اعلام کنیم که جداگانه فایل های مخزن مذکور را رهگیری نکند بلکه کل آن‌ها را بعنوان یک زیرماژول درنظر بگیرد.
 
-## چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
+## قراردادهای ضمنی در گیت
 
-- ```bash
-  git status
-  ```
+- <img class="img-fluid" src="./assets/image/git_conventions.jpg" />
 
-## چگونه از راهنمای گیت استفاده کنیم؟
+## راهنمای گیت
+
+- چون گیت خیلی خیلی وسیع است و امکانات زیادی دارد وقتی سوالی برایتان پیش می‌آید درموردش جستجو کنید یا راهنمای گیت را مطالعه کنید.
 
 - ```bash
   git help diff
   ```
 
-## چگونه تاریخچه کارها در گیت را ببینیم؟
+## بررسی وضعیت
 
-- ```bash
-  git log
-  ```
+- چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
 
-## چگونه بین دو تگ مقایسه کنیم؟
+  - ```bash
+    git status
+    ```
 
-- مقایسه خط به خط همه تغییرات
+- چگونه تاریخچه کارها در گیت را ببینیم؟
+
+  - ```bash
+    git log
+    ```
+  - ```bash
+    git log --oneline
+    ```
+  - ```bash
+    git reflog
+    ```
+
+- چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
+
+  - ```bash
+    git diff HEAD
+    ```
+
+- چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
+
+  - ```bash
+    git show HEAD
+    ```
+
+  - ```bash
+    git show tag1
+    ```
+
+  - ```bash
+    git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
+    ```
+
+## کار با برنچ‌ها
+
+- چگونه یک برنچ جدید در گیت بسازیم؟
+
+  - ```bash
+    git branch multilingual-feature
+    ```
+
+- چگونه بین برنچ‌های مختلف جا‌به‌جا شویم؟
+
+  - ```bash
+    git checkout master
+    git checkout multilingual-feature
+    ```
+
+- چگونه لیست همه‌ی برنچ‌های تعریف شده را ببینیم؟
+
+  - ```bash
+    git branch -v
+    ```
+
+- چگونه دو برنچ را مرج کنیم؟
+
+  - ```bash
+    git checkout master
+    git merge multilingual-feature
+    ```
+
+- چگونه یک برنج قدیمی را حذف کنیم؟
+
+  - ```bash
+    git branch -d multilingual-feature
+    git push origin --delete multilingual-feature
+    ```
+
+## کار با ریموت‌ها
+
+- چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
+
+  - ```bash
+    git remote add origin https://github.com/MofidDev/git-tutorial.git
+    ```
+
+- چگونه آدرس یک ریموت را تغییر دهیم؟
+
+  - ```bash
+    git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
+    ```
+
+- چگونه یک ریموت را حذف کنیم؟
+
+  - ```bash
+    git remote rm upstream
+    git remote rm origin
+    ```
+
+- چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
+
+  - ```bash
+    git remote -v
+    ```
+
+## کار با تگ‌ها
+
+- چگونه برچسب یا تگ بزنیم؟
+
+  - ```bash
+    git tag -a v1.2 -m "prod 1.2"
+    ```
+
+- چگونه تگ‌های لوکال را به ریموت بفرستیم؟
+
+  - ```bash
+    git push origin --tags
+    ```
+
+- چگونه بین دو تگ مقایسه کنیم؟ مقایسه خط به خط همه تغییرات
 
   - ```bash
     git diff tag1 tag2
     ```
 
-- مقایسه خط به خط تغییرات یک فایل خاص
+- چگونه بین دو تگ مقایسه کنیم؟ مقایسه خط به خط تغییرات یک فایل خاص
 
   - ```bash
     git diff tag1 tag2 -- some/file/name
     ```
 
-- لیست فایل‌های تغییر یافته
+- چگونه بین دو تگ مقایسه کنیم؟ لیست فایل‌های تغییر یافته
 
   - ```bash
     git diff tag1 tag2 --stat
     ```
 
-- مقایسه لاگ تغییرات
+- چگونه بین دو تگ مقایسه کنیم؟ مقایسه لاگ تغییرات
 
   - ```bash
     git log tag1..tag2
     ```
 
-## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
+## مشارکت در یک پروژه اپن سورس
 
-- ```bash
-  git diff HEAD
-  ```
+- مرحله اول مشارکت
 
-## چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
+  - fork me on github: برای شروع باید به مخزن پروژه در گیت‌هاب یا گیت‌لب مراجعه کنید و اصطلاحاً آن مخزن را fork کنید. با این کار یک کپی از همین مخزن در اکانت شما ایجاد می‌شود.
 
-- ```bash
-  git show HEAD
-  ```
+- مرحله دوم مشارکت
 
-- ```bash
-  git show tag1
-  ```
+  - تغییراتی که به نظرتان لازم است را اعمال کنید و این تغییرات را به مخزن فورک شده پوش کنید.
 
-- ```bash
-  git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
-  ```
+- مرحله سوم مشارکت
 
-## چگونه یک برنچ جدید در گیت بسازیم؟
+  - برای مالک مخزن اصلی درخواست merge request یا pull request ارسال کنید تا تغییرات شما را بررسی و به مخزن اصلی اضافه کند.
 
-- ```bash
-  git branch multilingual-feature
-  ```
+- fetch چیکار می‌کند؟ بدون مرج کردن، تغییرات ریموت را در لوکال دریافت می‌کنیم.
 
-## چگونه بین برنچ‌های مختلف جا‌به‌جا شویم؟
+  - ```bash
+    git fetch
+    ```
 
-- ```bash
-  git checkout master
-  git checkout multilingual-feature
-  ```
+- pull چیکار می‌کند؟ اول تغییرات ریموت را در لوکال دریافت می‌کنیم و بعد این تغییرات با برنچ فعلی مرج می‌شود.
 
-## چگونه یک برنج قدیمی را حذف کنیم؟
+  - ```bash
+    git fetch && git merge
+    ```
 
-- ```bash
-  git branch -d multilingual-feature
-  git push origin --delete multilingual-feature
-  ```
+- چطور conflict بین ریموت و لوکال را برطرف کنیم؟
+  - به سختی !
+  - گیت هنگام مرج کردن سعی می‌کند خودش به خوبی کار مرج را انجام دهد اما اگر دو نفر یک خط یکسان از یک برنچ را تغییر داده باشند ممکن است لازم باشد یک نفر داور بیاید و مشخص کند کدام تغییر درست است و به عبارتی درگیری یا conflict را به صورت دستی حل و فصل کند.
 
-## چگونه لیست همه‌ی برنچ‌های تعریف شده را ببینیم؟
-
-- ```bash
-  git branch -v
-  ```
-
-## چگونه دو برنچ را مرج کنیم؟
-
-- ```bash
-  git checkout master
-  git merge multilingual-feature
-  ```
-
-## pull چیکار می‌کند؟
-
-- ```bash
-  git fetch && git merge
-  ```
-
-## چگونه بدون مرج تغییرات ریموت را در لوکال بگیریم؟
-
-- ```bash
-  git fetch
-  ```
-
-## چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
-
-- ```bash
-  git remote add origin https://github.com/MofidDev/git-tutorial.git
-  ```
-
-## چگونه آدرس یک ریموت را تغییر دهیم؟
-
-- ```bash
-  git remote set-url origin https://github.com/MofidDev/git-tutorial.git
-  ```
-
-## چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
-
-- ```bash
-  git remote -v
-  ```
-
-## چگونه یک فایل را از گیت و فایل‌سیستم حذف کنیم؟
+## حذف فایل در گیت
 
 - ```bash
   git rm test.html
   ```
 
-## چگونه آخرین کامیت را ریست کنیم؟
+## بازگردانی تغییرات
 
-- اگر می‌خواهید تغییرات حفظ شود
+- چگونه آخرین کامیت را ریست کنیم؟ اگر می‌خواهید تغییرات حفظ شود
 
   - ```bash
     git reset --soft HEAD^
     ```
 
-- اگر نمی‌خواهید تغییرات حفظ شود
+- چگونه آخرین کامیت را ریست کنیم؟ اگر نمی‌خواهید تغییرات حفظ شود
+
   - ```bash
     git reset --hard HEAD^
     ```
 
-## چگونه فایل را از استیج خارج کنیم؟
+- چگونه به یک نسخه خاص برگردیم؟
 
-- ```bash
-  git reset notes/n1.md
-  ```
+  - ```bash
+    git reset --hard e870e41
+    ```
 
-## چگونه تغییرات unstaged را revert کنیم؟
+- چگونه تغییرات staged را unstaged کنیم؟
 
-- ```bash
-  git checkout -- notes/n1.md
-  ```
+  - ```bash
+    git reset notes/n1.md
+    ```
+
+- چگونه تغییرات unstaged را revert کنیم؟
+
+  - ```bash
+    git checkout -- notes/n1.md
+    ```
 
 <div class="card text-white bg-success mb-3">
   <div class="card-body">
@@ -315,6 +388,10 @@
 - https://guides.github.com
 - https://git-scm.com/docs
 - https://git-scm.com/docs/gittutorial
+- http://onlywei.github.io/explain-git-with-d3
+- https://git-school.github.io/visualizing-git
+- https://marklodato.github.io/visual-git-guide/index-en.html
+- https://backlog.com/git-tutorial/
 - pgp (pretty good privacy)
 - git blame
 - git bisect
