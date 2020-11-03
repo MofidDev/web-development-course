@@ -124,132 +124,148 @@
 
 - <img class="img-fluid" src="./assets/image/git_conventions.jpg" />
 
-## چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
-
-- ```bash
-  git status
-  ```
-
 ## چگونه از راهنمای گیت استفاده کنیم؟
 
 - ```bash
   git help diff
   ```
 
-## چگونه تاریخچه کارها در گیت را ببینیم؟
+## بررسی وضعیت
 
-- ```bash
-  git log
-  ```
-
-## چگونه بین دو تگ مقایسه کنیم؟
-
-- مقایسه خط به خط همه تغییرات
+- چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
 
   - ```bash
-    git diff tag1 tag2
+    git status
     ```
 
-- مقایسه خط به خط تغییرات یک فایل خاص
+- چگونه تاریخچه کارها در گیت را ببینیم؟
 
   - ```bash
-    git diff tag1 tag2 -- some/file/name
+    git log
     ```
 
-- لیست فایل‌های تغییر یافته
+- چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
 
   - ```bash
-    git diff tag1 tag2 --stat
+    git diff HEAD
     ```
 
-- مقایسه لاگ تغییرات
+## کار با تگ‌ها
+
+- چگونه برچسب یا تگ بزنیم؟
 
   - ```bash
-    git log tag1..tag2
+    git tag -a v1.2 -m "prod 1.2"
     ```
 
-## چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
+- چگونه بین دو تگ مقایسه کنیم؟
 
-- ```bash
-  git diff HEAD
-  ```
+  - مقایسه خط به خط همه تغییرات
 
-## چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
+    - ```bash
+      git diff tag1 tag2
+      ```
 
-- ```bash
-  git show HEAD
-  ```
+  - مقایسه خط به خط تغییرات یک فایل خاص
 
-- ```bash
-  git show tag1
-  ```
+    - ```bash
+      git diff tag1 tag2 -- some/file/name
+      ```
 
-- ```bash
-  git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
-  ```
+  - لیست فایل‌های تغییر یافته
 
-## چگونه یک برنچ جدید در گیت بسازیم؟
+    - ```bash
+      git diff tag1 tag2 --stat
+      ```
 
-- ```bash
-  git branch multilingual-feature
-  ```
+  - مقایسه لاگ تغییرات
 
-## چگونه بین برنچ‌های مختلف جا‌به‌جا شویم؟
+    - ```bash
+      git log tag1..tag2
+      ```
 
-- ```bash
-  git checkout master
-  git checkout multilingual-feature
-  ```
+## کار با برنچ‌ها
 
-## چگونه یک برنج قدیمی را حذف کنیم؟
+- چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
 
-- ```bash
-  git branch -d multilingual-feature
-  git push origin --delete multilingual-feature
-  ```
+  - ```bash
+    git show HEAD
+    ```
 
-## چگونه لیست همه‌ی برنچ‌های تعریف شده را ببینیم؟
+  - ```bash
+    git show tag1
+    ```
 
-- ```bash
-  git branch -v
-  ```
+  - ```bash
+    git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
+    ```
 
-## چگونه دو برنچ را مرج کنیم؟
+- چگونه یک برنچ جدید در گیت بسازیم؟
 
-- ```bash
-  git checkout master
-  git merge multilingual-feature
-  ```
+  - ```bash
+    git branch multilingual-feature
+    ```
 
-## pull چیکار می‌کند؟
+- چگونه بین برنچ‌های مختلف جا‌به‌جا شویم؟
 
-- ```bash
-  git fetch && git merge
-  ```
+  - ```bash
+    git checkout master
+    git checkout multilingual-feature
+    ```
 
-## چگونه بدون مرج تغییرات ریموت را در لوکال بگیریم؟
+- چگونه یک برنج قدیمی را حذف کنیم؟
 
-- ```bash
-  git fetch
-  ```
+  - ```bash
+    git branch -d multilingual-feature
+    git push origin --delete multilingual-feature
+    ```
 
-## چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
+- چگونه لیست همه‌ی برنچ‌های تعریف شده را ببینیم؟
 
-- ```bash
-  git remote add origin https://github.com/MofidDev/git-tutorial.git
-  ```
+  - ```bash
+    git branch -v
+    ```
 
-## چگونه آدرس یک ریموت را تغییر دهیم؟
+## مشارکت در یک پروژه اپن سورس
 
-- ```bash
-  git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
-  ```
+- چگونه دو برنچ را مرج کنیم؟
 
-## چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
+  - ```bash
+    git checkout master
+    git merge multilingual-feature
+    ```
 
-- ```bash
-  git remote -v
-  ```
+- pull چیکار می‌کند؟
+
+  - ```bash
+    git fetch && git merge
+    ```
+
+- چگونه بدون مرج تغییرات ریموت را در لوکال بگیریم؟
+
+  - ```bash
+    git fetch
+    ```
+
+## کار با ریموت‌ها
+
+- چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
+
+  - ```bash
+    git remote add origin https://github.com/MofidDev/git-tutorial.git
+    ```
+
+- چگونه آدرس یک ریموت را تغییر دهیم؟
+
+  - ```bash
+    git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
+    ```
+
+- چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
+
+  - ```bash
+    git remote -v
+    ```
 
 ## چگونه یک فایل را از گیت و فایل‌سیستم حذف کنیم؟
 
@@ -257,30 +273,32 @@
   git rm test.html
   ```
 
-## چگونه آخرین کامیت را ریست کنیم؟
+## بازگردانی تغییرات
 
-- اگر می‌خواهید تغییرات حفظ شود
+- چگونه آخرین کامیت را ریست کنیم؟
+
+  - اگر می‌خواهید تغییرات حفظ شود
+
+    - ```bash
+      git reset --soft HEAD^
+      ```
+
+  - اگر نمی‌خواهید تغییرات حفظ شود
+    - ```bash
+      git reset --hard HEAD^
+      ```
+
+- چگونه فایل را از استیج خارج کنیم؟
 
   - ```bash
-    git reset --soft HEAD^
+    git reset notes/n1.md
     ```
 
-- اگر نمی‌خواهید تغییرات حفظ شود
+- چگونه تغییرات unstaged را revert کنیم؟
+
   - ```bash
-    git reset --hard HEAD^
+    git checkout -- notes/n1.md
     ```
-
-## چگونه فایل را از استیج خارج کنیم؟
-
-- ```bash
-  git reset notes/n1.md
-  ```
-
-## چگونه تغییرات unstaged را revert کنیم؟
-
-- ```bash
-  git checkout -- notes/n1.md
-  ```
 
 <div class="card text-white bg-success mb-3">
   <div class="card-body">
@@ -323,7 +341,8 @@
 - https://guides.github.com
 - https://git-scm.com/docs
 - https://git-scm.com/docs/gittutorial
-- http://onlywei.github.io/explain-git-with-d3/
+- http://onlywei.github.io/explain-git-with-d3
+- https://git-school.github.io/visualizing-git
 - https://marklodato.github.io/visual-git-guide/index-en.html
 - pgp (pretty good privacy)
 - git blame
