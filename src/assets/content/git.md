@@ -86,6 +86,10 @@
   git commit -m "initial commit"
   ```
 
+## کارهای پایه در گیت
+
+- <img class="img-fluid" src="./assets/image/git_basic_usage.jpg" />
+
 ## مفهوم branch
 
 - بدون برنچ یا شاخه، همیشه به صورت خطی پروژه را جلو می‌بریم. اما وقتی از برنچ‌ها استفاده می‌کنیم اعضای تیم یا خودمان می‌توانیم به صورت موازی روی قسمت‌های مختلف کار کنیم. برنچ ممکن است یک نسخه خاص از پروژه باشد یا مثلا اضافه کردن یک قابلیت خاص به پروژه.
@@ -115,6 +119,10 @@
 ## مفهوم submodule
 
 - وقتی می‌خواهیم یک مخزن داشته باشیم و به در یکی از پوشه‌های آن به یک مخزن گیت دیگر ارجاع دهیم باید به گیت اعلام کنیم که جداگانه فایل های مخزن مذکور را رهگیری نکند بلکه کل آن‌ها را بعنوان یک زیرماژول درنظر بگیرد.
+
+## قراردادهای ضمنی در گیت
+
+- <img class="img-fluid" src="./assets/image/git_conventions.jpg" />
 
 ## چگونه وضعیت فعلی یک مخزن گیت را ببینیم؟
 
@@ -315,6 +323,8 @@
 - https://guides.github.com
 - https://git-scm.com/docs
 - https://git-scm.com/docs/gittutorial
+- http://onlywei.github.io/explain-git-with-d3/
+- https://marklodato.github.io/visual-git-guide/index-en.html
 - pgp (pretty good privacy)
 - git blame
 - git bisect
