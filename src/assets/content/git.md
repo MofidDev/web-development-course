@@ -124,7 +124,9 @@
 
 - <img class="img-fluid" src="./assets/image/git_conventions.jpg" />
 
-## چگونه از راهنمای گیت استفاده کنیم؟
+## راهنمای گیت
+
+- چون گیت خیلی خیلی وسیع است و بسیار بسیار امکانات زیادی دارد وقتی سوالی برایتان پیش می‌آید درموردش جستجو کنید یا راهنمای گیت را مطالعه کنید.
 
 - ```bash
   git help diff
@@ -148,6 +150,68 @@
 
   - ```bash
     git diff HEAD
+    ```
+
+- چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
+
+  - ```bash
+    git show HEAD
+    ```
+
+  - ```bash
+    git show tag1
+    ```
+
+  - ```bash
+    git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
+    ```
+
+## کار با برنچ‌ها
+
+- چگونه یک برنچ جدید در گیت بسازیم؟
+
+  - ```bash
+    git branch multilingual-feature
+    ```
+
+- چگونه بین برنچ‌های مختلف جا‌به‌جا شویم؟
+
+  - ```bash
+    git checkout master
+    git checkout multilingual-feature
+    ```
+
+- چگونه یک برنج قدیمی را حذف کنیم؟
+
+  - ```bash
+    git branch -d multilingual-feature
+    git push origin --delete multilingual-feature
+    ```
+
+- چگونه لیست همه‌ی برنچ‌های تعریف شده را ببینیم؟
+
+  - ```bash
+    git branch -v
+    ```
+
+## کار با ریموت‌ها
+
+- چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
+
+  - ```bash
+    git remote add origin https://github.com/MofidDev/git-tutorial.git
+    ```
+
+- چگونه آدرس یک ریموت را تغییر دهیم؟
+
+  - ```bash
+    git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
+    ```
+
+- چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
+
+  - ```bash
+    git remote -v
     ```
 
 ## کار با تگ‌ها
@@ -184,48 +248,6 @@
       git log tag1..tag2
       ```
 
-## کار با برنچ‌ها
-
-- چگونه جزئیات یک کامیت یا تگ خاص را ببینیم؟
-
-  - ```bash
-    git show HEAD
-    ```
-
-  - ```bash
-    git show tag1
-    ```
-
-  - ```bash
-    git show b6fd8faee78523acdd50e4f60c0c5c70e9d8de4c
-    ```
-
-- چگونه یک برنچ جدید در گیت بسازیم؟
-
-  - ```bash
-    git branch multilingual-feature
-    ```
-
-- چگونه بین برنچ‌های مختلف جا‌به‌جا شویم؟
-
-  - ```bash
-    git checkout master
-    git checkout multilingual-feature
-    ```
-
-- چگونه یک برنج قدیمی را حذف کنیم؟
-
-  - ```bash
-    git branch -d multilingual-feature
-    git push origin --delete multilingual-feature
-    ```
-
-- چگونه لیست همه‌ی برنچ‌های تعریف شده را ببینیم؟
-
-  - ```bash
-    git branch -v
-    ```
-
 ## مشارکت در یک پروژه اپن سورس
 
 - چگونه دو برنچ را مرج کنیم؟
@@ -247,27 +269,7 @@
     git fetch
     ```
 
-## کار با ریموت‌ها
-
-- چگونه یک ریموت جدید برای مخزن فعلی تعریف کنیم؟
-
-  - ```bash
-    git remote add origin https://github.com/MofidDev/git-tutorial.git
-    ```
-
-- چگونه آدرس یک ریموت را تغییر دهیم؟
-
-  - ```bash
-    git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
-    ```
-
-- چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
-
-  - ```bash
-    git remote -v
-    ```
-
-## چگونه یک فایل را از گیت و فایل‌سیستم حذف کنیم؟
+## حذف فایل در گیت
 
 - ```bash
   git rm test.html
@@ -275,18 +277,17 @@
 
 ## بازگردانی تغییرات
 
-- چگونه آخرین کامیت را ریست کنیم؟
+- چگونه آخرین کامیت را ریست کنیم؟ اگر می‌خواهید تغییرات حفظ شود
 
-  - اگر می‌خواهید تغییرات حفظ شود
+  - ```bash
+    git reset --soft HEAD^
+    ```
 
-    - ```bash
-      git reset --soft HEAD^
-      ```
+- چگونه آخرین کامیت را ریست کنیم؟ اگر نمی‌خواهید تغییرات حفظ شود
 
-  - اگر نمی‌خواهید تغییرات حفظ شود
-    - ```bash
-      git reset --hard HEAD^
-      ```
+  - ```bash
+    git reset --hard HEAD^
+    ```
 
 - چگونه فایل را از استیج خارج کنیم؟
 
