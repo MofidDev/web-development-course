@@ -377,6 +377,7 @@
 - http://onlywei.github.io/explain-git-with-d3
 - https://git-school.github.io/visualizing-git
 - https://marklodato.github.io/visual-git-guide/index-en.html
+- https://backlog.com/git-tutorial/
 - pgp (pretty good privacy)
 - git blame
 - git bisect
