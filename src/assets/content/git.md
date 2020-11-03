@@ -146,7 +146,10 @@
     git log
     ```
   - ```bash
-    git log --pretty=oneline
+    git log --oneline
+    ```
+  - ```bash
+    git reflog
     ```
 
 - چگونه بین HEAD و تغییرات جاری مقایسه کنیم؟
