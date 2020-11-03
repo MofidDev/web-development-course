@@ -228,6 +228,13 @@
     git remote set-url origin https://github.com/NewMofidDev/new-git-tutorial.git
     ```
 
+- چگونه یک ریموت را حذف کنیم؟
+
+  - ```bash
+    git remote rm upstream
+    git remote rm origin
+    ```
+
 - چگونه همه‌ی ریموت‌های تعریف شده ببینیم؟
 
   - ```bash
