@@ -311,7 +311,13 @@
     git reset --hard HEAD^
     ```
 
-- چگونه فایل را از استیج خارج کنیم؟
+- چگونه به یک نسخه خاص برگردیم؟
+
+  - ```bash
+    git reset --hard e870e41
+    ```
+
+- چگونه تغییرات staged را unstaged کنیم؟
 
   - ```bash
     git reset notes/n1.md
