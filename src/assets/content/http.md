@@ -226,11 +226,15 @@
 
 ## مشاهده کوکی‌های فعال در یک صفحه وب
 
-- EditThisCookie
+- [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
 
 ## مشاهده تکنولوژی‌های یک صفحه وب
 
-- Wappalyzer
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
+
+## مشاهده بهتر فایل‌های json
+
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 
 ## برای مطالعه بیشتر
 
