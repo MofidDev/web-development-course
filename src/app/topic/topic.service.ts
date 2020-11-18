@@ -32,19 +32,19 @@ export class TopicService {
     },
     {
       title: 'HTML',
-      titlefa: 'اچ.تی.ام.ال',
+      titlefa: 'HTML',
       path: 'html',
       file: 'html.md',
     },
     {
       title: 'CSS',
-      titlefa: 'سی.اس.اس',
+      titlefa: 'CSS',
       path: 'css',
       file: 'css.md',
     },
     {
       title: 'JavaScript',
-      titlefa: 'جاوا اسکریپت',
+      titlefa: 'JavaScript',
       path: 'javascript',
       file: 'js.md',
     },
@@ -56,7 +56,7 @@ export class TopicService {
     },
     {
       title: 'TypeScript',
-      titlefa: 'تایپ اسکریپت',
+      titlefa: 'TypeScript',
       path: 'typescript',
       file: 'ts.md',
     },
