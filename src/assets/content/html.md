@@ -26,9 +26,9 @@
 
 ## مفهوم HTML Document
 
-- HTML به صورت document تولید و مصرف می‌شود. یعنی سرورهای وب معمولا به درخواست‌ها به شکل یک HTML document کامل پاسخ می‌دهند و این document در مرورگر کلاینت، رندر و نمایش داده می‌شود.
+- HTML به صورت document تولید و مصرف می‌شود. یعنی سرورهای وب معمولا به درخواست‌ها به شکل یک HTML Document پاسخ می‌دهند و این document در مرورگر کلاینت، رندر و نمایش داده می‌شود.
 
-## ساختار عمومی هر صفحه HTML
+## ساختار HTML Document
 
 - ```html
   <!DOCTYPE html>
@@ -42,6 +42,18 @@
       Hello World!
     </body>
   </html>
+  ```
+
+## مفهوم Element
+
+- هر HTML document از تعدادی عنصر یا Element تشکیل شده است که به صورت سلسه‌مراتبی یا تودرتو قرار گرفته‌اند.
+
+- مثل بقیه markup languageها اینجا هم از Tag برای علامت‌گذاری محتوا استفاده می‌کنیم.
+
+## ساختار Element
+
+- ```html
+  <tag attribute="value" ... > content </tag>
   ```
 
 ### تگ html
