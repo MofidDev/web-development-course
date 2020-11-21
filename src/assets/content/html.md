@@ -141,11 +141,11 @@
 
 - در ادامه به بررسی تگ‌های بخش‌بندی مفهومی و منطقی صفحه که به تازگی در HTML5 معرفی شده است می‌پردازیم:
 
-  - تگ section
-  - تگ article
-  - تگ aside
-  - تگ nav
-  - تگ address
+  - **تگ section**
+  - **تگ article**
+  - **تگ aside**
+  - **تگ nav**
+  - **تگ address**
 
 ## تگ‌های Structural
 
@@ -162,5 +162,5 @@
 - https://developers.google.com/web
 - https://developer.mozilla.org/en-US/docs/Web/HTML
 - https://html.spec.whatwg.org/multipage/syntax.html
-- http://www.html5rocks.com/en/tutorials/appcache/beginner/
+- http://www.html5rocks.com/en/tutorials/appcache/beginner
 -
