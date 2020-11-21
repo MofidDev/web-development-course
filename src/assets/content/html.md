@@ -150,4 +150,5 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML
 - https://html.spec.whatwg.org/multipage/syntax.html
--
+- http://www.html5rocks.com/en/tutorials/appcache/beginner/
+- 
