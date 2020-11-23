@@ -226,6 +226,12 @@
     git branch -a -v
     ```
 
+- چگونه بین دو برنج مقایسه کنیم؟
+
+  - ```bash
+    git diff branch1 branch2
+    ```
+
 - چگونه دو برنچ را مرج کنیم؟
 
   - ```bash
@@ -350,6 +356,18 @@
 
 ## بازگردانی تغییرات
 
+- چگونه تغییرات staged را unstaged کنیم؟
+
+  - ```bash
+    git reset notes/n1.md
+    ```
+
+- چگونه تغییرات unstaged را revert کنیم؟
+
+  - ```bash
+    git checkout -- notes/n1.md
+    ```
+
 - چگونه آخرین کامیت را ریست کنیم؟ اگر می‌خواهید تغییرات حفظ شود
 
   - ```bash
@@ -366,18 +384,6 @@
 
   - ```bash
     git reset --hard e870e41
-    ```
-
-- چگونه تغییرات staged را unstaged کنیم؟
-
-  - ```bash
-    git reset notes/n1.md
-    ```
-
-- چگونه تغییرات unstaged را revert کنیم؟
-
-  - ```bash
-    git checkout -- notes/n1.md
     ```
 
 <div class="card text-white bg-success mb-3">
