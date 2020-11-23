@@ -232,7 +232,7 @@
     git diff branch1 branch2
     ```
 
-- چگونه دو برنچ را مرج کنیم؟
+- چگونه دو برنچ را مرج کنیم؟ دستور merge باعث ادغام شدن version history برنچ مشخص شده با برنچ جاری می‌شود.
 
   - ```bash
     git checkout master
