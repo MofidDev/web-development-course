@@ -30,6 +30,7 @@
       PROJECT
         css > custom.css
         js > custom.js
+        img > ...
         index.html
     ```
 
@@ -37,6 +38,7 @@
       PROJECT
         stylesheets > custom.css
         javascripts > custom.js
+        images > ...
         index.html
     ```
 
