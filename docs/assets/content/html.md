@@ -181,9 +181,54 @@
 
 - The specific style attributes of an element such as color or size can be specified explicitly on the element, which is referred to as inline styles. The more common, and preferred, method however, is to define a set of rules that are used to determine the specific style attributes that are applied to the entire document.
 
+- These rules are either included in an external style sheet (and referenced through the link element), or they are defined in a style element. In this regard, the style element is somewhat analogous to the script element, except it includes CSS content instead of JavaScript.
+
+- There is one big difference between the style element and the script element. The script element is used for including JavaScript either in the content of the script element, or by referencing an external file with the src attribute. When including styles, you use the style element to define styles; however, the link element is used to load an external file. Another difference is that a link element can only be used inside a head element; a style element can be used in either a head or body element, although this is not widely supported yet.
+
+- ```html
+  <style>
+    html {
+      color: red;
+    }
+  </style>
+  ```
+
+- The style element supports the media attribute, which allows you to include a media query. A media query is a Boolean expression that can conditionally apply a set of styles. The styles are applied only if the expression evaluates to true. Media queries were originally intended to allow the same document to be formatted differently when rendered in print form. For example, the following style is applied only when printing a document:
+
+- ```html
+  <style media="print">
+    html {
+      color: black;
+    }
+  </style>
+  ```
+
+- However, media queries have been enhanced significantly giving you the ability to adjust the styles based on many different factors. One of the more common uses of this is in creating a responsive design where the format and layout of the page automatically adjusts depending on the screen resolution.
+
+### Base Element
+
+- The base element is used to define the base URL that should be used for all other references in the document. This allows you to use relative URLs everywhere else. This saves a bit of typing but also makes it easy if you need to change the base address. The base element supports two specific attributes: href, which defines the base URL; and target, which specifies the default behavior when a link is selected.
+
+- ```html
+  <base href="www.example.com/html5" target="_self" />
+  ```
+
+- The base element should be the first child of the head element, or at least come before any link elements so the base address will be applied to subsequent link elements.
+
+- As you can see, the base element uses a self-closing tag. Setting the target attribute to \_self indicates that the link should be opened in the same window and tab as the current page. This can be overridden by assigning a different target in a specific link. The supported values for the target attribute are these:
+
+  - \_blank - opens in a new window or tab
+  - \_self - opens in the current window or tab (this is the default value if no target is
+    specified)
+  - \_parent - opens in the parent frame
+  - \_top - opens in the topmost frame
+
+- The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
 - http://www.html5rocks.com/en/tutorials/appcache/beginner/
 - http://www.html-5.com/metatags
 - https://www.w3.org/TR/html5/links.html#linkTypes
+- https://www.w3.org/TR/html5/browsers.html#windows
