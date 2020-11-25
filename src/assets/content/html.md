@@ -177,6 +177,10 @@
 
 - The link element can be used to reference many different types of resources for a lot of different reasons. Unfortunately, the term relationship does not always convey the best meaning of this attribute. For some of the most common values such as stylesheet and icon, this may be better interpreted as the type of resource rather than a relationship. For some, such as first, next, and alternate, relationship is indeed the proper term to use. However, for the sake of consistency, the rel attribute is used for all linked resources.
 
+### Style Element
+
+
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
