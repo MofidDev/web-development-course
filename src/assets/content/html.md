@@ -89,12 +89,6 @@
   <html manifest="www.mywebsite.com/cache.appcache"></html>
   ```
 
-- For further reading
-
-  - The manifest attribute is used to define the application cache. The value of this attribute is the URL or address of the cache manifest, which is a text file that lists the resources that should be cached. This can be an absolute or relative URL. When these resources are cached on the client, your page will load correctly even when disconnected from the Internet. Caching these resources can also make your page load faster and reduce the load on the web server.
-
-  - The standard extension for the manifest file is .appcache. It is important that this file be provided by the web server with the correct MIME type, which is text/cache-manifest. This is configured differently depending on the type of web server you are using.
-
 ## Head Element
 
 - There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
@@ -140,8 +134,52 @@
 
 ### Script Element
 
+- The script element is used to load JavaScript in your page. In order to use a function, you must either define it or load an external script file that contains the function. Either can be done in the script element.
+
+- ```html
+  <script type="text/javascript">
+    function doSomething() {
+      alert("Hello World!");
+    }
+  </script>
+  ```
+
+- The type attribute is optional and will default to text/javascript if not specified. This was required in HTML4 and you’ll see it included quite often.
+
+- It is generally considered best practice to put JavaScript into a separate external file. One big advantage of doing that is to share the same script across multiple pages. To reference an external file, use the src attribute and do not include any content between the opening and closing tags. If you need to load multiple files, include each one in a separate script element.
+
+- ```html
+  <script src="../scripts/sample.js"></script>
+  <script src="../scripts/demo.js"></script>
+  ```
+
+- Normally, as the browser is parsing an HTML document, when a script element is encountered, the script is loaded and executed before continuing to parse the rest of the document. For external files, you can use the async or defer attributes to change this behavior. Both of these are Boolean attributes.
+
+- If the async attribute is specified, the file is loaded and executed in parallel, while the parsing process continues. Alternatively, if the defer attribute is used, the script will be executed only after the page has been fully parsed.
+
+- ```html
+  <script src="../scripts/demo.js" defer></script>
+  ```
+
+- You should use the defer attribute if the script has code that references any of the HTML elements. If it executes before the document is parsed, the script might fail because the elements are not yet available.
+
+### Link Element
+
+- The link element is used to reference additional external resources, which can be grouped into two categories. First, links are used to load resources that are used to render the source document – the most common of these being cascading style sheets. The second category is links to other related documents. The reader may choose to navigate to these documents but they are not needed to render the current page.
+
+- The link element uses a self-closing tag, and the linked resource is specified entirely through attributes. This is done through the href attribute that defines the address of the resource and the rel attribute. The rel attribute, an abbreviation for relationship, indicates the relationship between the source document and the linked resource.
+
+- ```html
+  <link rel="icon" type="image/x-icon" href="site.ico" />
+  <link rel="stylesheet" type="text/css" href="sample.css" />
+  <link rel="alternate" type="text/plain" href="page.txt" />
+  ```
+
+- The link element can be used to reference many different types of resources for a lot of different reasons. Unfortunately, the term relationship does not always convey the best meaning of this attribute. For some of the most common values such as stylesheet and icon, this may be better interpreted as the type of resource rather than a relationship. For some, such as first, next, and alternate, relationship is indeed the proper term to use. However, for the sake of consistency, the rel attribute is used for all linked resources.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
 - http://www.html5rocks.com/en/tutorials/appcache/beginner/
 - http://www.html-5.com/metatags
+- https://www.w3.org/TR/html5/links.html#linkTypes
