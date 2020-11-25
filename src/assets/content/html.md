@@ -215,7 +215,15 @@
 
 - The base element should be the first child of the head element, or at least come before any link elements so the base address will be applied to subsequent link elements.
 
-- As you can see, the base element uses a self-closing tag. Setting the target attribute to \_self indicates that the link should be opened in the same window and tab as the current page. This can be overridden by assigning a different target in a specific link.
+- As you can see, the base element uses a self-closing tag. Setting the target attribute to \_self indicates that the link should be opened in the same window and tab as the current page. This can be overridden by assigning a different target in a specific link. The supported values for the target attribute are these:
+
+  - \_blank - opens in a new window or tab
+  - \_self - opens in the current window or tab (this is the default value if no target is
+    specified)
+  - \_parent - opens in the parent frame
+  - \_top - opens in the topmost frame
+
+- The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
 
 ## For further reading
 
