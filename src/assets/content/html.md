@@ -181,6 +181,28 @@
 
 - The specific style attributes of an element such as color or size can be specified explicitly on the element, which is referred to as inline styles. The more common, and preferred, method however, is to define a set of rules that are used to determine the specific style attributes that are applied to the entire document.
 
+- These rules are either included in an external style sheet (and referenced through the link element), or they are defined in a style element. In this regard, the style element is somewhat analogous to the script element, except it includes CSS content instead of JavaScript.
+
+- There is one big difference between the style element and the script element. The script element is used for including JavaScript either in the content of the script element, or by referencing an external file with the src attribute. When including styles, you use the style element to define styles; however, the link element is used to load an external file. Another difference is that a link element can only be used inside a head element; a style element can be used in either a head or body element, although this is not widely supported yet.
+
+- ```html
+  <style>
+    html {
+      color: red;
+    }
+  </style>
+  ```
+
+- The style element supports the media attribute, which allows you to include a media query. A media query is a Boolean expression that can conditionally apply a set of styles. The styles are applied only if the expression evaluates to true. Media queries were originally intended to allow the same document to be formatted differently when rendered in print form. For example, the following style is applied only when printing a document:
+
+- ```html
+  <style media="print">
+    html {
+      color: black;
+    }
+  </style>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
