@@ -225,6 +225,32 @@
 
 - The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
 
+## Body Element
+
+- HTML5 is all about semantics.The choice of which element to use is an important one.It conveys the meaning or purpose of the content.
+
+  - **Structural** elements, such as header, footer, section, aside, and div. These create a skeleton that will support the remaining content.
+  - **Text** elements – there is a large set of elements that contain primarily text content, and each provides a specific semantic meaning.
+  - **Table** elements – these elements are used to arrange tabular data that logically belongs in rows and columns.
+  - **Embedded** elements, such as img, audio, and video.
+  - **Form** elements, including input, button, label, and other elements used to create data entry forms.
+
+### Sectioning Content
+
+- It’s a good idea to organize your HTML document into logical sections, especially for larger documents. Prior to HTML5 the division (div) element was used to group content and they can be nested like this:
+
+- ```html
+  <div>
+    <div>
+      <div></div>
+    </div>
+  </div>
+  ```
+
+- Unfortunately, a div can be used to group content for a lot of different reasons, which are not obvious to the reader. HTML5 introduces several new elements that provide more specific semantic groupings. Each of these elements are used to group content into a larger unit. Each one, however, groups the content for a different reason. You could accomplish the grouping with the generic div element; the reason to use the more specific element is to make it clear why the group is being made. So pay close attention to the specific purpose of each element and use the correct one depending on what you’re trying to accomplish.
+
+### Section Element
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
