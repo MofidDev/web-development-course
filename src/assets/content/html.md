@@ -79,8 +79,36 @@
 
 - Keep in mind that whitespace characters such as tabs, carriage returns, and extra spaces are ignored by the browser. You can left-align all of the text and the rendered HTML will be identical. You could even put the entire document on a single line if you really wanted to. But the general convention and best practice is to format the HTML like it is shown here.
 
-- 
+- HTML tags are case insensitive. The general convention is to use all lowercase tags and I’ll be doing that throughout this book. But you could use <HEAD> or <Head> and it would be just as valid.
+
+## Html Element
+
+- So, as you’ve already seen, the html element is the root node: the starting point of your document. There’s not much to say about it. The html element can contain one head element and one body element. In addition to the global attributes, it also supports the manifest attribute.
+
+- ```html
+  <html manifest="www.mywebsite.com/cache.appcache"></html>
+  ```
+
+- For further reading
+
+  - The manifest attribute is used to define the application cache. The value of this attribute is the URL or address of the cache manifest, which is a text file that lists the resources that should be cached. This can be an absolute or relative URL. When these resources are cached on the client, your page will load correctly even when disconnected from the Internet. Caching these resources can also make your page load faster and reduce the load on the web server.
+
+  - The standard extension for the manifest file is .appcache. It is important that this file be provided by the web server with the correct MIME type, which is text/cache-manifest. This is configured differently depending on the type of web server you are using.
+
+## Head Element
+
+- There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
+
+### Title Element
+
+- The title element specifies the title of this page. This shows up in a couple of places:
+  - In the browser title bar or tab
+  - Search engines will usually include this in the search results
+  - When adding a page to your favorites or bookmark, the title is used as the name
+
+
 
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
+- http://www.html5rocks.com/en/tutorials/appcache/beginner/
