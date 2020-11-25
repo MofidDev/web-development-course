@@ -179,7 +179,7 @@
 
 ### Style Element
 
-
+- The specific style attributes of an element such as color or size can be specified explicitly on the element, which is referred to as inline styles. The more common, and preferred, method however, is to define a set of rules that are used to determine the specific style attributes that are applied to the entire document.
 
 ## For further reading
 
