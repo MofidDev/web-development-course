@@ -101,14 +101,45 @@
 
 ### Title Element
 
+- ```html
+  <title>Sample Document</title>
+  ```
+
 - The title element specifies the title of this page. This shows up in a couple of places:
+
   - In the browser title bar or tab
   - Search engines will usually include this in the search results
   - When adding a page to your favorites or bookmark, the title is used as the name
 
+- Although somewhat obvious, you can only have one title element in your document. If you choose to ignore this rule, the browser will usually display the first title element and ignore the rest.
 
+### Meta Element
+
+- The meta element is an abbreviation for metadata, which is data that describes other data. In this case, the meta element describes the contents of the HTML document. The head element can include any number of meta elements, each providing a single data point using the name/value pair construct
+
+- ```html
+  <meta name="author" content="Hosein Ghanbari" />
+  <meta name="description" content="Sample HTML document" />
+  <meta http-equiv="refresh" content="30" />
+  ```
+
+- The value portion of the name/value pair is specified in the `content` attribute; however, the name portion is either defined in the `name` attribute or the `http-equiv` attribute, depending on the type of data being set.
+
+- The name attribute is used for metadata that describes the content of the HTML document. The most common values for the name attribute are application-name, author, description, and keywords. These are all fairly self-explanatory. For keywords, the content attribute will contain a comma-separated list of keywords.
+
+- The http-equiv attribute is used to simulate an http response header. The more common values are these:
+
+  - content-type: the content attribute will specify a content type, typically text/html and a character set. For example, `content = "text/html; charset=UTF-8"`.
+  - default-style - use this to specify the default style sheet
+  - refresh - you can force the page to automatically refresh after a certain interval,
+    which is specified, in seconds, in the content attribute.
+
+- As demonstrated in the sample document, the character set can also be specified using the shortened notation: <meta charset="utf-8" />.
+
+- There are a lot of other meta names that you can use.
 
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
 - http://www.html5rocks.com/en/tutorials/appcache/beginner/
+- http://www.html-5.com/metatags
