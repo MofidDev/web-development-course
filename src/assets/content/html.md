@@ -203,6 +203,16 @@
   </style>
   ```
 
+- However, media queries have been enhanced significantly giving you the ability to adjust the styles based on many different factors. One of the more common uses of this is in creating a responsive design where the format and layout of the page automatically adjusts depending on the screen resolution.
+
+### Base Element
+
+- The base element is used to define the base URL that should be used for all other references in the document. This allows you to use relative URLs everywhere else. This saves a bit of typing but also makes it easy if you need to change the base address. The base element supports two specific attributes: href, which defines the base URL; and target, which specifies the default behavior when a link is selected.
+
+- ```html
+  <base href="www.example.com/html5" target="_self" />
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
