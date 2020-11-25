@@ -35,6 +35,7 @@ export class TopicService {
       titlefa: 'HTML',
       path: 'html',
       file: 'html.md',
+      isltr: true,
     },
     {
       title: 'CSS',

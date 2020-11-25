@@ -74,6 +74,11 @@ a:hover {
 // topic
 
 .topic {
+  &.ltr-topic {
+    direction: ltr;
+    text-align: left;
+  }
+
   .topic-header {
     padding: 0 2rem;
   }

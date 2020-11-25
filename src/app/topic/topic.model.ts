@@ -3,4 +3,5 @@ export interface Topic {
   titlefa: string;
   path: string;
   file: string;
+  isltr?: boolean;
 }
