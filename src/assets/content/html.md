@@ -138,6 +138,8 @@
 
 - There are a lot of other meta names that you can use.
 
+### Script Element
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
