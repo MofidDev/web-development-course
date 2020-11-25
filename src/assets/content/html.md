@@ -213,9 +213,14 @@
   <base href="www.example.com/html5" target="_self" />
   ```
 
+- The base element should be the first child of the head element, or at least come before any link elements so the base address will be applied to subsequent link elements.
+
+- As you can see, the base element uses a self-closing tag. Setting the target attribute to \_self indicates that the link should be opened in the same window and tab as the current page. This can be overridden by assigning a different target in a specific link.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
 - http://www.html5rocks.com/en/tutorials/appcache/beginner/
 - http://www.html-5.com/metatags
 - https://www.w3.org/TR/html5/links.html#linkTypes
+- https://www.w3.org/TR/html5/browsers.html#windows
