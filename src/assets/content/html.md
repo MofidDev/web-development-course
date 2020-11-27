@@ -251,6 +251,52 @@
 
 ### Section Element
 
+- The section element is used to organize content into logical sections. Think back to an essay you may have written for a school assignment where you’d have an introduction, three main points, and a conclusion. Each of these would be represented in HTML as a section. Also, section elements can be nested just like div elements. If each of your main points have subpoints, you can use a section for each subpoint.
+
+- There are two guiding principles in choosing your section elements. First, sections should be topical; you’re organizing content based on the material being presented. Second, sections should flow linearly. For example, the introduction flows into the first main point, and so on. The antithesis of this will be more apparent when I discuss the aside element.
+
+### Article Element
+
+- An article element is used to group content that can stand on its own. This is typically used when the content is being reused. The same concept is true of web sites, where syndicated content is included in multiple pages. These should be placed in an article element because the content is independent of the rest of the page.
+
+- However, one of the most common uses of the article element is on blogs. Each post on a blog is generally stand-alone content and is often grouped into an article element. Also, comments that are posted to a blog are also typically placed in an article element.
+
+- You can use an article element anywhere you would use a section element, if the content is independent and reusable. Also, an article element can include other article elements, as would be the case with a blog post including comments.
+
+### Aside Element
+
+- An aside element is used to group content that does not belong in the normal flow of your document. This could be supporting information provided for reference purposes, or perhaps information about the author. It could also be unrelated information such as advertising space or a calendar of events.
+
+- The aside element is often presented as a sidebar so it doesn’t interrupt the flow of the other content. However, the CSS will determine that; the job of a content author is to indicate that a group of content is not part of the normal content flow. And this is done with the aside element.
+
+### Nav Element
+
+- The nav element is used to group a set of links. A typical example is where you have some sort of menu on the page to jump to internal bookmarks or other related pages. Another example is where you provide links for more information or related material.
+
+- You don’t have to put every link into a nav element. But if you do have content that is comprised primarily of links, put this in a nav element. This will indicate that this section of content provides navigation.
+
+### Address Element
+
+- The address element is not included in the sectioning content. I am describing it here because it is used to provide contact information for either the entire document or for a specific article. To use it for a single article it should be placed somewhere inside the article element. If it applied to the document, it must be inside the body element; this is often placed in the footer element.
+
+- The address element is intended for providing contact information related to a document or article. This can include an email address, URL, phone number, mailing address, or any other method of communicating with the author. It may have been better named contact because that is what it should be used for. You should not use it to describe an address unless the address is provided as contact information.
+
+- ```html
+  <footer>
+    <p>Closing content</p>
+    <address>
+      <p>
+        Provided by
+        <a href="mailto:info@example.com">Example Group</a>
+      </p>
+      <p>
+        For more information
+        <a href="www.example.com">visit his website</a>
+      </p>
+    </address>
+  </footer>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
