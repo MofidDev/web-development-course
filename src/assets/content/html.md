@@ -394,7 +394,11 @@
 
 - <img class="img-fluid" src="./assets/image/page_layout.jpg" />
 
+#### Sectioning Roots
 
+- There are a few HTML elements that are called sectioning roots, which have their own outline that does not contribute to the outline of the rest of the document.
+
+- The body element is one of these elements, although this is arguably a special case; the outline of the body element is the document’s outline. The other elements in this category include blockquote, details, fieldset, figure, and td.
 
 ## For further reading
 
