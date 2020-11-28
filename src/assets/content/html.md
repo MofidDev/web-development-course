@@ -501,6 +501,33 @@
 
 ##### List
 
+- HTML5 supports both an ordered list using the ol element as well as an unordered list using the ul element. They work pretty much the same except for a few additional attributes that are available with an ordered list.
+
+- With either list, the order of the elements is fixed and defined by the order that the items are included in the list. The appropriate type is chosen based on semantics. If the order of the list is not meaningful, use the unordered list. If the order is meaningful you should use an ordered list.
+
+- The default style of an unordered list is to prefix each item with a bullet of some type and the same bullet is used for all of the items. For an ordered list, the default style will use a number, and the numbers will be assigned sequentially
+
+- The items within a list (either ordered or unordered) are represented by a list item (li) element. The only elements that can be included inside either a ul or ol element are li elements. However, you can put any flow element inside an li element.
+
+- ```html
+  <h2>Book Topics</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <h2>HTML Chapters</h2>
+  <ol start="4">
+    <li>Structural Elements</li>
+    <li>Text Elements</li>
+    <li>Table Elements</li>
+    <li>Embedded Elements</li>
+    <li>Form Elements</li>
+  </ol>
+  ```
+
+- As I mentioned, the ordered list supports a few additional attributes. The most common one is the start attribute, which I used in the previous example.The start attribute indicates the number to use for the first li element; in this case 4. If omitted, the numbering will start with 1.
+
 
 
 ##### Description List
