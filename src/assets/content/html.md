@@ -451,6 +451,28 @@
   </figure>
   ```
 
+#### Grouping Elements
+
+##### Paragraph Element
+
+- ddd
+
+##### Horizontal Rule Element
+
+- ddd
+
+##### Preformatted Element
+
+- ddd
+
+##### Main Element
+
+- ddd
+
+##### Division Element
+
+- ddd
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
