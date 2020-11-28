@@ -693,7 +693,33 @@
 #### Alternative Voice (i)
 
 - ```html
-  ddd
+  <p>I looked at it and thought <i>This can't be real!</i></p>
+  ```
+
+- ```html
+  <p>
+    Class, pay attention!
+    <i>I wonder if they're even listening to me.</i> Who's ready for tomorrow's
+    exam?
+  </p>
+  ```
+
+#### Small (small)
+
+- ```html
+  <p>
+    MDN Web Docs is a learning platform for Web technologies and the software
+    that powers the Web.
+  </p>
+
+  <hr />
+
+  <p>
+    <small
+      >The content is licensed under a Creative Commons Attribution-ShareAlike
+      2.5 Generic License.</small
+    >
+  </p>
   ```
 
 ## For further reading
@@ -706,7 +732,3 @@
 - https://gsnedders.html5.org/outliner/
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 - http://www.w3.org/TR/html5/sections.html
-
-```
-
-```
