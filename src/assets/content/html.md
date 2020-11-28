@@ -561,6 +561,62 @@
 
 - The description list (dl) element is used define a list of terms. It is implemented as a set of name/value pairs. It is often used to create a glossary. In this case the names are the terms being defined and the values are the definition or description of those terms. You can put series of term (dt) elements and description (dd) elements inside the dl element.
 
+- ```html
+  <dl>
+    <dt>Term1</dt>
+    <dd>Definition</dd>
+    <dt>Term2</dt>
+    <dd>Definition</dd>
+  </dl>
+  ```
+
+- However, you’re not restricted to this one-to-one mapping. Another use of the dl element is to list groups of things with a group header. You accomplish this by using the dt element as the group header and the dd elements as the group members.
+
+- ```html
+  <h2>New York Yankees Starting Lineup</h2>
+  <dl>
+    <dt>Infielders</dt>
+    <dd>Teixeira, 1B</dd>
+    <dd>Castro, 2B</dd>
+    <dd>Gregorius, SS</dd>
+    <dd>Torreyes, 3B</dd>
+    <dd>McCann, C</dd>
+
+    <dt>Outfielders</dt>
+    <dd>Hicks, LF</dd>
+    <dd>Ellsbury, CF</dd>
+    <dd>Ackley, RF</dd>
+
+    <dt>Designated Hitter</dt>
+    <dd>Rodriguez, DH</dd>
+
+    <dt>Pitchers</dt>
+    <dd>Gausman, R</dd>
+    <dd>Wilson, R</dd>
+    <dd>Tillman, R</dd>
+    <dd>Price, L</dd>
+    <dd>Porcello, R</dd>
+  </dl>
+  ```
+
+- The other possibility is to have multiple terms refer to the same description. You can do this as well but you need to keep the like terms together. For example:
+
+- ```html
+  <dl>
+    <dt>Hicks, LF</dt>
+    <dt>Ellsbury, CF</dt>
+    <dt>Ackley, RF</dt>
+
+    <dd>
+      Outfielders - the positions in baseball that are played in the grassy area
+      behind the diamond, known as the outfield. These positions include the
+      Left Fielder, Center Fielder, and Right Fielder.
+    </dd>
+  </dl>
+  ```
+
+- The term element is intended to be relatively short such as a word or phrase. There are specific limitations as what kind of elements can be included in a dt element. You cannot use a header, footer, or any sectioning content inside a dt element. Even at that, there’s nothing to prevent you from including paragraphs of content inside a dt element. That is inappropriate, however, when you consider the semantic rules. A dl element is used to describe a list of terms, and a paragraph of text is not a term. There are no such restrictions on the definition element. You can place any flow content inside a dd element, including sectioning and embedded content.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
