@@ -353,7 +353,7 @@
   - HTML5 supports document heading elements.Each of these is used to indicate that the heading belongs at the specified level in the document outline.
   - Prior to HTML5, the sectioning elements did not exist. However, using the h1–h6 elements, you could provide implicit sections. If the previous heading used an h2 element and the current heading uses h3, a new section is implicitly defined. Similarly, going from h3 to h2 closes the current section.
 
-  - ````html
+  - ```html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -375,7 +375,6 @@
       </body>
     </html>
     ```
-    ````
 
   - The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
 
