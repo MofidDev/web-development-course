@@ -400,7 +400,7 @@
 
 - The body element is one of these elements, although this is arguably a special case; the outline of the body element is the document’s outline. The other elements in this category include blockquote, details, fieldset, figure, and td.
 
-##### Blockquote
+##### Blockquote Element
 
 - The blockquote element is used when you need to include a long quotation in a document. The contents of the quote are placed inside the blockquote element and can consist of multiple elements including header text, paragraphs, and embedded content.
 
@@ -417,11 +417,25 @@
 
 - The cite attribute provides details about the quote but it is not displayed, at least not normally. The browser could use this information but it’s basically provided as metadata. To display the source or a citation you should use the cite element.
 
-##### Details
+##### Details Element
 
-- ddd
+- The details element allows you to create collapsible sections of content. Inside the details element you can include an optional summary element that will contain the content that is displayed when the element is collapsed. If no summary element is used, the collapsed text will be “Details”
 
-##### Figure
+- The remaining content of the details element will be hidden when collapsed. The initial state of the details element will be collapsed. If you want the contents to be displayed when the page is loaded, add the open Boolean attribute.
+
+- ```html
+  <details open>
+    <summary>This is the collapsed text</summary>
+    <h1>Details</h1>
+    <p>These are collapsable details</p>
+  </details>
+  ```
+
+- Again, like the other sectioning root elements, you can include h1–h6 elements in the details element, which will define an outline for the details. However, these sections are not included in the document outline.
+
+- As of this writing, the details element is not supported by Internet Explorer or Edge and is not fully supported by Firefox.
+
+##### Figure Element
 
 - ddd
 
