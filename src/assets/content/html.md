@@ -348,9 +348,34 @@
 
   - <img class="img-fluid" src="./assets/image/explicit_outline.png" />
 
-- Document Headings
+- Document Headings (Implicit Sections)
 
-  - ddd
+  - HTML5 supports document heading elements.Each of these is used to indicate that the heading belongs at the specified level in the document outline.
+  - Prior to HTML5, the sectioning elements did not exist. However, using the h1–h6 elements, you could provide implicit sections. If the previous heading used an h2 element and the current heading uses h3, a new section is implicitly defined. Similarly, going from h3 to h2 closes the current section.
+
+  - ````html
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <title>HTML5 Sample Document</title>
+      </head>
+      <body>
+        <h1>My Sample Page</h1>
+        <h2>Navigation</h2>
+        <h2>Top-level</h2>
+        <h3>Main content</h3>
+        <h4>Featured content</h4>
+        <h4>Articles</h4>
+        <h5>Article 1</h5>
+        <h3>Related content</h3>
+        <h4>HTML Reference</h4>
+        <h4>Book list</h4>
+        <h5>Book 1</h5>
+      </body>
+    </html>
+    ```
+    ````
 
 - Header and Footer
 
