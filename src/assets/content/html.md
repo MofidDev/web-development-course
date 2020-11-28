@@ -654,6 +654,8 @@
 
 - By using these elements, you provide semantic details about your content, which will make it easier to apply consistent styling rules. Even without any custom CSS, the document begins to take “shape” as the default styling renders the content consistently with the semantic purposes of each element.
 
+### Phrasing HTML Elements
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
