@@ -542,7 +542,24 @@
 
 - The start attribute is always numeric regardless of what value is specified for type. It will be converted to the appropriate type representation. For example, if you specify 4 and the type is I, the first element will use IV.
 
+- Letters or Roman numerals do not support zero or negative numbers. If these values are needed, they will be displayed as numbers. For example, if you have five items in the list and specify the ol element as `<ol start="3" type="a" reversed>`, the numbering will be c, b, a, 0, -1.
+
+- You can use a list to present a series of links such as a menu. For example:
+
+- ```html
+  <nav>
+    <h1>Navigation</h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="http://www.example.com">My Site</a></li>
+    </ul>
+  </nav>
+  ```
+
 ##### Description List
+
+- The description list (dl) element is used define a list of terms. It is implemented as a set of name/value pairs. It is often used to create a glossary. In this case the names are the terms being defined and the values are the definition or description of those terms. You can put series of term (dt) elements and description (dd) elements inside the dl element.
 
 ## For further reading
 
