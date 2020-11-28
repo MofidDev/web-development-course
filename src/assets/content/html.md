@@ -299,90 +299,90 @@
 
 ### Outlines
 
-- Explicit Sections
+#### Explicit Sections
 
-  - There is a notion in the HTML5 specifications regarding document outlines that is referred to as the outline algorithm. The document outlining algorithm is a mechanism for producing outline summaries of Web pages based on how they are marked up. The body element, which is the root element for your content, creates a topmost node in the document outline. Adding any of the sectioning elements, section, article, aside, or nav, will create a new section in the outline. Embedding additional sectioning elements will add more nodes to the outline. The idea here is that by simply nesting sectioning elements, an explicit outline is created for your document. Creating an outline without any labels is not very interesting. So we’ll add an h1 element within each section to give it a name.
+- There is a notion in the HTML5 specifications regarding document outlines that is referred to as the outline algorithm. The document outlining algorithm is a mechanism for producing outline summaries of Web pages based on how they are marked up. The body element, which is the root element for your content, creates a topmost node in the document outline. Adding any of the sectioning elements, section, article, aside, or nav, will create a new section in the outline. Embedding additional sectioning elements will add more nodes to the outline. The idea here is that by simply nesting sectioning elements, an explicit outline is created for your document. Creating an outline without any labels is not very interesting. So we’ll add an h1 element within each section to give it a name.
 
-  - ```html
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8" />
-        <title>HTML5 Sample Document</title>
-      </head>
-      <body>
-        <h1>My Sample Page</h1>
-        <nav>
-          <h1>Navigation</h1>
-        </nav>
+- ```html
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>HTML5 Sample Document</title>
+    </head>
+    <body>
+      <h1>My Sample Page</h1>
+      <nav>
+        <h1>Navigation</h1>
+      </nav>
+      <section>
+        <h1>Top-level</h1>
         <section>
-          <h1>Top-level</h1>
+          <h1>Main content</h1>
           <section>
-            <h1>Main content</h1>
-            <section>
-              <h1>Featured content</h1>
-            </section>
-            <section>
-              <h1>Articles</h1>
-              <article>
-                <h1>Article 1</h1>
-              </article>
-            </section>
+            <h1>Featured content</h1>
           </section>
-          <aside>
-            <h1>Related content</h1>
-            <section>
-              <h1>HTML Reference</h1>
-            </section>
-            <section>
-              <h1>Book list</h1>
-              <article>
-                <h1>Book 1</h1>
-              </article>
-            </section>
-          </aside>
+          <section>
+            <h1>Articles</h1>
+            <article>
+              <h1>Article 1</h1>
+            </article>
+          </section>
         </section>
-      </body>
-    </html>
-    ```
+        <aside>
+          <h1>Related content</h1>
+          <section>
+            <h1>HTML Reference</h1>
+          </section>
+          <section>
+            <h1>Book list</h1>
+            <article>
+              <h1>Book 1</h1>
+            </article>
+          </section>
+        </aside>
+      </section>
+    </body>
+  </html>
+  ```
 
-  - <img class="img-fluid" src="./assets/image/explicit_outline.png" />
+- <img class="img-fluid" src="./assets/image/explicit_outline.png" />
 
-- Document Headings (Implicit Sections)
+#### Document Headings (Implicit Sections)
 
-  - HTML5 supports document heading elements.Each of these is used to indicate that the heading belongs at the specified level in the document outline.
-  - Prior to HTML5, the sectioning elements did not exist. However, using the h1–h6 elements, you could provide implicit sections. If the previous heading used an h2 element and the current heading uses h3, a new section is implicitly defined. Similarly, going from h3 to h2 closes the current section.
+- HTML5 supports document heading elements.Each of these is used to indicate that the heading belongs at the specified level in the document outline.
+- Prior to HTML5, the sectioning elements did not exist. However, using the h1–h6 elements, you could provide implicit sections. If the previous heading used an h2 element and the current heading uses h3, a new section is implicitly defined. Similarly, going from h3 to h2 closes the current section.
 
-  - ```html
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8" />
-        <title>HTML5 Sample Document</title>
-      </head>
-      <body>
-        <h1>My Sample Page</h1>
-        <h2>Navigation</h2>
-        <h2>Top-level</h2>
-        <h3>Main content</h3>
-        <h4>Featured content</h4>
-        <h4>Articles</h4>
-        <h5>Article 1</h5>
-        <h3>Related content</h3>
-        <h4>HTML Reference</h4>
-        <h4>Book list</h4>
-        <h5>Book 1</h5>
-      </body>
-    </html>
-    ```
+- ```html
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>HTML5 Sample Document</title>
+    </head>
+    <body>
+      <h1>My Sample Page</h1>
+      <h2>Navigation</h2>
+      <h2>Top-level</h2>
+      <h3>Main content</h3>
+      <h4>Featured content</h4>
+      <h4>Articles</h4>
+      <h5>Article 1</h5>
+      <h3>Related content</h3>
+      <h4>HTML Reference</h4>
+      <h4>Book list</h4>
+      <h5>Book 1</h5>
+    </body>
+  </html>
+  ```
 
-  - The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
+- The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
 
-- Header and Footer
+#### Header and Footer
 
-  - While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
+- While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
 
-  - Unlike the sectioning elements such as article or section, the header and footer elements do not create a new section in the document outline. Rather they are used to group content for the section that they are placed in. You will typically use a header and a footer element in the body element to define the page header and footer. They can also be placed inside a child section such as a section element. In this case, they will group introductory content for the section only.
+- Unlike the sectioning elements such as article or section, the header and footer elements do not create a new section in the document outline. Rather they are used to group content for the section that they are placed in. You will typically use a header and a footer element in the body element to define the page header and footer. They can also be placed inside a child section such as a section element. In this case, they will group introductory content for the section only.
 
 ## For further reading
 
