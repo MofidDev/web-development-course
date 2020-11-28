@@ -400,6 +400,18 @@
 
 - The body element is one of these elements, although this is arguably a special case; the outline of the body element is the document’s outline. The other elements in this category include blockquote, details, fieldset, figure, and td.
 
+##### Blockquote
+
+- ddd
+
+##### Details
+
+- ddd
+
+##### Figure
+
+- ddd
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
