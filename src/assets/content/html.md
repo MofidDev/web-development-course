@@ -437,7 +437,19 @@
 
 ##### Figure Element
 
-- ddd
+- The figure element is used to group content that is self-contained and can be logically moved to a different location without affecting the main flow of the document. A unique feature of the figure element is the ability to include a caption within the content.
+
+- A figure element is typically used to group an image or some other embedded content along with a caption. It can also be used to group text, such as a code listing along with a caption.
+
+- To add a caption, include the figcaption element within the figure element. The figcaption element must be the first or last child element in the figure element. The caption will be above the content if the figcaption element is the first child element. Otherwise, it will be below the content.
+
+- ```html
+  <figure>
+    <h1>Figure</h1>
+    <img src="HTML5Badge.png" alt="HTML5" />
+    <figcaption>Official HTML5 Logo</figcaption>
+  </figure>
+  ```
 
 ## For further reading
 
