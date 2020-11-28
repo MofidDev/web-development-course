@@ -528,7 +528,7 @@
 
 - As I mentioned, the ordered list supports a few additional attributes. The most common one is the start attribute, which I used in the previous example.The start attribute indicates the number to use for the first li element; in this case 4. If omitted, the numbering will start with 1.
 
-
+- The reversed attribute is a Boolean attribute that is used to assign the numbers in reverse order. You would use this, for example, if you were listing the top three most popular sports and wanted to leave the most popular for last. The numbering would be in reverse order, 3, 2, 1. If you do not specify the start attribute, the number of the first item is set so that the last element will be 1. If you put ten items in a list and specify the reversed attribute with no start attribute, the items will be numbered from 10 to 1. If you do specify start along with reversed, the first item will use whatever was specified in the start attribute and the rest will go down from there, so you could end up with negative numbers.
 
 ##### Description List
 
