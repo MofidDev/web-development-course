@@ -453,13 +453,27 @@
 
 #### Grouping Elements
 
+- These elements are used for primarily semantic purposes and do not affect the document outline.
+
 ##### Paragraph Element
 
-- ddd
+- The paragraph (p) element is used to define a paragraph, which is a section of text that contains a single thought or idea. It is normally visually distinct from other paragraphs.
+
+- The p element is probably one of the most overused elements. I can’t stress this enough - the element that is chosen should be based on its semantic meaning. A paragraph is a distinct portion of a document that contains a single thought or idea. If that describes the content you are adding, use a p element. If not, keep looking. The next chapter will describe the phrasing elements and one of these may be more appropriate.
+
+- If you use the appropriate element, the default styling will usually make sense as well. But you’re not selecting the element based on the style that it is given. The styles can be easily changed through CSS as long as the appropriate elements are consistently used.
 
 ##### Horizontal Rule Element
 
-- ddd
+- In HTML4, the hr element was used to create a horizontal rule, or line. Since HTML5 provides more semantic definition to its elements, this has been redefined as a thematic break. This is usually placed between paragraphs when there is a change of topic.
+
+- The hr element is still rendered as a horizontal line for backward compatibility. Of course this can be modified through CSS. There is no content within the hr element and the closing tag is not needed. Add an hr element like this:
+
+- ```html
+  <p>paragraph 1</p>
+  <hr />
+  <p>paragraph 2</p>
+  ```
 
 ##### Preformatted Element
 
