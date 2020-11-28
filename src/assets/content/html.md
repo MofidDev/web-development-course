@@ -380,7 +380,7 @@
 
 - The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
 
-##### Header and Footer
+##### Header and Footer Element
 
 - While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
 
@@ -499,7 +499,7 @@
 
 #### Listing Elements
 
-##### List
+##### Ordered List Element / Unordered List Element
 
 - HTML5 supports both an ordered list using the ol element as well as an unordered list using the ul element. They work pretty much the same except for a few additional attributes that are available with an ordered list.
 
@@ -557,7 +557,7 @@
   </nav>
   ```
 
-##### Description List
+##### Description List Element
 
 - The description list (dl) element is used define a list of terms. It is implemented as a set of name/value pairs. It is often used to create a glossary. In this case the names are the terms being defined and the values are the definition or description of those terms. You can put series of term (dt) elements and description (dd) elements inside the dl element.
 
