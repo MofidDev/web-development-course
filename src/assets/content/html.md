@@ -737,7 +737,7 @@
 #### Stylistically Offset (b)
 
 - ```html
-  ddd
+
   ```
 
 ## For further reading
