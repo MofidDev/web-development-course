@@ -402,7 +402,20 @@
 
 ##### Blockquote
 
-- ddd
+- The blockquote element is used when you need to include a long quotation in a document. The contents of the quote are placed inside the blockquote element and can consist of multiple elements including header text, paragraphs, and embedded content.
+
+- ```html
+  <blockquote cite="www.apress.com">
+    <h1>Quotation</h1>
+    <p>This is a quotation</p>
+  </blockquote>
+  ```
+
+- The header text (h1–h6) will define sections within the quotation, but these will not be part of the document outline. You can verify this yourself by adding a blockquote element to your document and running it through the outlining tool https://gsnedders.html5.org/outliner/
+
+- In addition to the global attributes, the blockquote element supports the cite attribute. Use this to identify the URL of the source of the quote or a resource containing information about the quote.
+
+- The cite attribute provides details about the quote but it is not displayed, at least not normally. The browser could use this information but it’s basically provided as metadata. To display the source or a citation you should use the cite element.
 
 ##### Details
 
