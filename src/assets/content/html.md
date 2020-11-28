@@ -235,7 +235,9 @@
   - **Embedded** elements, such as img, audio, and video.
   - **Form** elements, including input, button, label, and other elements used to create data entry forms.
 
-### Sectioning Content
+### Structural HTML Elements
+
+#### Sectioning Content
 
 - It’s a good idea to organize your HTML document into logical sections, especially for larger documents. Prior to HTML5 the division (div) element was used to group content and they can be nested like this:
 
@@ -249,13 +251,13 @@
 
 - Unfortunately, a div can be used to group content for a lot of different reasons, which are not obvious to the reader. HTML5 introduces several new elements that provide more specific semantic groupings. Each of these elements are used to group content into a larger unit. Each one, however, groups the content for a different reason. You could accomplish the grouping with the generic div element; the reason to use the more specific element is to make it clear why the group is being made. So pay close attention to the specific purpose of each element and use the correct one depending on what you’re trying to accomplish.
 
-#### Section Element
+##### Section Element
 
 - The section element is used to organize content into logical sections. Think back to an essay you may have written for a school assignment where you’d have an introduction, three main points, and a conclusion. Each of these would be represented in HTML as a section. Also, section elements can be nested just like div elements. If each of your main points have subpoints, you can use a section for each subpoint.
 
 - There are two guiding principles in choosing your section elements. First, sections should be topical; you’re organizing content based on the material being presented. Second, sections should flow linearly. For example, the introduction flows into the first main point, and so on. The antithesis of this will be more apparent when I discuss the aside element.
 
-#### Article Element
+##### Article Element
 
 - An article element is used to group content that can stand on its own. This is typically used when the content is being reused. The same concept is true of web sites, where syndicated content is included in multiple pages. These should be placed in an article element because the content is independent of the rest of the page.
 
@@ -263,19 +265,19 @@
 
 - You can use an article element anywhere you would use a section element, if the content is independent and reusable. Also, an article element can include other article elements, as would be the case with a blog post including comments.
 
-#### Aside Element
+##### Aside Element
 
 - An aside element is used to group content that does not belong in the normal flow of your document. This could be supporting information provided for reference purposes, or perhaps information about the author. It could also be unrelated information such as advertising space or a calendar of events.
 
 - The aside element is often presented as a sidebar so it doesn’t interrupt the flow of the other content. However, the CSS will determine that; the job of a content author is to indicate that a group of content is not part of the normal content flow. And this is done with the aside element.
 
-#### Nav Element
+##### Nav Element
 
 - The nav element is used to group a set of links. A typical example is where you have some sort of menu on the page to jump to internal bookmarks or other related pages. Another example is where you provide links for more information or related material.
 
 - You don’t have to put every link into a nav element. But if you do have content that is comprised primarily of links, put this in a nav element. This will indicate that this section of content provides navigation.
 
-#### Address Element
+##### Address Element
 
 - The address element is not included in the sectioning content. I am describing it here because it is used to provide contact information for either the entire document or for a specific article. To use it for a single article it should be placed somewhere inside the article element. If it applied to the document, it must be inside the body element; this is often placed in the footer element.
 
@@ -297,9 +299,9 @@
   </footer>
   ```
 
-### Outlines
+#### Outlines
 
-#### Explicit Sections
+##### Explicit Sections
 
 - There is a notion in the HTML5 specifications regarding document outlines that is referred to as the outline algorithm. The document outlining algorithm is a mechanism for producing outline summaries of Web pages based on how they are marked up. The body element, which is the root element for your content, creates a topmost node in the document outline. Adding any of the sectioning elements, section, article, aside, or nav, will create a new section in the outline. Embedding additional sectioning elements will add more nodes to the outline. The idea here is that by simply nesting sectioning elements, an explicit outline is created for your document. Creating an outline without any labels is not very interesting. So we’ll add an h1 element within each section to give it a name.
 
@@ -348,7 +350,7 @@
 
 - <img class="img-fluid" src="./assets/image/explicit_outline.png" />
 
-#### Document Headings (Implicit Sections)
+##### Document Headings (Implicit Sections)
 
 - HTML5 supports document heading elements.Each of these is used to indicate that the heading belongs at the specified level in the document outline.
 - Prior to HTML5, the sectioning elements did not exist. However, using the h1–h6 elements, you could provide implicit sections. If the previous heading used an h2 element and the current heading uses h3, a new section is implicitly defined. Similarly, going from h3 to h2 closes the current section.
@@ -378,11 +380,15 @@
 
 - The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
 
-#### Header and Footer
+##### Header and Footer
 
 - While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
 
 - Unlike the sectioning elements such as article or section, the header and footer elements do not create a new section in the document outline. Rather they are used to group content for the section that they are placed in. You will typically use a header and a footer element in the body element to define the page header and footer. They can also be placed inside a child section such as a section element. In this case, they will group introductory content for the section only.
+
+#### Planning the Page Layout
+
+
 
 ## For further reading
 
