@@ -297,58 +297,64 @@
   </footer>
   ```
 
-### Explicit Sections
+### Outlines
 
-- There is a notion in the HTML5 specifications regarding document outlines that is referred to as the outline algorithm. The document outlining algorithm is a mechanism for producing outline summaries of Web pages based on how they are marked up. The body element, which is the root element for your content, creates a topmost node in the document outline. Adding any of the sectioning elements, section, article, aside, or nav, will create a new section in the outline. Embedding additional sectioning elements will add more nodes to the outline. The idea here is that by simply nesting sectioning elements, an explicit outline is created for your document. Creating an outline without any labels is not very interesting. So we’ll add an h1 element within each section to give it a name.
+- Explicit Sections
 
-- ```html
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <title>HTML5 Sample Document</title>
-    </head>
-    <body>
-      <h1>My Sample Page</h1>
-      <nav>
-        <h1>Navigation</h1>
-      </nav>
-      <section>
-        <h1>Top-level</h1>
+  - There is a notion in the HTML5 specifications regarding document outlines that is referred to as the outline algorithm. The document outlining algorithm is a mechanism for producing outline summaries of Web pages based on how they are marked up. The body element, which is the root element for your content, creates a topmost node in the document outline. Adding any of the sectioning elements, section, article, aside, or nav, will create a new section in the outline. Embedding additional sectioning elements will add more nodes to the outline. The idea here is that by simply nesting sectioning elements, an explicit outline is created for your document. Creating an outline without any labels is not very interesting. So we’ll add an h1 element within each section to give it a name.
+
+  - ```html
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <title>HTML5 Sample Document</title>
+      </head>
+      <body>
+        <h1>My Sample Page</h1>
+        <nav>
+          <h1>Navigation</h1>
+        </nav>
         <section>
-          <h1>Main content</h1>
+          <h1>Top-level</h1>
           <section>
-            <h1>Featured content</h1>
+            <h1>Main content</h1>
+            <section>
+              <h1>Featured content</h1>
+            </section>
+            <section>
+              <h1>Articles</h1>
+              <article>
+                <h1>Article 1</h1>
+              </article>
+            </section>
           </section>
-          <section>
-            <h1>Articles</h1>
-            <article>
-              <h1>Article 1</h1>
-            </article>
-          </section>
+          <aside>
+            <h1>Related content</h1>
+            <section>
+              <h1>HTML Reference</h1>
+            </section>
+            <section>
+              <h1>Book list</h1>
+              <article>
+                <h1>Book 1</h1>
+              </article>
+            </section>
+          </aside>
         </section>
-        <aside>
-          <h1>Related content</h1>
-          <section>
-            <h1>HTML Reference</h1>
-          </section>
-          <section>
-            <h1>Book list</h1>
-            <article>
-              <h1>Book 1</h1>
-            </article>
-          </section>
-        </aside>
-      </section>
-    </body>
-  </html>
-  ```
+      </body>
+    </html>
+    ```
 
-- <img class="img-fluid" src="./assets/image/explicit_outline.png" />
+  - <img class="img-fluid" src="./assets/image/explicit_outline.png" />
 
-### Document Headings
+- Document Headings
 
-- ddd
+  - ddd
+
+- Header and Footer
+
+  - ddd
 
 ## For further reading
 
@@ -359,7 +365,3 @@
 - https://www.w3.org/TR/html5/browsers.html#windows
 - https://gsnedders.html5.org/outliner/
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
-
-```
-
-```
