@@ -532,6 +532,16 @@
 
 - The reversed attribute does not change the order of the li elements. They are always rendered in the order they are included in the list. The reversed attribute only affects the numbering of the items.
 
+- The type attribute specifies what type of “numbering” to use. Here are the supported values:
+
+  - 1 - Use numbers (this is the default value if not specified)
+  - A - Use uppercase letters (e.g., A, B, C, D)
+  - a - Use lowercase letters
+  - I - Use Roman numerals with uppercase letters (e.g., I, II, III, IV)
+  - i - Use lowercase Roman numerals
+
+- The start attribute is always numeric regardless of what value is specified for type. It will be converted to the appropriate type representation. For example, if you specify 4 and the type is I, the first element will use IV.
+
 ##### Description List
 
 ## For further reading
