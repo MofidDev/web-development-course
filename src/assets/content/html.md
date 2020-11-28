@@ -675,7 +675,25 @@
 #### Relevance (mark)
 
 - ```html
-  
+  <p>Search results for "salamander":</p>
+
+  <hr />
+
+  <p>
+    Several species of <mark>salamander</mark> inhabit the temperate rainforest
+    of the Pacific Northwest.
+  </p>
+
+  <p>
+    Most <mark>salamander</mark>s are nocturnal, and hunt for insects, worms,
+    and other small creatures.
+  </p>
+  ```
+
+#### Alternative Voice (i)
+
+- ```html
+  ddd
   ```
 
 ## For further reading
@@ -688,3 +706,7 @@
 - https://gsnedders.html5.org/outliner/
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 - http://www.w3.org/TR/html5/sections.html
+
+```
+
+```
