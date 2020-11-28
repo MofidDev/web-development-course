@@ -477,11 +477,19 @@
 
 ##### Preformatted Element
 
-- ddd
+- Content placed inside a preformatted (pre) element will be rendered just like it is entered, including white space. Because white space, including carriage returns, tabs, and extra spaces, are normally ignored by the browser. Use the pre element to tell the browser to include them. The default style will use a fixed-spaced font, which also aids in preserving the format.
+
+- The pre element is one of the rare exceptions where its use is not primarily for semantic reasons.
+
+- The pre element is used to include content that is already formatted and you want to maintain that format. Including a snippet of code is a good example. Another common use of the pre element is when including poetry.
 
 ##### Main Element
 
-- ddd
+- The main element is used to indicate that its contents present the primary purpose or topic of the document. This identifies the core, the central theme of the document. As such, the main element cannot be inside an article, aside, footer, header, or nav elements, since these are used for ancillary content. Also you can only have one main element per document, which should be fairly obvious. The content in the main element should be unique to the document and not shared by other documents.
+
+- Of course, the main element can be divided into sections as appropriate. Although there is no restriction on including an article, aside, or nav element within a main element, this is generally considered poor form. An article contains reusable or stand-alone material so it will seldom be unique to the document. An aside element is used for content that is not part of the main flow and is likely not part of the central theme that the main element is reserved for. However, if the content of aside or article elements satisfies the criteria of a main element, you can use them as well.
+
+- There is no default styling for a main element; its use is purely semantic. Using it helps applications such as screen readers or search engines go straight to the core content of your document.
 
 ##### Division Element
 
