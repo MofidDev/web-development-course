@@ -493,7 +493,9 @@
 
 ##### Division Element
 
-- ddd
+- Prior to HTML5, the div element was used for all types of groupings. Now we have new elements to use for specific purposes: topically (section), independent or reusable content (article), outside of normal flow (aside), and navigation (nav). There are also several elements that are available for semantic grouping such as the main, figure, and blockquote elements. The div element is used for all other grouping reasons.
+
+- One common use of the div element is to apply styles to all of its child elements. Most style attributes are inherited from the parent element. So setting an attribute on a div element will propagate down to all the elements within the div.
 
 ## For further reading
 
