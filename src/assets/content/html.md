@@ -722,6 +722,18 @@
   </p>
   ```
 
+#### Strikethrough (s)
+
+- ```html
+  <p>For a limited time only <s>$9.95</s> $7.99 will get you a...</p>
+  ```
+
+- ```html
+  <p><s>There will be a few tickets available at the box office tonight.</s></p>
+
+  <p>SOLD OUT!</p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
