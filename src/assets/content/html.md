@@ -348,7 +348,7 @@
   </html>
   ```
 
-- <img class="img-fluid" src="./assets/image/explicit_outline.png" />
+- <img class="img-fluid" src="./assets/image/explicit_outline.jpg" />
 
 ##### Document Headings (Implicit Sections)
 
@@ -387,6 +387,12 @@
 - Unlike the sectioning elements such as article or section, the header and footer elements do not create a new section in the document outline. Rather they are used to group content for the section that they are placed in. You will typically use a header and a footer element in the body element to define the page header and footer. They can also be placed inside a child section such as a section element. In this case, they will group introductory content for the section only.
 
 #### Planning the Page Layout
+
+- Before creating a new web page, it’s a good idea to sketch out the basic page structure. This will help you visualize the overall layout and see how the elements are nested together.
+
+- The page that I will demonstrate in this chapter will use header and nav elements at the top and a footer element at the bottom. The main area in the middle will use a section element and have two side-by-side areas, each with a series of article tags. The larger area will be enclosed within another section element and provide the primary content, which is organized into article elements. The smaller area, on the right, will use an aside element and will contain a section element. This will contain a series of article elements that will present related information
+
+- <img class="img-fluid" src="./assets/image/page_layout.jpg" />
 
 
 
