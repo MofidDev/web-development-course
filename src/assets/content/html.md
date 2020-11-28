@@ -617,6 +617,35 @@
 
 - The term element is intended to be relatively short such as a word or phrase. There are specific limitations as what kind of elements can be included in a dt element. You cannot use a header, footer, or any sectioning content inside a dt element. Even at that, there’s nothing to prevent you from including paragraphs of content inside a dt element. That is inappropriate, however, when you consider the semantic rules. A dl element is used to describe a list of terms, and a paragraph of text is not a term. There are no such restrictions on the definition element. You can place any flow content inside a dd element, including sectioning and embedded content.
 
+#### Inline Frames Element
+
+- The iframe element is used to embed another web page within the current document. You can include an iframe with markup like this:
+
+- ```html
+  <iframe src="http://www.example.com" width="100%" height="400">
+    <p>Your browser does not support iframes</p>
+  </iframe>
+  ```
+
+- The content inside the iframe element will be rendered only if the iframe element is not supported by the browser. The iframe element supports several attributes that you can use to configure how the element is rendered and what options it will allow.
+
+  - `allowfullscreen` - If this Boolean attribute is specified, scripts within the embedded page may switch to fullscreen mode using the requestFullScreen() method call.
+  - `height` - The height of the iframe element in pixels or a percentage of the parent page.
+  - `name` - The name attribute can be used when providing a link to the iframe from within the parent document.
+  - `sandbox` - This can be used to restrict what can be done in the embedded page.
+  - `src` - This is used to specify the URL of the page that should be embedded.
+  - `srcdoc` - If specified and supported, the srcdoc attribute will override the value of the src attribute. This is normally used in conjunction with the sandbox attribute.
+  - `width` - The width of the iframe element in pixels or a percentage of the parent page.
+
+#### Deprecated Elements
+
+- Some grouping elements have been dropped from the HTML5 specification. These are likely to be supported for some time to ensure backward compatibility. However, you should not use these for any new development.
+
+  - `hgroup`
+  - `dir`
+  - `frame`
+  - `frameset`
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
