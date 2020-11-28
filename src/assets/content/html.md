@@ -646,6 +646,14 @@
   - `frame`
   - `frameset`
 
+#### Summary
+
+- A document is organized using sectioning elements to define the larger sections of the document. These along with the heading elements (h1–h6) define the document outline. The header and footer elements are used to identify introductory and concluding content both at the document level as well as within a section. Sectioning roots including blockquote, details, and figure elements have their own sections that do not affect the document outline.
+
+- There are several other grouping elements that do not affect the outline but provide semantic grouping at a lower level. These include the main, paragraph (p), horizontal rule (hr), and division (div) elements. The preformatted (pre) element is used primarily to preserve the formatting of the content, rather than for semantic reasons. Finally, ordered lists (ol), unordered lists (ul), and description lists (dl) provide ways to present a list of things.
+
+- By using these elements, you provide semantic details about your content, which will make it easier to apply consistent styling rules. Even without any custom CSS, the document begins to take “shape” as the default styling renders the content consistently with the semantic purposes of each element.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
