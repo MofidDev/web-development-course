@@ -335,6 +335,8 @@
   </body>
   ```
 
+- <img class="img-fluid" src="./assets/image/explicit_outline.png" />
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
