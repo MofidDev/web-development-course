@@ -377,9 +377,11 @@
     ```
     ````
 
+  - The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
+
 - Header and Footer
 
-  - ddd
+  - While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
 
 ## For further reading
 
@@ -390,3 +392,4 @@
 - https://www.w3.org/TR/html5/browsers.html#windows
 - https://gsnedders.html5.org/outliner/
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
+- http://www.w3.org/TR/html5/sections.html
