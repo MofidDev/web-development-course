@@ -383,6 +383,8 @@
 
   - While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
 
+  - Unlike the sectioning elements such as article or section, the header and footer elements do not create a new section in the document outline. Rather they are used to group content for the section that they are placed in. You will typically use a header and a footer element in the body element to define the page header and footer. They can also be placed inside a child section such as a section element. In this case, they will group introductory content for the section only.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
