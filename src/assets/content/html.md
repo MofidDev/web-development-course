@@ -299,6 +299,8 @@
 
 ### Explicit Sections
 
+- There is a notion in the HTML5 specifications regarding document outlines that is referred to as the outline algorithm. The document outlining algorithm is a mechanism for producing outline summaries of Web pages based on how they are marked up. The body element, which is the root element for your content, creates a topmost node in the document outline. Adding any of the sectioning elements, section, article, aside, or nav, will create a new section in the outline. Embedding additional sectioning elements will add more nodes to the outline. The idea here is that by simply nesting sectioning elements, an explicit outline is created for your document. Creating an outline without any labels is not very interesting. So we’ll add an h1 element within each section to give it a name.
+
 - ```html
   <body>
     <h1>My Sample Page</h1>
@@ -337,6 +339,10 @@
 
 - <img class="img-fluid" src="./assets/image/explicit_outline.png" />
 
+### Document Headings
+
+- ddd
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -345,3 +351,4 @@
 - https://www.w3.org/TR/html5/links.html#linkTypes
 - https://www.w3.org/TR/html5/browsers.html#windows
 - https://gsnedders.html5.org/outliner/
+- https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
