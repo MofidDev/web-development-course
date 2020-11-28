@@ -656,6 +656,28 @@
 
 ### Phrasing HTML Elements
 
+- In this chapter I’ll demonstrate the HTML elements that are used to mark up the actual text content. When creating your content, these should also be chosen for semantic reasons.
+
+#### Importance (strong)
+
+- ```html
+  <strong>
+    <strong>Warning!</strong> Be sure to <strong>extinguish</strong> all fires!
+  </strong>
+  ```
+
+#### Emphasis (em)
+
+- ```html
+  <p>Get out of bed <em>now</em>!</p>
+  ```
+
+#### Relevance (mark)
+
+- ```html
+  
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
