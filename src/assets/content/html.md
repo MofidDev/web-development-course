@@ -530,6 +530,8 @@
 
 - The reversed attribute is a Boolean attribute that is used to assign the numbers in reverse order. You would use this, for example, if you were listing the top three most popular sports and wanted to leave the most popular for last. The numbering would be in reverse order, 3, 2, 1. If you do not specify the start attribute, the number of the first item is set so that the last element will be 1. If you put ten items in a list and specify the reversed attribute with no start attribute, the items will be numbered from 10 to 1. If you do specify start along with reversed, the first item will use whatever was specified in the start attribute and the rest will go down from there, so you could end up with negative numbers.
 
+- The reversed attribute does not change the order of the li elements. They are always rendered in the order they are included in the list. The reversed attribute only affects the numbering of the items.
+
 ##### Description List
 
 ## For further reading
