@@ -297,6 +297,44 @@
   </footer>
   ```
 
+### Explicit Sections
+
+- ```html
+  <body>
+    <h1>My Sample Page</h1>
+    <nav>
+      <h1>Navigation</h1>
+    </nav>
+    <section>
+      <h1>Top-level</h1>
+      <section>
+        <h1>Main content</h1>
+        <section>
+          <h1>Featured content</h1>
+        </section>
+        <section>
+          <h1>Articles</h1>
+          <article>
+            <h1>Article 1</h1>
+          </article>
+        </section>
+      </section>
+      <aside>
+        <h1>Related content</h1>
+        <section>
+          <h1>HTML Reference</h1>
+        </section>
+        <section>
+          <h1>Book list</h1>
+          <article>
+            <h1>Book 1</h1>
+          </article>
+        </section>
+      </aside>
+    </section>
+  </body>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -304,3 +342,4 @@
 - http://www.html-5.com/metatags
 - https://www.w3.org/TR/html5/links.html#linkTypes
 - https://www.w3.org/TR/html5/browsers.html#windows
+- https://gsnedders.html5.org/outliner/
