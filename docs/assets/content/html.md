@@ -380,7 +380,7 @@
 
 - The official W3C recommendation, however, is to not rely on the outlining of the sectioning elements. You should definitely use the sectioning elements to organize your HTML document into sections. This warning is recommending that you also use the corresponding h1–h6 element depending on the document hierarchy where this is feasible.
 
-##### Header and Footer
+##### Header and Footer Element
 
 - While organizing your page, you should also consider adding a header element at the top and a footer element at the bottom. These elements allow you to group introductory or concluding content for a section of the document.
 
@@ -496,6 +496,231 @@
 - Prior to HTML5, the div element was used for all types of groupings. Now we have new elements to use for specific purposes: topically (section), independent or reusable content (article), outside of normal flow (aside), and navigation (nav). There are also several elements that are available for semantic grouping such as the main, figure, and blockquote elements. The div element is used for all other grouping reasons.
 
 - One common use of the div element is to apply styles to all of its child elements. Most style attributes are inherited from the parent element. So setting an attribute on a div element will propagate down to all the elements within the div.
+
+#### Listing Elements
+
+##### Ordered List Element / Unordered List Element
+
+- HTML5 supports both an ordered list using the ol element as well as an unordered list using the ul element. They work pretty much the same except for a few additional attributes that are available with an ordered list.
+
+- With either list, the order of the elements is fixed and defined by the order that the items are included in the list. The appropriate type is chosen based on semantics. If the order of the list is not meaningful, use the unordered list. If the order is meaningful you should use an ordered list.
+
+- The default style of an unordered list is to prefix each item with a bullet of some type and the same bullet is used for all of the items. For an ordered list, the default style will use a number, and the numbers will be assigned sequentially
+
+- The items within a list (either ordered or unordered) are represented by a list item (li) element. The only elements that can be included inside either a ul or ol element are li elements. However, you can put any flow element inside an li element.
+
+- ```html
+  <h2>Book Topics</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <h2>HTML Chapters</h2>
+  <ol start="4">
+    <li>Structural Elements</li>
+    <li>Text Elements</li>
+    <li>Table Elements</li>
+    <li>Embedded Elements</li>
+    <li>Form Elements</li>
+  </ol>
+  ```
+
+- As I mentioned, the ordered list supports a few additional attributes. The most common one is the start attribute, which I used in the previous example.The start attribute indicates the number to use for the first li element; in this case 4. If omitted, the numbering will start with 1.
+
+- The reversed attribute is a Boolean attribute that is used to assign the numbers in reverse order. You would use this, for example, if you were listing the top three most popular sports and wanted to leave the most popular for last. The numbering would be in reverse order, 3, 2, 1. If you do not specify the start attribute, the number of the first item is set so that the last element will be 1. If you put ten items in a list and specify the reversed attribute with no start attribute, the items will be numbered from 10 to 1. If you do specify start along with reversed, the first item will use whatever was specified in the start attribute and the rest will go down from there, so you could end up with negative numbers.
+
+- The reversed attribute does not change the order of the li elements. They are always rendered in the order they are included in the list. The reversed attribute only affects the numbering of the items.
+
+- The type attribute specifies what type of “numbering” to use. Here are the supported values:
+
+  - 1 - Use numbers (this is the default value if not specified)
+  - A - Use uppercase letters (e.g., A, B, C, D)
+  - a - Use lowercase letters
+  - I - Use Roman numerals with uppercase letters (e.g., I, II, III, IV)
+  - i - Use lowercase Roman numerals
+
+- The start attribute is always numeric regardless of what value is specified for type. It will be converted to the appropriate type representation. For example, if you specify 4 and the type is I, the first element will use IV.
+
+- Letters or Roman numerals do not support zero or negative numbers. If these values are needed, they will be displayed as numbers. For example, if you have five items in the list and specify the ol element as `<ol start="3" type="a" reversed>`, the numbering will be c, b, a, 0, -1.
+
+- You can use a list to present a series of links such as a menu. For example:
+
+- ```html
+  <nav>
+    <h1>Navigation</h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="http://www.example.com">My Site</a></li>
+    </ul>
+  </nav>
+  ```
+
+##### Description List Element
+
+- The description list (dl) element is used define a list of terms. It is implemented as a set of name/value pairs. It is often used to create a glossary. In this case the names are the terms being defined and the values are the definition or description of those terms. You can put series of term (dt) elements and description (dd) elements inside the dl element.
+
+- ```html
+  <dl>
+    <dt>Term1</dt>
+    <dd>Definition</dd>
+    <dt>Term2</dt>
+    <dd>Definition</dd>
+  </dl>
+  ```
+
+- However, you’re not restricted to this one-to-one mapping. Another use of the dl element is to list groups of things with a group header. You accomplish this by using the dt element as the group header and the dd elements as the group members.
+
+- ```html
+  <h2>New York Yankees Starting Lineup</h2>
+  <dl>
+    <dt>Infielders</dt>
+    <dd>Teixeira, 1B</dd>
+    <dd>Castro, 2B</dd>
+    <dd>Gregorius, SS</dd>
+    <dd>Torreyes, 3B</dd>
+    <dd>McCann, C</dd>
+
+    <dt>Outfielders</dt>
+    <dd>Hicks, LF</dd>
+    <dd>Ellsbury, CF</dd>
+    <dd>Ackley, RF</dd>
+
+    <dt>Designated Hitter</dt>
+    <dd>Rodriguez, DH</dd>
+
+    <dt>Pitchers</dt>
+    <dd>Gausman, R</dd>
+    <dd>Wilson, R</dd>
+    <dd>Tillman, R</dd>
+    <dd>Price, L</dd>
+    <dd>Porcello, R</dd>
+  </dl>
+  ```
+
+- The other possibility is to have multiple terms refer to the same description. You can do this as well but you need to keep the like terms together. For example:
+
+- ```html
+  <dl>
+    <dt>Hicks, LF</dt>
+    <dt>Ellsbury, CF</dt>
+    <dt>Ackley, RF</dt>
+
+    <dd>
+      Outfielders - the positions in baseball that are played in the grassy area
+      behind the diamond, known as the outfield. These positions include the
+      Left Fielder, Center Fielder, and Right Fielder.
+    </dd>
+  </dl>
+  ```
+
+- The term element is intended to be relatively short such as a word or phrase. There are specific limitations as what kind of elements can be included in a dt element. You cannot use a header, footer, or any sectioning content inside a dt element. Even at that, there’s nothing to prevent you from including paragraphs of content inside a dt element. That is inappropriate, however, when you consider the semantic rules. A dl element is used to describe a list of terms, and a paragraph of text is not a term. There are no such restrictions on the definition element. You can place any flow content inside a dd element, including sectioning and embedded content.
+
+#### Inline Frames Element
+
+- The iframe element is used to embed another web page within the current document. You can include an iframe with markup like this:
+
+- ```html
+  <iframe src="http://www.example.com" width="100%" height="400">
+    <p>Your browser does not support iframes</p>
+  </iframe>
+  ```
+
+- The content inside the iframe element will be rendered only if the iframe element is not supported by the browser. The iframe element supports several attributes that you can use to configure how the element is rendered and what options it will allow.
+
+  - `allowfullscreen` - If this Boolean attribute is specified, scripts within the embedded page may switch to fullscreen mode using the requestFullScreen() method call.
+  - `height` - The height of the iframe element in pixels or a percentage of the parent page.
+  - `name` - The name attribute can be used when providing a link to the iframe from within the parent document.
+  - `sandbox` - This can be used to restrict what can be done in the embedded page.
+  - `src` - This is used to specify the URL of the page that should be embedded.
+  - `srcdoc` - If specified and supported, the srcdoc attribute will override the value of the src attribute. This is normally used in conjunction with the sandbox attribute.
+  - `width` - The width of the iframe element in pixels or a percentage of the parent page.
+
+#### Deprecated Elements
+
+- Some grouping elements have been dropped from the HTML5 specification. These are likely to be supported for some time to ensure backward compatibility. However, you should not use these for any new development.
+
+  - `hgroup`
+  - `dir`
+  - `frame`
+  - `frameset`
+
+#### Summary
+
+- A document is organized using sectioning elements to define the larger sections of the document. These along with the heading elements (h1–h6) define the document outline. The header and footer elements are used to identify introductory and concluding content both at the document level as well as within a section. Sectioning roots including blockquote, details, and figure elements have their own sections that do not affect the document outline.
+
+- There are several other grouping elements that do not affect the outline but provide semantic grouping at a lower level. These include the main, paragraph (p), horizontal rule (hr), and division (div) elements. The preformatted (pre) element is used primarily to preserve the formatting of the content, rather than for semantic reasons. Finally, ordered lists (ol), unordered lists (ul), and description lists (dl) provide ways to present a list of things.
+
+- By using these elements, you provide semantic details about your content, which will make it easier to apply consistent styling rules. Even without any custom CSS, the document begins to take “shape” as the default styling renders the content consistently with the semantic purposes of each element.
+
+### Phrasing HTML Elements
+
+- In this chapter I’ll demonstrate the HTML elements that are used to mark up the actual text content. When creating your content, these should also be chosen for semantic reasons.
+
+#### Importance (strong)
+
+- ```html
+  <strong>
+    <strong>Warning!</strong> Be sure to <strong>extinguish</strong> all fires!
+  </strong>
+  ```
+
+#### Emphasis (em)
+
+- ```html
+  <p>Get out of bed <em>now</em>!</p>
+  ```
+
+#### Relevance (mark)
+
+- ```html
+  <p>Search results for "salamander":</p>
+
+  <hr />
+
+  <p>
+    Several species of <mark>salamander</mark> inhabit the temperate rainforest
+    of the Pacific Northwest.
+  </p>
+
+  <p>
+    Most <mark>salamander</mark>s are nocturnal, and hunt for insects, worms,
+    and other small creatures.
+  </p>
+  ```
+
+#### Alternative Voice (i)
+
+- ```html
+  <p>I looked at it and thought <i>This can't be real!</i></p>
+  ```
+
+- ```html
+  <p>
+    Class, pay attention!
+    <i>I wonder if they're even listening to me.</i> Who's ready for tomorrow's
+    exam?
+  </p>
+  ```
+
+#### Small (small)
+
+- ```html
+  <p>
+    MDN Web Docs is a learning platform for Web technologies and the software
+    that powers the Web.
+  </p>
+
+  <hr />
+
+  <p>
+    <small
+      >The content is licensed under a Creative Commons Attribution-ShareAlike
+      2.5 Generic License.</small
+    >
+  </p>
+  ```
 
 ## For further reading
 
