@@ -734,6 +734,12 @@
   <p>SOLD OUT!</p>
   ```
 
+#### Stylistically Offset (b)
+
+- ```html
+  ddd
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
