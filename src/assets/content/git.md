@@ -441,6 +441,7 @@
 - https://git-school.github.io/visualizing-git
 - https://marklodato.github.io/visual-git-guide/index-en.html
 - https://backlog.com/git-tutorial/
+- https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 - pgp (pretty good privacy)
 - git blame
 - git bisect
