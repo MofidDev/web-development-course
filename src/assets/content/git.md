@@ -19,15 +19,6 @@
 - https://github.com/MofidDev
 - MofidDev@gmail.com
 
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-   در سایت گیت‌هاب ثبت‌نام کنید و نام کاربری (username) خود را به همراه نام و نام خانوادگی تان به آدرس ایمیل گروه توسعه‌دهندگان مفید ایمیل کنید.
-    </p>
-  </div>
-</div>
-
 ## کانفیگ اولیه گیت در سیستم
 
 - ```bash
@@ -363,7 +354,7 @@
 - چگونه تغییرات staged را unstaged کنیم؟ تغییرات اعمال شده حفظ می‌شود اما از استیج خارج می‌شود.
 
   - ```bash
-    git reset notes/n1.md
+    git reset -- notes/n1.md
     ```
 
 - چگونه به یک کامیت خاص برگردیم? تغییرات اعمال شده حفظ می‌شود اما کامیت‌های بعد از کامیت مشخص شده undo می‌شود.
@@ -395,22 +386,6 @@
   - ```bash
     git reset --hard e870e41
     ```
-
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-    <ol>
-      <li>یک مخزن عمومی در گیت‌هاب با اکانت خودتان تعریف کنید.</li>
-      <li>به این مخزن سه فایل html اضافه کنید که هر فایل شامل عنوان و متن یک خبر باشد.</li>
-      <li>برای تهیه خبر می‌توانید به سایت‌های خبرگزاری مراجعه کنید.</li>
-      <li>اسم مخزن را به شکل <kbd>news-project</kbd> تعریف کنید.</li>
-      <li>اسم فایل‌های html را به شکل روبه‌رو تعریف کنید: <kbd>n1.html</kbd> <kbd>n2.html</kbd> <kbd>n3.html</kbd></li>
-      <li>آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.</li>
-    </ol>
-    </p>
-  </div>
-</div>
 
 <div class="card text-white bg-success mb-3">
   <div class="card-body">
