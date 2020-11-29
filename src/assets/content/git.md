@@ -387,23 +387,6 @@
     git reset --hard e870e41
     ```
 
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-    <ol>
-      <li>مخزن <kbd>git-tutorial</kbd> در صفحه گروه توسعه‌دهندگان مفید را fork کنید.</li>
-      <li>در این مخزن یک پوشه بنام hw1 وجود دارد. شما باید یک پوشه داخل hw1 ایجاد کنید که نام این پوشه برابر نام کاربری شما در گیت‌هاب باشد و سپس یک فایل html را به آن اضافه کنید. مثلا اگر نام کاربری شما HoseinGhanbari باشد باید فایل خود را در آدرس <kbd>hw1/HoseinGhanbari/index.html</kbd> قرار دهید.</li>
-      <li>اسم فایل html باید به صورت index.html باشد.</li>
-      <li>در این فایل html باید نام و نام خانوادگی خود را قرار دهید</li>
-      <li>در نهایت تغییرات لوکال خود را به ریموت منتقل کنید.</li>
-      <li>حالا یک درخواست pull request یا merge request در مخزن اصلی ثبت کنید.</li>
-      <li>در سامانه LMS آدرس مخزن فورک شده در اکانت خودتان را در تکلیف مربوطه ثبت کنید.</li>
-    </ol>
-    </p>
-  </div>
-</div>
-
 ## برای مطالعه بیشتر
 
 - https://www.atlassian.com/git/tutorials
