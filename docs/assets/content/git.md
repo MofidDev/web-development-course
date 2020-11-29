@@ -19,15 +19,6 @@
 - https://github.com/MofidDev
 - MofidDev@gmail.com
 
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-   در سایت گیت‌هاب ثبت‌نام کنید و نام کاربری (username) خود را به همراه نام و نام خانوادگی تان به آدرس ایمیل گروه توسعه‌دهندگان مفید ایمیل کنید.
-    </p>
-  </div>
-</div>
-
 ## کانفیگ اولیه گیت در سیستم
 
 - ```bash
@@ -313,6 +304,8 @@
 
 ## مشارکت در یک پروژه اپن سورس
 
+- <img class="img-fluid" src="./assets/image/git_workflow.jpg" />
+
 - مرحله اول مشارکت
 
   - fork me on github: برای شروع باید به مخزن پروژه در گیت‌هاب یا گیت‌لب مراجعه کنید و اصطلاحاً آن مخزن را fork کنید. با این کار یک کپی از همین مخزن در اکانت شما ایجاد می‌شود.
@@ -361,7 +354,7 @@
 - چگونه تغییرات staged را unstaged کنیم؟ تغییرات اعمال شده حفظ می‌شود اما از استیج خارج می‌شود.
 
   - ```bash
-    git reset notes/n1.md
+    git reset -- notes/n1.md
     ```
 
 - چگونه به یک کامیت خاص برگردیم? تغییرات اعمال شده حفظ می‌شود اما کامیت‌های بعد از کامیت مشخص شده undo می‌شود.
@@ -394,39 +387,6 @@
     git reset --hard e870e41
     ```
 
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-    <ol>
-      <li>یک مخزن عمومی در گیت‌هاب با اکانت خودتان تعریف کنید.</li>
-      <li>به این مخزن سه فایل html اضافه کنید که هر فایل شامل عنوان و متن یک خبر باشد.</li>
-      <li>برای تهیه خبر می‌توانید به سایت‌های خبرگزاری مراجعه کنید.</li>
-      <li>اسم مخزن را به شکل <kbd>news-project</kbd> تعریف کنید.</li>
-      <li>اسم فایل‌های html را به شکل روبه‌رو تعریف کنید: <kbd>n1.html</kbd> <kbd>n2.html</kbd> <kbd>n3.html</kbd></li>
-      <li>آدرس مخزن را در تکلیف مربوطه در LMS ثبت کنید.</li>
-    </ol>
-    </p>
-  </div>
-</div>
-
-<div class="card text-white bg-success mb-3">
-  <div class="card-body">
-    <h6 class="card-title">تکلیف</h6>
-    <p class="card-text">
-    <ol>
-      <li>مخزن <kbd>git-tutorial</kbd> در صفحه گروه توسعه‌دهندگان مفید را fork کنید.</li>
-      <li>در این مخزن یک پوشه بنام hw1 وجود دارد. شما باید یک پوشه داخل hw1 ایجاد کنید که نام این پوشه برابر نام کاربری شما در گیت‌هاب باشد و سپس یک فایل html را به آن اضافه کنید. مثلا اگر نام کاربری شما HoseinGhanbari باشد باید فایل خود را در آدرس <kbd>hw1/HoseinGhanbari/index.html</kbd> قرار دهید.</li>
-      <li>اسم فایل html باید به صورت index.html باشد.</li>
-      <li>در این فایل html باید نام و نام خانوادگی خود را قرار دهید</li>
-      <li>در نهایت تغییرات لوکال خود را به ریموت منتقل کنید.</li>
-      <li>حالا یک درخواست pull request یا merge request در مخزن اصلی ثبت کنید.</li>
-      <li>در سامانه LMS آدرس مخزن فورک شده در اکانت خودتان را در تکلیف مربوطه ثبت کنید.</li>
-    </ol>
-    </p>
-  </div>
-</div>
-
 ## برای مطالعه بیشتر
 
 - https://www.atlassian.com/git/tutorials
@@ -439,6 +399,7 @@
 - https://git-school.github.io/visualizing-git
 - https://marklodato.github.io/visual-git-guide/index-en.html
 - https://backlog.com/git-tutorial/
+- https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 - pgp (pretty good privacy)
 - git blame
 - git bisect
