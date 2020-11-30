@@ -50,12 +50,6 @@ export class TopicService {
       file: 'js.md',
     },
     {
-      title: '[ MINI PROJECT ]',
-      titlefa: 'پروژه اول',
-      path: 'project-1',
-      file: 'project-1.md',
-    },
-    {
       title: 'TypeScript',
       titlefa: 'TypeScript',
       path: 'typescript',
@@ -129,9 +123,9 @@ export class TopicService {
     },
     {
       title: '[ FINAL PROJECT ]',
-      titlefa: 'پروژه دوم',
-      path: 'project-2',
-      file: 'project-2.md',
+      titlefa: 'پروژه پایانی',
+      path: 'project',
+      file: 'project.md',
     },
   ];
 
