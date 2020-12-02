@@ -1294,6 +1294,19 @@
   />
   ```
 
+- ```html
+  <figure>
+    <img
+      src="./Media/G_Wash_Wide.jpg"
+      alt="The Prayer at Valley Forge"
+      srcset="./Media/G_Wash_Narrow.jpg 422w, ./Media/G_Wash_Wide.jpg 885w"
+      width="100%"
+    />
+    <footer><small>Copyright ©Friberg Fine Art</small></footer>
+    <figcaption>Arnold Friberg's The Prayer at Valley Forge</figcaption>
+  </figure>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -1310,3 +1323,4 @@
 - http://html5doctor.com/ruby-rt-rp-element
 - http://1stwebdesigner.com/image-file-types
 - https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
+- https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
