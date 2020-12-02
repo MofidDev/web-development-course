@@ -1360,21 +1360,21 @@
   ```
 
 - ```html
-  <audio src="Media/Linus and Lucy.mp3" autoplay controls></audio>
+  <audio src="./Media/Linus and Lucy.mp3" autoplay controls></audio>
   ```
 
 - ```html
   <audio autoplay controls>
-    <source src="Media/Linus and Lucy.ogg" />
-    <source src="Media/Linus and Lucy.mp3" />
+    <source src="./Media/Linus and Lucy.ogg" />
+    <source src="./Media/Linus and Lucy.mp3" />
     <p>HTML5 audio is not supported on your browser</p>
   </audio>
   ```
 
 - ```html
   <audio autoplay controls>
-    <source src="Media/Linus and Lucy.ogg" type='audio/ogg; codecs="vorbis"' />
-    <source src="Media/Linus and Lucy.mp3" type="audio/mp3" />
+    <source src="./Media/Linus and Lucy.ogg" type='audio/ogg; codecs="vorbis"' />
+    <source src="./Media/Linus and Lucy.mp3" type="audio/mp3" />
     <p>HTML5 audio is not supported on your browser</p>
   </audio>
   ```
@@ -1382,7 +1382,34 @@
 #### Video Element
 
 - ```html
-  
+  <video src="./Media/BigBuckBunny.mp4" autoplay>
+    <p>HTML5 video is not supported on your browser</p>
+  </video>
+  ```
+
+- ```html
+  <video
+    src="./Media/BigBuckBunny.mp4"
+    controls
+    poster="./Media/BBB_Poster.png"
+    width="852"
+    height="480"
+  >
+    <p>HTML5 video is not supported on your browser</p>
+  </video>
+  ```
+
+- ```html
+  <video
+    src="./Media/BigBuckBunny.mp4"
+    controls
+    poster="./Media/BBB_Poster.png"
+    width="852"
+    height="480"
+  >
+    <track kind="captions" src="bbb.vtt" srclang="en" label="English" />
+    <p>HTML5 video is not supported on your browser</p>
+  </video>
   ```
 
 ## For further reading
