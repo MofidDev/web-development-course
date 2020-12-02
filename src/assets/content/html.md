@@ -1258,13 +1258,13 @@
 
 ### Embedded HTML Elements
 
-#### Anchor Element (a)
+#### Anchor Element
 
 - ```html
   <a href="http://www.example.com">Example</a>
   ```
 
-#### Image Element (img)
+#### Image Element
 
 - ```html
   <img src="./Media/HTML5.jpg" alt="The HTML5 Badge logo" />
@@ -1369,6 +1369,20 @@
     <source src="Media/Linus and Lucy.mp3" />
     <p>HTML5 audio is not supported on your browser</p>
   </audio>
+  ```
+
+- ```html
+  <audio autoplay controls>
+    <source src="Media/Linus and Lucy.ogg" type='audio/ogg; codecs="vorbis"' />
+    <source src="Media/Linus and Lucy.mp3" type="audio/mp3" />
+    <p>HTML5 audio is not supported on your browser</p>
+  </audio>
+  ```
+
+#### Video Element
+
+- ```html
+  
   ```
 
 ## For further reading
