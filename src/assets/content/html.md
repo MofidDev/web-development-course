@@ -1417,7 +1417,22 @@
 
 #### Plug-Ins Element
 
+- ```html
+  <object data="MainPage.pdf" type="application/pdf" width="850" height="200">
+    <a href="MainPage.pdf">MainPage</a>
+  </object>
+  ```
 
+- ```html
+  <object data="some file" type="application/some plug in">
+    <param name="paramName" value="paramValue" />
+    <p>fallback content</p>
+  </object>
+  ```
+
+- ```html
+  <embed src="MainPage.pdf" type="application/pdf" width="850" height="150" />
+  ```
 
 ## For further reading
 
