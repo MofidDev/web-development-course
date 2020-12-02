@@ -1653,6 +1653,70 @@
   </p>
   ```
 
+- ```html
+  <p>
+    <label
+      >Total due:
+      <output id="total" name="Total">$0.00</output>
+    </label>
+  </p>
+  ```
+
+- ```html
+  <p>
+    Meter examples:<br />
+    <meter min="0" max="100" low="33" high="65" optimum="66" value="25"></meter>
+    <meter min="0" max="100" low="33" high="65" optimum="66" value="50"></meter>
+    <meter min="0" max="100" low="33" high="65" optimum="66" value="75"></meter>
+    Optimal: high<br />
+    <meter min="0" max="100" low="34" high="66" optimum="33" value="25"></meter>
+    <meter min="0" max="100" low="34" high="66" optimum="33" value="50"></meter>
+    <meter min="0" max="100" low="34" high="66" optimum="33" value="75"></meter>
+    Optimal: low<br />
+    <meter min="0" max="100" low="32" high="66" optimum="33" value="25"></meter>
+    <meter min="0" max="100" low="32" high="66" optimum="33" value="50"></meter>
+    <meter min="0" max="100" low="32" high="66" optimum="33" value="75"></meter>
+    Optimal: medium<br />
+  </p>
+  ```
+
+- ```html
+  <p>
+    Progress example:
+    <progress min="0" max="7" value="3">
+      Your browser does not support the progress element! Value is 3 of 7.
+    </progress>
+  </p>
+  ```
+
+- ```html
+  <!--<input type="submit" value="Submit" />-->
+  <button type="submit">Submit</button>
+  ```
+
+- ```html
+  <fieldset>
+    <legend>Toppings:</legend>
+    <input type="checkbox" name="Topping" value="Mushrooms" />Mushrooms?
+    <input type="checkbox" name="Topping" value="Sausage" />Sausage?
+    <input type="checkbox" name="Topping" value="Olives" />Olives?
+  </fieldset>
+  <fieldset>
+    <legend>Crust:</legend>
+    <input type="radio" name="Crust" value="Thin" required />Thin
+    <input type="radio" name="Crust" value="Thick" />Thick
+    <input type="radio" name="Crust" value="DeepDish" />Deep Dish
+  </fieldset>
+  ```
+
+#### Summary
+
+- In this chapter I explained how forms are submitted and the input element that is used to collect this information. The same input element is used for almost every type of information. The type attribute is used to indicate the specific data input and validation that should be used.
+
+- In this chapter I explained the capabilities that are provided by most major browsers. There are a few that have somewhat limited support, as of this writing, which I have pointed out. You should be able to use everything I have demonstrated with confidence that most of your users will have a good experience. Check with sites such as html5test.com, to see the latest browser support, as new capabilities are released periodically.
+
+
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
