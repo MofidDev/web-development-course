@@ -1363,6 +1363,14 @@
   <audio src="Media/Linus and Lucy.mp3" autoplay controls></audio>
   ```
 
+- ```html
+  <audio autoplay controls>
+    <source src="Media/Linus and Lucy.ogg" />
+    <source src="Media/Linus and Lucy.mp3" />
+    <p>HTML5 audio is not supported on your browser</p>
+  </audio>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
