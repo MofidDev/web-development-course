@@ -1264,12 +1264,11 @@
   <a href="http://www.example.com">Example</a>
   ```
 
-- Here are some of the more common types that are used:
-  - http: - web resource
-  - ftp: - file transfer
-  - mailto: - send an email
-  - tel: - dial a phone number (particularly useful for mobile devices)
-  - file: - open a file
+#### Image Element (img)
+
+- ```html
+  <img src="./Media/HTML5.jpg" alt="The HTML5 Badge logo" />
+  ```
 
 ## For further reading
 
