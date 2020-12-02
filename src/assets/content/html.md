@@ -944,6 +944,13 @@
 
 #### Span (span)
 
+- ```html
+  <p>
+    The primary colors are <span class="red">red</span>,
+    <span class="blue">blue</span>, and <span class="yellow">yellow</span>.
+  </p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
