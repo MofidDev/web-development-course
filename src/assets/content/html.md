@@ -942,6 +942,8 @@
   </blockquote>
   ```
 
+#### Span (span)
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
