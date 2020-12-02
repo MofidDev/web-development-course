@@ -844,6 +844,18 @@
   </p>
   ```
 
+#### Subscript (sub)
+
+- ```html
+  <p>H<sub>2</sub>O is the chemical formula for water.<br /></p>
+  ```
+
+#### Superscript (sup)
+
+- ```html
+  <p>e=mc<sup>2</sup> is the formula for mass-energy equivalence.</p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
