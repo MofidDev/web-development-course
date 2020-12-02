@@ -86,7 +86,7 @@
 - So, as you’ve already seen, the html element is the root node: the starting point of your document. There’s not much to say about it. The html element can contain one head element and one body element. In addition to the global attributes, it also supports the manifest attribute.
 
 - ```html
-  <html manifest="www.mywebsite.com/cache.appcache"></html>
+  <html dir="ltr" manifest="www.mywebsite.com/cache.appcache"></html>
   ```
 
 ## Head Element
