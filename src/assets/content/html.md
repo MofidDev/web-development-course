@@ -1244,6 +1244,10 @@
 
 #### Spanning Cells
 
+- <img class="img-fluid" src="./assets/image/table_colspan_attr.jpg" />
+
+- <img class="img-fluid" src="./assets/image/table_colspan_rowspan_attr.jpg" />
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
