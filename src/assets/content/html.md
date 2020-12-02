@@ -1434,6 +1434,14 @@
   <embed src="MainPage.pdf" type="application/pdf" width="850" height="150" />
   ```
 
+#### Summary
+
+- In this chapter, I explained how to embed external content into an HTML5 document. The primary types of embedded content are images, audio, and video and HTML5 supports specific elements for each of these types. You can provide multiple image files and let the browser choose the most appropriate one to download and render based on the device characteristics. You can also define clickable areas on an image that can be used as links.
+
+- The major browsers have all standardized on MP3 for audio and MP4 for video, making it pretty easy to include either in an HTML document. For both audio and video, you can also include time-synchronized text that will appear as subtitles, captions, or other details.
+
+- For other types of embedded content, the object element provides a standardized way of including it. This may require custom browser plug-ins but the object element is a consistent way for referencing them. You can also provide fallback content for when the plug-in is not supported.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
