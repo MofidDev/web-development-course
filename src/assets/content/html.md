@@ -1286,6 +1286,14 @@
   />
   ```
 
+- ```html
+  <img
+    src="./Media/HTML5.jpg"
+    alt="The HTML5 Badge logo"
+    sizes="(max-width: 600px) 25vw, (max-width: 400px) 33vw, (max-width: 200px) 50vw, 100vw"
+  />
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
