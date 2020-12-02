@@ -856,6 +856,15 @@
   <p>e=mc<sup>2</sup> is the formula for mass-energy equivalence.</p>
   ```
 
+#### Time (time)
+
+- ```html
+  <p>
+    Your follow-up appointment will be a week from
+    <time datetime="2016-06-28">Tuesday</time>.
+  </p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
