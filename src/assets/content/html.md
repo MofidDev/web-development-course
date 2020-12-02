@@ -1250,7 +1250,7 @@
 
 #### Summary
 
-- n this chapter I explained how to use the table element to present tabular data. A table consists of rows that are represented by the table row (tr) element. Each row contains a collection of table cells (td) and/or table head cell (th) elements. Columns are not explicitly defined but are inferred based on the existence of td or th elements. For example, the first element of each row is considered the first column.
+- A table consists of rows that are represented by the table row (tr) element. Each row contains a collection of table cells (td) and/or table head cell (th) elements. Columns are not explicitly defined but are inferred based on the existence of td or th elements. For example, the first element of each row is considered the first column.
 
 - You can define columns using the colgroup and/or col element. This does not actually create or define any table cells but allows you to apply styles to a specific column or group of columns. You can also group table rows into a header (thead), body (tbody), and footer (tfoot) elements for semantic purposes.
 
