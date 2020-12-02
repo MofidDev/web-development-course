@@ -817,7 +817,12 @@
 
 #### Abbreviations (abbr)
 
-- ddd
+- ```html
+  <p>
+    You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your
+    <abbr title="HyperText Markup Language">HTML</abbr>.
+  </p>
+  ```
 
 ## For further reading
 
