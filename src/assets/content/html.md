@@ -1084,6 +1084,36 @@
 
 #### Column Groups
 
+- ```html
+  <table>
+    <caption>
+      Squares and Cubes
+    </caption>
+    <colgroup span="1"></colgroup>
+    <colgroup span="1"></colgroup>
+    <colgroup span="2" style="background-color: #b6ff00"></colgroup>
+    <tr></tr>
+    <tr>
+      <th scope="row">Two</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th scope="row">Three</th>
+      <td>3</td>
+      <td>9</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th scope="row">Four</th>
+      <td>4</td>
+      <td>16</td>
+      <td>64</td>
+    </tr>
+  </table>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
