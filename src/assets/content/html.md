@@ -1258,7 +1258,11 @@
 
 ### Embedded HTML Elements
 
-####
+#### Anchor Element (a)
+
+- ```html
+  <a href="http://www.example.com">Example</a>
+  ```
 
 ## For further reading
 
