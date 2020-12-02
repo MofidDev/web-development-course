@@ -877,6 +877,12 @@
   </ins>
   ```
 
+#### Quoting (blockquote) (q) (cite)
+
+- ```html
+  ddd
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
