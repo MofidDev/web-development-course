@@ -1248,6 +1248,14 @@
 
 - <img class="img-fluid" src="./assets/image/table_colspan_rowspan_attr.jpg" />
 
+#### Summary
+
+- n this chapter I explained how to use the table element to present tabular data. A table consists of rows that are represented by the table row (tr) element. Each row contains a collection of table cells (td) and/or table head cell (th) elements. Columns are not explicitly defined but are inferred based on the existence of td or th elements. For example, the first element of each row is considered the first column.
+
+- You can define columns using the colgroup and/or col element. This does not actually create or define any table cells but allows you to apply styles to a specific column or group of columns. You can also group table rows into a header (thead), body (tbody), and footer (tfoot) elements for semantic purposes.
+
+- Finally, you can merge cells into a single cell by using the colspan and rowspan attributes. Since the merged cell will take up more space, you will need fewer elements in a row that contains a merged cell. Using the rowspan attribute is particularly interesting, requiring you to skip cells in subsequent rows. I recommend you add comments to your table to indicate skipped cells.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
