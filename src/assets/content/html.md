@@ -761,17 +761,6 @@
   </p>
   ```
 
-#### Element Review
-
-- importance - `<strong>` - key point or critical concept that should not be missed
-- emphasis - `<em>` - read with emphasis, something that is pronounced differently
-- relevance - `<mark>` - text that is highlighted for reference purposes
-- alternative voice - `<i>` - foreign word, technical terms, etc.
-- small - `<small>` - short runs of legal details outside of the main flow
-- strikethrough - `<s>` - no longer accurate or relevant
-- stylistically offset - `<b>` - keywords or other phrases that need to stand out
-- unarticulated - `<u>` - indicates spelling or grammatical errors, proper nouns, or family names
-
 #### Computer Code (code)
 
 - ```html
@@ -949,6 +938,24 @@
     The primary colors are <span class="red">red</span>,
     <span class="blue">blue</span>, and <span class="yellow">yellow</span>.
   </p>
+  ```
+
+#### Line Break (br)
+
+- ```html
+  <p>
+    Fourscore and seven years ago, <br />
+    our fathers brought forth to this continent <br />
+    a new nation, conceived in liberty <br />
+    and dedicated to the proposition <br />
+    that all men are created equal. <br />
+  </p>
+  ```
+
+#### Word Break Opportunity (wbr)
+
+- ```html
+
   ```
 
 ## For further reading
