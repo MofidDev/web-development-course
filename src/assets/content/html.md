@@ -1715,8 +1715,6 @@
 
 - In this chapter I explained the capabilities that are provided by most major browsers. There are a few that have somewhat limited support, as of this writing, which I have pointed out. You should be able to use everything I have demonstrated with confidence that most of your users will have a good experience. Check with sites such as html5test.com, to see the latest browser support, as new capabilities are released periodically.
 
-
-
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
