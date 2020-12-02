@@ -995,6 +995,8 @@
   <p><bdo dir="rtl">This text will go right to left.</bdo></p>
   ```
 
+- In all other elements, the dir attribute defines the flow direction of its child elements. The bdo element is a special case; when the dir attribute is used in the bdo element it affects the text direction.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
