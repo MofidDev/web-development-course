@@ -1242,6 +1242,8 @@
   </table>
   ```
 
+#### Spanning Cells
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
