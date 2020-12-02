@@ -761,6 +761,17 @@
   </p>
   ```
 
+#### Element Review
+
+- importance - `<strong>` - key point or critical concept that should not be missed
+- emphasis - `<em>` - read with emphasis, something that is pronounced differently
+- relevance - `<mark>` - text that is highlighted for reference purposes
+- alternative voice - `<i>` - foreign word, technical terms, etc.
+- small - `<small>` - short runs of legal details outside of the main flow
+- strikethrough - `<s>` - no longer accurate or relevant
+- stylistically offset - `<b>` - keywords or other phrases that need to stand out
+- unarticulated - `<u>` - indicates spelling or grammatical errors, proper nouns, or family names
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
