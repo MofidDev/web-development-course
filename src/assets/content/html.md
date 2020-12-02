@@ -752,6 +752,15 @@
   </p>
   ```
 
+#### Unarticulated (u)
+
+- ```html
+  <p>
+    Please be sure to <u class="spelling">chek</u>
+    <u class="usage">four</u> spelling <u class="grammar">mistake</u>.
+  </p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
