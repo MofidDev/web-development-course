@@ -1512,6 +1512,147 @@
   ></textarea>
   ```
 
+- ```html
+  <p>
+    Toppings:
+    <input type="checkbox" name="Topping" value="Mushrooms" />Mushrooms?
+    <input type="checkbox" name="Topping" value="Sausage" />Sausage?
+    <input type="checkbox" name="Topping" value="Olives" />Olives?
+  </p>
+  ```
+
+- ```html
+  <p>
+    Crust: <input type="radio" name="Crust" value="Thin" />Thin
+    <input type="radio" name="Crust" value="Thick" />Thick
+    <input type="radio" name="Crust" value="DeepDish" />Deep Dish
+  </p>
+  ```
+
+- ```html
+  <p>
+    Addons:
+    <select name="Addons" required>
+      <option value="">Please select...</option>
+      <option value="None">Pizza only</option>
+      <optgroup label="Addons">
+        <option value="Wings">Side of Buffalo Wings</option>
+        <option value="GarlicBread">Add Garlic Bread</option>
+      </optgroup>
+    </select>
+  </p>
+  ```
+
+- ```html
+  <select name="Toppings" multiple size="4">
+    <option label="Mushrooms?" value="Mushrooms" />
+    <option label="Sausage?" value="Sausage" />
+    <option label="Olives?" value="Olives" />
+  </select>
+  ```
+
+- ```html
+  <p>
+    Number of utensils:
+    <input type="number" min="1" max="4" value="1" name="Utensils" />
+  </p>
+  ```
+
+- ```html
+  <p>
+    Select file(s) to upload:
+    <input type="file" name="music" accept="audio/*" />
+    <input type="file" name="pictures" multiple accept=".jpg, .png" />
+  </p>
+  ```
+
+- ```html
+  <datalist id="SurveyStops">
+    <option value="0" />
+    <option value="10" />
+    <option value="20" />
+    <option value="30" />
+    <option value="40" />
+    <option value="50" />
+  </datalist>
+  <p>
+    How satisfied were you with the ordering process?
+    <input
+      type="range"
+      name="Survey"
+      min="0"
+      max="50"
+      step="10"
+      list="SurveyStops"
+    />
+  </p>
+  ```
+
+- ```html
+  <input id="prodId" name="prodId" type="hidden" value="xm234jq" />
+  ```
+
+- ```html
+  <p>
+    Date:
+    <input
+      type="date"
+      name="Date"
+      min="2016-08-06"
+      max="2016-08-11"
+      placeholder="mm/dd/yy"
+    />
+    Date/Time:
+    <input
+      type="datetime-local"
+      name="DateTime"
+      step="30"
+      placeholder="mm/dd/yy hh:mm:ss AM"
+    />
+    Time:
+    <input
+      type="time"
+      name="Time"
+      min="10:00:00"
+      max="17:00:00"
+      step="15"
+      placeholder="hh:mm:ss AM"
+    />
+    Month:
+    <input
+      type="month"
+      name="Month"
+      min="2016-01-01"
+      max="2017-12-31"
+      placeholder="yyyy-mm"
+    />
+    Week:
+    <input
+      type="week"
+      name="Week"
+      min="2016-01-01"
+      max="2017-12-31"
+      placeholder="yyyy-W##"
+    />
+  </p>
+  ```
+
+- ```html
+  <p>
+    Deliver to: <br />
+    <label>
+      Address:
+      <input type="text" size="30" name="Address" />
+    </label>
+    <label>
+      ZipCode:
+      <input type="text" maxlength="5" size="5" name="Zip" />
+    </label>
+    <label for="telephone">Phone #:</label>
+    <input type="tel" id="telephone" name="Phone" />
+  </p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
