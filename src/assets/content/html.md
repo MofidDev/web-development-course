@@ -1455,11 +1455,61 @@
   ```
 
 - ```html
-
+  <datalist id="sports">
+    <option value="Baseball" />
+    <option value="Basketball" />
+    <option value="Hockey" />
+    <option value="Football" />
+  </datalist>
+  <label for="iSport">Favorite Sport:</label>
+  <input type="text" id="iSport" name="Sport" list="sports" />
   ```
 
 - ```html
-
+  <input
+    type="email"
+    name="Email"
+    size="100"
+    placeholder="enter 1 or more email addresses"
+    multiple
+    required
+  />
+  <input
+    type="password"
+    name="Password"
+    maxlength="12"
+    minlength="6"
+    size="12"
+  />
+  <input
+    type="search"
+    name="Search"
+    placeholder="search criteria..."
+    autofocus
+  />
+  <input
+    type="tel"
+    name="Phone"
+    placeholder="(800) 555-1212"
+    pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
+  />
+  <input
+    type="url"
+    name="Website"
+    placeholder="http://www.apress.com"
+    size="50"
+  />
+  <input type="text" value="Read-only text" readonly name="ReadOnly" />
+  <input type="text" value="Disabled text" disabled />
+  <label for="iComments">Comments:</label>
+  <textarea
+    id="iComments"
+    rows="3"
+    cols="50"
+    wrap="hard"
+    maxlength="250"
+    name="Comments"
+  ></textarea>
   ```
 
 ## For further reading
@@ -1479,3 +1529,4 @@
 - http://1stwebdesigner.com/image-file-types
 - https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
 - https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
+- https://softwareengineering.stackexchange.com/questions/114156/why-are-there-are-no-put-and-delete-methods-on-html-forms
