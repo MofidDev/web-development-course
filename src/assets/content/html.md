@@ -833,6 +833,17 @@
   </p>
   ```
 
+- ```html
+  <p>
+    <dfn id="htmlDef" title="HyperText Markup Language">HTML</dfn> is a
+    standardized way of adding semantic information to support rich formatting
+    of content. <br />
+  </p>
+  <p>
+    Learning <a href="#htmlDef">HTML</a> is certainly worthwhile and rewarding.
+  </p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
