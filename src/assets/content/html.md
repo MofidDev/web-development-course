@@ -1029,3 +1029,4 @@
 - https://www.w3.org/International/questions/qa-b-and-i-tags
 - https://html.spec.whatwg.org/multipage/text-level-semantics.html
 - https://www.w3.org/International/tutorials/bidi-xhtml/
+- http://html5doctor.com/ruby-rt-rp-element
