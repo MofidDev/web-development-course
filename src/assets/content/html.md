@@ -1351,6 +1351,14 @@
   </map>
   ```
 
+#### Audio Element
+
+- ```html
+  <audio src="./Media/Linus and Lucy.mp3">
+    <p>HTML5 audio is not supported on your browser</p>
+  </audio>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
