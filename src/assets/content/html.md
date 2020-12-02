@@ -1022,10 +1022,13 @@
 
 ### Table HTML Elements
 
-#### Simple Table
+#### Simple Table with Caption
 
 - ```html
   <table>
+    <caption>
+      Simple Table
+    </caption>
     <tr>
       <td>One</td>
       <td>Two</td>
@@ -1040,6 +1043,41 @@
       <td>Seven</td>
       <td>Eight</td>
       <td>Nine</td>
+    </tr>
+  </table>
+  ```
+
+#### Column and Row Headings
+
+- ```html
+  <table>
+    <caption>
+      Squares and Cubes
+    </caption>
+    <tr>
+      <td></td>
+      <!-- empty cell -->
+      <th scope="col">Number</th>
+      <th scope="col">Squared</th>
+      <th scope="col">Cubed</th>
+    </tr>
+    <tr>
+      <th scope="row">Two</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th scope="row">Three</th>
+      <td>3</td>
+      <td>9</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th scope="row">Four</th>
+      <td>4</td>
+      <td>16</td>
+      <td>64</td>
     </tr>
   </table>
   ```
