@@ -988,6 +988,13 @@
   </ul>
   ```
 
+### Bidirectional Overriding (bdo)
+
+- ```html
+  <p>This text will go left to right.</p>
+  <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
