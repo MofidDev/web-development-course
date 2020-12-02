@@ -877,10 +877,60 @@
   </ins>
   ```
 
-#### Quoting (blockquote) (q) (cite)
+#### Quoting Block (blockquote)
 
 - ```html
-  ddd
+  <blockquote>
+    <h1>Gettysburg Address</h1>
+    <p>
+      Four score and seven years ago our fathers brought forth, upon this
+      continent, a new nation, conceived in Liberty, and dedicated to the
+      proposition that all men are created equal.
+    </p>
+    <p>
+      Now we are engaged in a great civil war, testing whether that nation, or
+      any nation so conceived, and so dedicated, can long endure. We are met
+      here on a great battlefield of that war. We have come to dedicate a
+      portion of it, as a final resting place for those who here gave their
+      lives that that nation might live. It is altogether fitting and proper
+      that we should do this.
+    </p>
+    <footer>
+      <small>Abraham Lincoln, 1864</small>
+    </footer>
+    <cite>
+      <a
+        href="http://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm"
+      >
+        Gettysburg Address
+      </a>
+    </cite>
+  </blockquote>
+  ```
+
+#### Inline Quote (q)
+
+- ```html
+  <p>As Abraham Lincoln once said, <q>Whatever you are, be a good one</q>.</p>
+  ```
+
+#### Citation (cite)
+
+- ```html
+  <blockquote>
+    <p>
+      It was a bright cold day in April, and the clocks were striking thirteen.
+    </p>
+    <footer>
+      First sentence in
+      <cite>
+        <a href="http://www.george-orwell.org/1984/0.html">
+          Nineteen Eighty-Four
+        </a>
+      </cite>
+      by George Orwell (Part 1, Chapter 1).
+    </footer>
+  </blockquote>
   ```
 
 ## For further reading
