@@ -1359,6 +1359,10 @@
   </audio>
   ```
 
+- ```html
+  <audio src="Media/Linus and Lucy.mp3" autoplay controls></audio>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
