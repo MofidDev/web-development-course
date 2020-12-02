@@ -914,6 +914,15 @@
   <p>As Abraham Lincoln once said, <q>Whatever you are, be a good one</q>.</p>
   ```
 
+- ```html
+  <p>
+    When Dave asks HAL to open the pod bay door, HAL answers:
+    <q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921">
+      I'm sorry, Dave. I'm afraid I can't do that.
+    </q>
+  </p>
+  ```
+
 #### Citation (cite)
 
 - ```html
