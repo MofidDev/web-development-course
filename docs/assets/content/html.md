@@ -61,7 +61,7 @@
 
 - The html element, for example, contains lang="en", which informs the browser that the content is written in English. The browser may use this to offer to translate the content if English is not the current language.
 
-- There is a set of attributes called global attributes that can be used on any HTML element. The most common ones that you’ll use are id and class. The id attribute defines a unique key for an element; it must be unique within the entire HTML document. This is often used when accessing an element in JavaScript. The class attribute is sometimes called the CSS class, because it is often used for applying styles to an element. Unlike id, the class attribute is a non-unique key; a single value is applied to elements that need to have identical formatting.
+- There is a set of attributes called global attributes that can be used on any HTML element. The most common ones that you’ll use are `id`, `class` and `dir`. The id attribute defines a unique key for an element; it must be unique within the entire HTML document. This is often used when accessing an element in JavaScript. The class attribute is sometimes called the CSS class, because it is often used for applying styles to an element. Unlike id, the class attribute is a non-unique key; a single value is applied to elements that need to have identical formatting.
 
 - In addition to the global attributes, each element type may support other attributes. Notice that the meta element includes a charset attribute:
 
@@ -86,7 +86,7 @@
 - So, as you’ve already seen, the html element is the root node: the starting point of your document. There’s not much to say about it. The html element can contain one head element and one body element. In addition to the global attributes, it also supports the manifest attribute.
 
 - ```html
-  <html manifest="www.mywebsite.com/cache.appcache"></html>
+  <html dir="ltr" manifest="www.mywebsite.com/cache.appcache"></html>
   ```
 
 ## Head Element
@@ -738,12 +738,711 @@
 
 - ```html
   <p>
+    The text highlighting elements include <b class="keyword">importance</b>,
+    <b class="keyword">emphasis</b>, and <b class="keyword">alternate voice</b>.
+  </p>
+  ```
+
+- ```html
+  <p>
     The two most popular science courses offered by the school are
     <b class="term">chemistry</b> (the study of chemicals and the composition of
     substances) and <b class="term">physics</b> (the study of the nature and
     properties of matter and energy).
   </p>
   ```
+
+#### Unarticulated (u)
+
+- ```html
+  <p>
+    Please be sure to <u class="spelling">chek</u>
+    <u class="usage">four</u> spelling <u class="grammar">mistake</u>.
+  </p>
+  ```
+
+#### Computer Code (code)
+
+- ```html
+  <code class="language-javascript">Item.prototype.isAvailable = true;</code>.
+  ```
+
+- ```html
+  <pre>
+    <code class="language-javascript">
+      this.log = function () {
+        console.log("Quantity: " + <var>this.count</var> + ", Color: " + <var>this.color</var>);
+      };
+    </code>
+  </pre>
+  ```
+
+#### Computer Input (kbd)
+
+- ```html
+  <p>
+    Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render
+    an MDN page.
+  </p>
+  ```
+
+#### Computer Output (samp)
+
+- ```html
+  <p>I was trying to boot my computer, but I got this hilarious message:</p>
+  <p>
+    <samp>Keyboard not found <br />Press F1 to continue</samp>
+  </p>
+  ```
+
+#### Variable (var)
+
+- ```html
+  <p>
+    The area of a rectangle with length <var>l</var> and width <var>w</var> is
+    <var>l</var> * <var>w</var>.
+  </p>
+  ```
+
+#### Abbreviations (abbr)
+
+- ```html
+  <p>
+    You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your
+    <abbr title="HyperText Markup Language">HTML</abbr>.
+  </p>
+  ```
+
+#### Definition (dfn)
+
+- ```html
+  <p>
+    <dfn>HTML</dfn> is a standardized way of adding semantic information to
+    support rich formatting of content.
+  </p>
+  ```
+
+- ```html
+  <p>
+    <dfn id="htmlDef" title="HyperText Markup Language">HTML</dfn> is a
+    standardized way of adding semantic information to support rich formatting
+    of content. <br />
+  </p>
+  <p>
+    Learning <a href="#htmlDef">HTML</a> is certainly worthwhile and rewarding.
+  </p>
+  ```
+
+#### Subscript (sub)
+
+- ```html
+  <p>H<sub>2</sub>O is the chemical formula for water.<br /></p>
+  ```
+
+#### Superscript (sup)
+
+- ```html
+  <p>e=mc<sup>2</sup> is the formula for mass-energy equivalence.</p>
+  ```
+
+#### Time (time)
+
+- ```html
+  <p>
+    Your follow-up appointment will be a week from
+    <time datetime="2016-06-28">Tuesday</time>.
+  </p>
+  ```
+
+#### Edits (del) (ins)
+
+- ```html
+  <p>“You're late!”</p>
+  <del>
+    <p>“I apologize for the delay.”</p>
+  </del>
+  <ins cite="../howtobeawizard.html" datetime="2018-05">
+    <p>“A wizard is never late …”</p>
+  </ins>
+  ```
+
+#### Quoting Block (blockquote)
+
+- ```html
+  <blockquote>
+    <h1>Gettysburg Address</h1>
+    <p>
+      Four score and seven years ago our fathers brought forth, upon this
+      continent, a new nation, conceived in Liberty, and dedicated to the
+      proposition that all men are created equal.
+    </p>
+    <p>
+      Now we are engaged in a great civil war, testing whether that nation, or
+      any nation so conceived, and so dedicated, can long endure. We are met
+      here on a great battlefield of that war. We have come to dedicate a
+      portion of it, as a final resting place for those who here gave their
+      lives that that nation might live. It is altogether fitting and proper
+      that we should do this.
+    </p>
+    <footer>
+      <small>Abraham Lincoln, 1864</small>
+    </footer>
+    <cite>
+      <a
+        href="http://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm"
+      >
+        Gettysburg Address
+      </a>
+    </cite>
+  </blockquote>
+  ```
+
+#### Inline Quote (q)
+
+- ```html
+  <p>As Abraham Lincoln once said, <q>Whatever you are, be a good one</q>.</p>
+  ```
+
+- ```html
+  <p>
+    When Dave asks HAL to open the pod bay door, HAL answers:
+    <q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921">
+      I'm sorry, Dave. I'm afraid I can't do that.
+    </q>
+  </p>
+  ```
+
+#### Citation (cite)
+
+- ```html
+  <blockquote>
+    <p>
+      It was a bright cold day in April, and the clocks were striking thirteen.
+    </p>
+    <footer>
+      First sentence in
+      <cite>
+        <a href="http://www.george-orwell.org/1984/0.html">
+          Nineteen Eighty-Four
+        </a>
+      </cite>
+      by George Orwell (Part 1, Chapter 1).
+    </footer>
+  </blockquote>
+  ```
+
+#### Span (span)
+
+- ```html
+  <p>
+    The primary colors are <span class="red">red</span>,
+    <span class="blue">blue</span>, and <span class="yellow">yellow</span>.
+  </p>
+  ```
+
+#### Line Break (br)
+
+- ```html
+  <p>
+    Fourscore and seven years ago, <br />
+    our fathers brought forth to this continent <br />
+    a new nation, conceived in liberty <br />
+    and dedicated to the proposition <br />
+    that all men are created equal. <br />
+  </p>
+  ```
+
+#### Word Break Opportunity (wbr)
+
+- ```html
+  <p style="width: 70px; word-wrap: break-word">
+    Supercalifragilisticexpialidocious<br />
+    --<br />
+    Super<wbr />cali<wbr />fragilistic<wbr />expiali<wbr />docious
+  </p>
+  ```
+
+#### Soft Hyphen (shy)
+
+- ```html
+  <p style="width: 70px; word-wrap: break-word">
+    Supercalifragilisticexpialidocious<br />
+    --<br />
+    Super<wbr />cali<wbr />fragilistic<wbr />expiali<wbr />docious<br />
+    --<br />
+    Super&shy;cali&shy;fragilistic&shy;expiali&shy;docious
+  </p>
+  ```
+
+#### Bidirectional Isolation (bdi)
+
+- ```html
+  <h1>World wrestling championships</h1>
+
+  <ul>
+    <li><bdi class="name">Evil Steven</bdi>: 1st place</li>
+    <li><bdi class="name">François fatale</bdi>: 2nd place</li>
+    <li><span class="name">تیز سمی</span>: 3rd place</li>
+    <li><bdi class="name">الرجل القوي إيان</bdi>: 4th place</li>
+    <li><span class="name" dir="auto">تیز سمی</span>: 5th place</li>
+  </ul>
+  ```
+
+#### Bidirectional Overriding (bdo)
+
+- ```html
+  <p>This text will go left to right.</p>
+  <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+  ```
+
+- In all other elements, the dir attribute defines the flow direction of its child elements. The bdo element is a special case; when the dir attribute is used in the bdo element it affects the text direction.
+
+#### Ruby Annotation (ruby)
+
+- ```html
+  <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+  ```
+
+- ```html
+  <p>
+    <ruby>$<rp>(</rp><rt>Dollar</rt><rt>USD</rt><rp>)</rp></ruby>
+    <br />
+    <ruby>€<rt>Euro</rt><rt>EUR</rt></ruby>
+    <br />
+    <ruby>£<rt>Pound Sterling</rt><rt>GBP</rt></ruby>
+    <br />
+    <ruby>¥<rt>Japanese Yen</rt><rt>YEN</rt></ruby>
+    <br />
+  </p>
+  ```
+
+#### Summary
+
+- Make a careful choice when selecting an element to use when including content in your HTML document. Sure, you can put everything in a paragraph or span tag and it will “work.” But each element provides semantic meaning to your content. This will ultimately make your document more maintainable, and when it comes time to write the CSS, you’ll be glad you did.
+
+### Table HTML Elements
+
+#### Simple Table with Caption
+
+- ```html
+  <table>
+    <caption>
+      Simple Table
+    </caption>
+    <tr>
+      <td>One</td>
+      <td>Two</td>
+      <td>Three</td>
+    </tr>
+    <tr>
+      <td>Four</td>
+      <td>Five</td>
+      <td>Six</td>
+    </tr>
+    <tr>
+      <td>Seven</td>
+      <td>Eight</td>
+      <td>Nine</td>
+    </tr>
+  </table>
+  ```
+
+#### Column and Row Headings
+
+- ```html
+  <table>
+    <caption>
+      Squares and Cubes
+    </caption>
+    <tr>
+      <td></td>
+      <!-- empty cell -->
+      <th scope="col">Number</th>
+      <th scope="col">Squared</th>
+      <th scope="col">Cubed</th>
+    </tr>
+    <tr>
+      <th scope="row">Two</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th scope="row">Three</th>
+      <td>3</td>
+      <td>9</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th scope="row">Four</th>
+      <td>4</td>
+      <td>16</td>
+      <td>64</td>
+    </tr>
+  </table>
+  ```
+
+#### Column Groups
+
+- ```html
+  <table>
+    <caption>
+      Squares and Cubes
+    </caption>
+    <colgroup span="1"></colgroup>
+    <colgroup span="1"></colgroup>
+    <colgroup span="2" style="background-color: #b6ff00"></colgroup>
+    <tr>
+      <td></td>
+      <!-- empty cell -->
+      <th scope="col">Number</th>
+      <th scope="col">Squared</th>
+      <th scope="col">Cubed</th>
+    </tr>
+    <tr>
+      <th scope="row">Two</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th scope="row">Three</th>
+      <td>3</td>
+      <td>9</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th scope="row">Four</th>
+      <td>4</td>
+      <td>16</td>
+      <td>64</td>
+    </tr>
+  </table>
+  ```
+
+- ```html
+  <table>
+    <caption>
+      Squares and Cubes
+    </caption>
+    <colgroup>
+      <col style="background-color: #f00" />
+      <col />
+    </colgroup>
+    <colgroup style="background-color: #b6ff00">
+      <col span="2" />
+    </colgroup>
+    <tr>
+      <td></td>
+      <!-- empty cell -->
+      <th scope="col">Number</th>
+      <th scope="col">Squared</th>
+      <th scope="col">Cubed</th>
+    </tr>
+    <tr>
+      <th scope="row">Two</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th scope="row">Three</th>
+      <td>3</td>
+      <td>9</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th scope="row">Four</th>
+      <td>4</td>
+      <td>16</td>
+      <td>64</td>
+    </tr>
+  </table>
+  ```
+
+#### Table Heading and Footer
+
+- ```html
+  <table>
+    <caption>
+      Scoreboard
+    </caption>
+    <thead>
+      <tr>
+        <th>Inning</th>
+        <th>Runs</th>
+        <th>Hits</th>
+        <th>Errors</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>5</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>1</td>
+        <td>3</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Final</td>
+        <td>5</td>
+        <td>15</td>
+        <td>2</td>
+      </tr>
+    </tfoot>
+  </table>
+  ```
+
+#### Spanning Cells
+
+- <img class="img-fluid" src="./assets/image/table_colspan_attr.jpg" />
+
+- <img class="img-fluid" src="./assets/image/table_colspan_rowspan_attr.jpg" />
+
+#### Summary
+
+- A table consists of rows that are represented by the table row (tr) element. Each row contains a collection of table cells (td) and/or table head cell (th) elements. Columns are not explicitly defined but are inferred based on the existence of td or th elements. For example, the first element of each row is considered the first column.
+
+- You can define columns using the colgroup and/or col element. This does not actually create or define any table cells but allows you to apply styles to a specific column or group of columns. You can also group table rows into a header (thead), body (tbody), and footer (tfoot) elements for semantic purposes.
+
+- Finally, you can merge cells into a single cell by using the colspan and rowspan attributes. Since the merged cell will take up more space, you will need fewer elements in a row that contains a merged cell. Using the rowspan attribute is particularly interesting, requiring you to skip cells in subsequent rows. I recommend you add comments to your table to indicate skipped cells.
+
+### Embedded HTML Elements
+
+#### Anchor Element
+
+- ```html
+  <a href="http://www.example.com">Example</a>
+  ```
+
+#### Image Element
+
+- ```html
+  <img src="./Media/HTML5.jpg" alt="The HTML5 Badge logo" />
+  ```
+
+- ```html
+  <img
+    src="./Media/HTML5.jpg"
+    alt="The HTML5 Badge logo"
+    srcset="./Media/HTML5_2.jpg 2x, ./Media/HTML5_3.jpg 3x"
+  />
+  ```
+
+- ```html
+  <img
+    src="./Media/HTML5.jpg"
+    alt="The HTML5 Badge logo"
+    srcset="Media/HTML5.jpg 300w, Media/HTML5_2.jpg 150w"
+  />
+  ```
+
+- ```html
+  <img
+    src="./Media/HTML5.jpg"
+    alt="The HTML5 Badge logo"
+    sizes="(max-width: 600px) 25vw, (max-width: 400px) 33vw, (max-width: 200px) 50vw, 100vw"
+  />
+  ```
+
+- ```html
+  <figure>
+    <img
+      src="./Media/G_Wash_Wide.jpg"
+      alt="The Prayer at Valley Forge"
+      srcset="./Media/G_Wash_Narrow.jpg 422w, ./Media/G_Wash_Wide.jpg 885w"
+      width="100%"
+    />
+    <footer><small>Copyright ©Friberg Fine Art</small></footer>
+    <figcaption>Arnold Friberg's The Prayer at Valley Forge</figcaption>
+  </figure>
+  ```
+
+- ```html
+  <a href="https://html.spec.whatwg.org/multipage/embedded-content.html">
+    <img src="./Media/HTML5.jpg" alt="The HTML5 Badge logo" />
+  </a>
+  ```
+
+- <img class="img-fluid" src="./assets/image/image_map.jpg" />
+
+- ```html
+  <img
+    src="Media/Shapes.png"
+    alt="Shapes"
+    width="150"
+    height="50"
+    usemap="#shapeMap"
+  />
+  ```
+
+- ```html
+  <map name="shapeMap">
+    <area
+      shape="rect"
+      coords="0,0,50,50"
+      alt="square"
+      title="Square"
+      href="https://en.wikipedia.org/wiki/Square"
+    />
+    <area
+      shape="circle"
+      coords="75,25,25"
+      alt="circle"
+      title="Circle"
+      href="https://en.wikipedia.org/wiki/Circle"
+    />
+    <area
+      shape="poly"
+      coords="101,50,126,0,150,50"
+      alt="triangle"
+      title="Triangle"
+      href="https://en.wikipedia.org/wiki/Triangle"
+    />
+  </map>
+  ```
+
+#### Audio Element
+
+- ```html
+  <audio src="./Media/Linus and Lucy.mp3">
+    <p>HTML5 audio is not supported on your browser</p>
+  </audio>
+  ```
+
+- ```html
+  <audio src="./Media/Linus and Lucy.mp3" autoplay controls></audio>
+  ```
+
+- ```html
+  <audio autoplay controls>
+    <source src="./Media/Linus and Lucy.ogg" />
+    <source src="./Media/Linus and Lucy.mp3" />
+    <p>HTML5 audio is not supported on your browser</p>
+  </audio>
+  ```
+
+- ```html
+  <audio autoplay controls>
+    <source
+      src="./Media/Linus and Lucy.ogg"
+      type='audio/ogg; codecs="vorbis"'
+    />
+    <source src="./Media/Linus and Lucy.mp3" type="audio/mp3" />
+    <p>HTML5 audio is not supported on your browser</p>
+  </audio>
+  ```
+
+#### Video Element
+
+- ```html
+  <video src="./Media/BigBuckBunny.mp4" autoplay>
+    <p>HTML5 video is not supported on your browser</p>
+  </video>
+  ```
+
+- ```html
+  <video
+    src="./Media/BigBuckBunny.mp4"
+    controls
+    poster="./Media/BBB_Poster.png"
+    width="852"
+    height="480"
+  >
+    <p>HTML5 video is not supported on your browser</p>
+  </video>
+  ```
+
+- ```html
+  <video
+    src="./Media/BigBuckBunny.mp4"
+    controls
+    poster="./Media/BBB_Poster.png"
+    width="852"
+    height="480"
+  >
+    <track kind="captions" src="bbb.vtt" srclang="en" label="English" />
+    <p>HTML5 video is not supported on your browser</p>
+  </video>
+  ```
+
+#### Plug-Ins Element
+
+- ```html
+  <object data="MainPage.pdf" type="application/pdf" width="850" height="200">
+    <a href="MainPage.pdf">MainPage</a>
+  </object>
+  ```
+
+- ```html
+  <object data="some file" type="application/some plug in">
+    <param name="paramName" value="paramValue" />
+    <p>fallback content</p>
+  </object>
+  ```
+
+- ```html
+  <embed src="MainPage.pdf" type="application/pdf" width="850" height="150" />
+  ```
+
+#### Summary
+
+- In this chapter, I explained how to embed external content into an HTML5 document. The primary types of embedded content are images, audio, and video and HTML5 supports specific elements for each of these types. You can provide multiple image files and let the browser choose the most appropriate one to download and render based on the device characteristics. You can also define clickable areas on an image that can be used as links.
+
+- The major browsers have all standardized on MP3 for audio and MP4 for video, making it pretty easy to include either in an HTML document. For both audio and video, you can also include time-synchronized text that will appear as subtitles, captions, or other details.
+
+- For other types of embedded content, the object element provides a standardized way of including it. This may require custom browser plug-ins but the object element is a consistent way for referencing them. You can also provide fallback content for when the plug-in is not supported.
+
+### HTML Form Elements
 
 ## For further reading
 
@@ -755,3 +1454,10 @@
 - https://gsnedders.html5.org/outliner/
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 - http://www.w3.org/TR/html5/sections.html
+- https://www.w3.org/International/questions/qa-b-and-i-tags
+- https://html.spec.whatwg.org/multipage/text-level-semantics.html
+- https://www.w3.org/International/tutorials/bidi-xhtml/
+- http://html5doctor.com/ruby-rt-rp-element
+- http://1stwebdesigner.com/image-file-types
+- https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
+- https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
