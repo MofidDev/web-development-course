@@ -61,7 +61,7 @@
 
 - The html element, for example, contains lang="en", which informs the browser that the content is written in English. The browser may use this to offer to translate the content if English is not the current language.
 
-- There is a set of attributes called global attributes that can be used on any HTML element. The most common ones that you’ll use are id and class. The id attribute defines a unique key for an element; it must be unique within the entire HTML document. This is often used when accessing an element in JavaScript. The class attribute is sometimes called the CSS class, because it is often used for applying styles to an element. Unlike id, the class attribute is a non-unique key; a single value is applied to elements that need to have identical formatting.
+- There is a set of attributes called global attributes that can be used on any HTML element. The most common ones that you’ll use are `id`, `class` and `dir`. The id attribute defines a unique key for an element; it must be unique within the entire HTML document. This is often used when accessing an element in JavaScript. The class attribute is sometimes called the CSS class, because it is often used for applying styles to an element. Unlike id, the class attribute is a non-unique key; a single value is applied to elements that need to have identical formatting.
 
 - In addition to the global attributes, each element type may support other attributes. Notice that the meta element includes a charset attribute:
 
