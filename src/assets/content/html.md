@@ -1444,6 +1444,24 @@
 
 ### HTML Form Elements
 
+- ```html
+  <form action="" method="get">
+    <label for="iFirstName">First Name:</label>
+    <input id="iFirstName" type="text" />
+    <label for="iLastName">Last Name:</label>
+    <input id="iLastName" type="text" />
+    <input type="submit" value="Submit" />
+  </form>
+  ```
+
+- ```html
+
+  ```
+
+- ```html
+
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
