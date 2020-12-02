@@ -955,7 +955,11 @@
 #### Word Break Opportunity (wbr)
 
 - ```html
-
+  <p style="width: 70px; word-wrap: break-word">
+    Supercalifragilisticexpialidocious<br />
+    --<br />
+    Super<wbr />cali<wbr />fragilistic<wbr />expiali<wbr />docious
+  </p>
   ```
 
 ## For further reading
