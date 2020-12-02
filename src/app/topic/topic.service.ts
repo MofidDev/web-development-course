@@ -42,6 +42,7 @@ export class TopicService {
       titlefa: 'CSS',
       path: 'css',
       file: 'css.md',
+      isltr: true,
     },
     {
       title: 'JavaScript',
