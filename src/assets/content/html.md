@@ -988,7 +988,7 @@
   </ul>
   ```
 
-### Bidirectional Overriding (bdo)
+#### Bidirectional Overriding (bdo)
 
 - ```html
   <p>This text will go left to right.</p>
@@ -996,6 +996,25 @@
   ```
 
 - In all other elements, the dir attribute defines the flow direction of its child elements. The bdo element is a special case; when the dir attribute is used in the bdo element it affects the text direction.
+
+#### Ruby Annotation (ruby)
+
+- ```html
+  <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+  ```
+
+- ```html
+  <p>
+    <ruby>$<rp>(</rp><rt>Dollar</rt><rt>USD</rt><rp>)</rp></ruby>
+    <br />
+    <ruby>€<rt>Euro</rt><rt>EUR</rt></ruby>
+    <br />
+    <ruby>£<rt>Pound Sterling</rt><rt>GBP</rt></ruby>
+    <br />
+    <ruby>¥<rt>Japanese Yen</rt><rt>YEN</rt></ruby>
+    <br />
+  </p>
+  ```
 
 ## For further reading
 
@@ -1009,3 +1028,4 @@
 - http://www.w3.org/TR/html5/sections.html
 - https://www.w3.org/International/questions/qa-b-and-i-tags
 - https://html.spec.whatwg.org/multipage/text-level-semantics.html
+- https://www.w3.org/International/tutorials/bidi-xhtml/
