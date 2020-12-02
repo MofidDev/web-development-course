@@ -1442,6 +1442,8 @@
 
 - For other types of embedded content, the object element provides a standardized way of including it. This may require custom browser plug-ins but the object element is a consistent way for referencing them. You can also provide fallback content for when the plug-in is not supported.
 
+### HTML Form Elements
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
