@@ -865,6 +865,18 @@
   </p>
   ```
 
+#### Edits (del) (ins)
+
+- ```html
+  <p>“You're late!”</p>
+  <del>
+    <p>“I apologize for the delay.”</p>
+  </del>
+  <ins cite="../howtobeawizard.html" datetime="2018-05">
+    <p>“A wizard is never late …”</p>
+  </ins>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -877,4 +889,3 @@
 - http://www.w3.org/TR/html5/sections.html
 - https://www.w3.org/International/questions/qa-b-and-i-tags
 - https://html.spec.whatwg.org/multipage/text-level-semantics.html
--
