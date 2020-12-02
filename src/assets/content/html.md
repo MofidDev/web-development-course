@@ -772,6 +772,53 @@
 - stylistically offset - `<b>` - keywords or other phrases that need to stand out
 - unarticulated - `<u>` - indicates spelling or grammatical errors, proper nouns, or family names
 
+#### Computer Code (code)
+
+- ```html
+  <code class="language-javascript">Item.prototype.isAvailable = true;</code>.
+  ```
+
+- ```html
+  <pre>
+    <code class="language-javascript">
+      this.log = function () {
+        console.log("Quantity: " + <var>this.count</var> + ", Color: " + <var>this.color</var>);
+      };
+    </code>
+  </pre>
+  ```
+
+#### Computer Input (kbd)
+
+- ```html
+  <p>
+    Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render
+    an MDN page.
+  </p>
+  ```
+
+#### Computer Output (samp)
+
+- ```html
+  <p>I was trying to boot my computer, but I got this hilarious message:</p>
+  <p>
+    <samp>Keyboard not found <br />Press F1 to continue</samp>
+  </p>
+  ```
+
+#### Variable (var)
+
+- ```html
+  <p>
+    The area of a rectangle with length <var>l</var> and width <var>w</var> is
+    <var>l</var> * <var>w</var>.
+  </p>
+  ```
+
+#### Abbreviations (abbr)
+
+- ddd
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -782,3 +829,4 @@
 - https://gsnedders.html5.org/outliner/
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 - http://www.w3.org/TR/html5/sections.html
+- https://www.w3.org/International/questions/qa-b-and-i-tags
