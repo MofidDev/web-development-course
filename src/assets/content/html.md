@@ -1284,3 +1284,5 @@
 - https://html.spec.whatwg.org/multipage/text-level-semantics.html
 - https://www.w3.org/International/tutorials/bidi-xhtml/
 - http://html5doctor.com/ruby-rt-rp-element
+- http://1stwebdesigner.com/image-file-types
+- https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
