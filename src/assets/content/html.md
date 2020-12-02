@@ -962,6 +962,24 @@
   </p>
   ```
 
+#### Soft Hyphen (shy)
+
+- ```html
+  <p style="width: 70px; word-wrap: break-word">
+    Supercalifragilisticexpialidocious<br />
+    --<br />
+    Super<wbr />cali<wbr />fragilistic<wbr />expiali<wbr />docious<br />
+    --<br />
+    Super&shy;cali&shy;fragilistic&shy;expiali&shy;docious
+  </p>
+  ```
+
+#### ddd
+
+- ```html
+  ddd
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
