@@ -1444,6 +1444,277 @@
 
 ### HTML Form Elements
 
+- ```html
+  <form action="" method="get">
+    <label for="iFirstName">First Name:</label>
+    <input id="iFirstName" type="text" />
+    <label for="iLastName">Last Name:</label>
+    <input id="iLastName" type="text" />
+    <input type="submit" value="Submit" />
+  </form>
+  ```
+
+- ```html
+  <datalist id="sports">
+    <option value="Baseball" />
+    <option value="Basketball" />
+    <option value="Hockey" />
+    <option value="Football" />
+  </datalist>
+  <label for="iSport">Favorite Sport:</label>
+  <input type="text" id="iSport" name="Sport" list="sports" />
+  ```
+
+- ```html
+  <input
+    type="email"
+    name="Email"
+    size="100"
+    placeholder="enter 1 or more email addresses"
+    multiple
+    required
+  />
+  <input
+    type="password"
+    name="Password"
+    maxlength="12"
+    minlength="6"
+    size="12"
+  />
+  <input
+    type="search"
+    name="Search"
+    placeholder="search criteria..."
+    autofocus
+  />
+  <input
+    type="tel"
+    name="Phone"
+    placeholder="(800) 555-1212"
+    pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
+  />
+  <input
+    type="url"
+    name="Website"
+    placeholder="http://www.apress.com"
+    size="50"
+  />
+  <input type="text" value="Read-only text" readonly name="ReadOnly" />
+  <input type="text" value="Disabled text" disabled />
+  <label for="iComments">Comments:</label>
+  <textarea
+    id="iComments"
+    rows="3"
+    cols="50"
+    wrap="hard"
+    maxlength="250"
+    name="Comments"
+  ></textarea>
+  ```
+
+- ```html
+  <p>
+    Toppings:
+    <input type="checkbox" name="Topping" value="Mushrooms" />Mushrooms?
+    <input type="checkbox" name="Topping" value="Sausage" />Sausage?
+    <input type="checkbox" name="Topping" value="Olives" />Olives?
+  </p>
+  ```
+
+- ```html
+  <p>
+    Crust: <input type="radio" name="Crust" value="Thin" />Thin
+    <input type="radio" name="Crust" value="Thick" />Thick
+    <input type="radio" name="Crust" value="DeepDish" />Deep Dish
+  </p>
+  ```
+
+- ```html
+  <p>
+    Addons:
+    <select name="Addons" required>
+      <option value="">Please select...</option>
+      <option value="None">Pizza only</option>
+      <optgroup label="Addons">
+        <option value="Wings">Side of Buffalo Wings</option>
+        <option value="GarlicBread">Add Garlic Bread</option>
+      </optgroup>
+    </select>
+  </p>
+  ```
+
+- ```html
+  <select name="Toppings" multiple size="4">
+    <option label="Mushrooms?" value="Mushrooms" />
+    <option label="Sausage?" value="Sausage" />
+    <option label="Olives?" value="Olives" />
+  </select>
+  ```
+
+- ```html
+  <p>
+    Number of utensils:
+    <input type="number" min="1" max="4" value="1" name="Utensils" />
+  </p>
+  ```
+
+- ```html
+  <p>
+    Select file(s) to upload:
+    <input type="file" name="music" accept="audio/*" />
+    <input type="file" name="pictures" multiple accept=".jpg, .png" />
+  </p>
+  ```
+
+- ```html
+  <datalist id="SurveyStops">
+    <option value="0" />
+    <option value="10" />
+    <option value="20" />
+    <option value="30" />
+    <option value="40" />
+    <option value="50" />
+  </datalist>
+  <p>
+    How satisfied were you with the ordering process?
+    <input
+      type="range"
+      name="Survey"
+      min="0"
+      max="50"
+      step="10"
+      list="SurveyStops"
+    />
+  </p>
+  ```
+
+- ```html
+  <input id="prodId" name="prodId" type="hidden" value="xm234jq" />
+  ```
+
+- ```html
+  <p>
+    Date:
+    <input
+      type="date"
+      name="Date"
+      min="2016-08-06"
+      max="2016-08-11"
+      placeholder="mm/dd/yy"
+    />
+    Date/Time:
+    <input
+      type="datetime-local"
+      name="DateTime"
+      step="30"
+      placeholder="mm/dd/yy hh:mm:ss AM"
+    />
+    Time:
+    <input
+      type="time"
+      name="Time"
+      min="10:00:00"
+      max="17:00:00"
+      step="15"
+      placeholder="hh:mm:ss AM"
+    />
+    Month:
+    <input
+      type="month"
+      name="Month"
+      min="2016-01-01"
+      max="2017-12-31"
+      placeholder="yyyy-mm"
+    />
+    Week:
+    <input
+      type="week"
+      name="Week"
+      min="2016-01-01"
+      max="2017-12-31"
+      placeholder="yyyy-W##"
+    />
+  </p>
+  ```
+
+- ```html
+  <p>
+    Deliver to: <br />
+    <label>
+      Address:
+      <input type="text" size="30" name="Address" />
+    </label>
+    <label>
+      ZipCode:
+      <input type="text" maxlength="5" size="5" name="Zip" />
+    </label>
+    <label for="telephone">Phone #:</label>
+    <input type="tel" id="telephone" name="Phone" />
+  </p>
+  ```
+
+- ```html
+  <p>
+    <label
+      >Total due:
+      <output id="total" name="Total">$0.00</output>
+    </label>
+  </p>
+  ```
+
+- ```html
+  <p>
+    Meter examples:<br />
+    <meter min="0" max="100" low="33" high="65" optimum="66" value="25"></meter>
+    <meter min="0" max="100" low="33" high="65" optimum="66" value="50"></meter>
+    <meter min="0" max="100" low="33" high="65" optimum="66" value="75"></meter>
+    Optimal: high<br />
+    <meter min="0" max="100" low="34" high="66" optimum="33" value="25"></meter>
+    <meter min="0" max="100" low="34" high="66" optimum="33" value="50"></meter>
+    <meter min="0" max="100" low="34" high="66" optimum="33" value="75"></meter>
+    Optimal: low<br />
+    <meter min="0" max="100" low="32" high="66" optimum="33" value="25"></meter>
+    <meter min="0" max="100" low="32" high="66" optimum="33" value="50"></meter>
+    <meter min="0" max="100" low="32" high="66" optimum="33" value="75"></meter>
+    Optimal: medium<br />
+  </p>
+  ```
+
+- ```html
+  <p>
+    Progress example:
+    <progress min="0" max="7" value="3">
+      Your browser does not support the progress element! Value is 3 of 7.
+    </progress>
+  </p>
+  ```
+
+- ```html
+  <!--<input type="submit" value="Submit" />-->
+  <button type="submit">Submit</button>
+  ```
+
+- ```html
+  <fieldset>
+    <legend>Toppings:</legend>
+    <input type="checkbox" name="Topping" value="Mushrooms" />Mushrooms?
+    <input type="checkbox" name="Topping" value="Sausage" />Sausage?
+    <input type="checkbox" name="Topping" value="Olives" />Olives?
+  </fieldset>
+  <fieldset>
+    <legend>Crust:</legend>
+    <input type="radio" name="Crust" value="Thin" required />Thin
+    <input type="radio" name="Crust" value="Thick" />Thick
+    <input type="radio" name="Crust" value="DeepDish" />Deep Dish
+  </fieldset>
+  ```
+
+#### Summary
+
+- In this chapter I explained how forms are submitted and the input element that is used to collect this information. The same input element is used for almost every type of information. The type attribute is used to indicate the specific data input and validation that should be used.
+
+- In this chapter I explained the capabilities that are provided by most major browsers. There are a few that have somewhat limited support, as of this writing, which I have pointed out. You should be able to use everything I have demonstrated with confidence that most of your users will have a good experience. Check with sites such as html5test.com, to see the latest browser support, as new capabilities are released periodically.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -1461,3 +1732,4 @@
 - http://1stwebdesigner.com/image-file-types
 - https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
 - https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
+- https://softwareengineering.stackexchange.com/questions/114156/why-are-there-are-no-put-and-delete-methods-on-html-forms

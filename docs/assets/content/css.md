@@ -6,5 +6,5 @@
 
 ## For further reading
 
-- https://css-tricks.com/guides/
-- https://css-tricks.com/almanac/
+- https://css-tricks.com/guides
+- https://css-tricks.com/almanac
