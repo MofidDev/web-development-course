@@ -876,3 +876,5 @@
 - https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 - http://www.w3.org/TR/html5/sections.html
 - https://www.w3.org/International/questions/qa-b-and-i-tags
+- https://html.spec.whatwg.org/multipage/text-level-semantics.html
+-
