@@ -1313,6 +1313,44 @@
   </a>
   ```
 
+- <img class="img-fluid" src="./assets/image/image_map.jpg" />
+
+- ```html
+  <img
+    src="Media/Shapes.png"
+    alt="Shapes"
+    width="150"
+    height="50"
+    usemap="#shapeMap"
+  />
+  ```
+
+- ```html
+  <map name="shapeMap">
+    <area
+      shape="rect"
+      coords="0,0,50,50"
+      alt="square"
+      title="Square"
+      href="https://en.wikipedia.org/wiki/Square"
+    />
+    <area
+      shape="circle"
+      coords="75,25,25"
+      alt="circle"
+      title="Circle"
+      href="https://en.wikipedia.org/wiki/Circle"
+    />
+    <area
+      shape="poly"
+      coords="101,50,126,0,150,50"
+      alt="triangle"
+      title="Triangle"
+      href="https://en.wikipedia.org/wiki/Triangle"
+    />
+  </map>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
