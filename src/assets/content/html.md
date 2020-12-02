@@ -1160,6 +1160,88 @@
   </table>
   ```
 
+#### Table Heading and Footer
+
+- ```html
+  <table>
+    <caption>
+      Scoreboard
+    </caption>
+    <thead>
+      <tr>
+        <th>Inning</th>
+        <th>Runs</th>
+        <th>Hits</th>
+        <th>Errors</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>5</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>1</td>
+        <td>3</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Final</td>
+        <td>5</td>
+        <td>15</td>
+        <td>2</td>
+      </tr>
+    </tfoot>
+  </table>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
