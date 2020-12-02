@@ -1256,6 +1256,8 @@
 
 - Finally, you can merge cells into a single cell by using the colspan and rowspan attributes. Since the merged cell will take up more space, you will need fewer elements in a row that contains a merged cell. Using the rowspan attribute is particularly interesting, requiring you to skip cells in subsequent rows. I recommend you add comments to your table to indicate skipped cells.
 
+### Embedded HTML Elements
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
