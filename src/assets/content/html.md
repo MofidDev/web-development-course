@@ -824,6 +824,15 @@
   </p>
   ```
 
+#### Definition (dfn)
+
+- ```html
+  <p>
+    <dfn>HTML</dfn> is a standardized way of adding semantic information to
+    support rich formatting of content.
+  </p>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
