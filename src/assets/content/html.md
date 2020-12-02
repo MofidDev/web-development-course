@@ -1307,6 +1307,12 @@
   </figure>
   ```
 
+- ```html
+  <a href="https://html.spec.whatwg.org/multipage/embedded-content.html">
+    <img src="./Media/HTML5.jpg" alt="The HTML5 Badge logo" />
+  </a>
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
