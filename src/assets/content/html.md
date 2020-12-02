@@ -1092,7 +1092,13 @@
     <colgroup span="1"></colgroup>
     <colgroup span="1"></colgroup>
     <colgroup span="2" style="background-color: #b6ff00"></colgroup>
-    <tr></tr>
+    <tr>
+      <td></td>
+      <!-- empty cell -->
+      <th scope="col">Number</th>
+      <th scope="col">Squared</th>
+      <th scope="col">Cubed</th>
+    </tr>
     <tr>
       <th scope="row">Two</th>
       <td>2</td>
@@ -1126,7 +1132,13 @@
     <colgroup style="background-color: #b6ff00">
       <col span="2" />
     </colgroup>
-    <tr></tr>
+    <tr>
+      <td></td>
+      <!-- empty cell -->
+      <th scope="col">Number</th>
+      <th scope="col">Squared</th>
+      <th scope="col">Cubed</th>
+    </tr>
     <tr>
       <th scope="row">Two</th>
       <td>2</td>
