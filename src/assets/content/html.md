@@ -1016,6 +1016,10 @@
   </p>
   ```
 
+#### Summary
+
+- Make a careful choice when selecting an element to use when including content in your HTML document. Sure, you can put everything in a paragraph or span tag and it will “work.” But each element provides semantic meaning to your content. This will ultimately make your document more maintainable, and when it comes time to write the CSS, you’ll be glad you did.
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
