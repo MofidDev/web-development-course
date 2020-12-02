@@ -738,6 +738,13 @@
 
 - ```html
   <p>
+    The text highlighting elements include <b class="keyword">importance</b>,
+    <b class="keyword">emphasis</b>, and <b class="keyword">alternate voice</b>.
+  </p>
+  ```
+
+- ```html
+  <p>
     The two most popular science courses offered by the school are
     <b class="term">chemistry</b> (the study of chemicals and the composition of
     substances) and <b class="term">physics</b> (the study of the nature and
