@@ -1270,6 +1270,14 @@
   <img src="./Media/HTML5.jpg" alt="The HTML5 Badge logo" />
   ```
 
+- ```html
+  <img
+    src="./Media/HTML5.jpg"
+    alt="The HTML5 Badge logo"
+    srcset="./Media/HTML5_2.jpg 2x, ./Media/HTML5_3.jpg 3x"
+  />
+  ```
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
