@@ -180,5 +180,4 @@
 
 ## For further reading
 
-- https://css-tricks.com/guides
-- https://css-tricks.com/almanac
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
