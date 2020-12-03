@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, SecurityContext } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +17,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     MarkdownModule.forRoot({
       loader: HttpClient,
+      sanitize: SecurityContext.NONE,
     }),
   ],
   providers: [],
