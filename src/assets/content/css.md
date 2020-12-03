@@ -1,3 +1,33 @@
+## CSS Basics
+
+### Selectors
+
+### Combinators
+
+### Colors
+
+### Text Formatting
+
+### Inheritance
+
+### Box Model
+
+### Pseudo Classes
+
+### Pseudo Elements
+
+### Positions
+
+## Advanced CSS
+
+### Backgrounds
+
+### Transitions
+
+### Transforms
+
+### Animations
+
 ## Case Study
 
 ### bootstrap library
