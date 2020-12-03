@@ -34,10 +34,10 @@
 ### CSS Combinators
 
 - Defines relationships between selectors
-  - Descendant ( Space )
-  - Child ( > )
-  - Adjacent Sibling ( + )
-  - General Sibling ( ~ )
+  - All Descendant ( Space )
+  - All Immidiate Child ( > )
+  - Adjacent Sibling / Immediately Following Sibling ( + )
+  - General Sibling / All Sibling After ( ~ )
 
 ### Colors
 
