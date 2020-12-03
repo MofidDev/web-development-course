@@ -172,10 +172,15 @@
 
 ## CSS Flexbox
 
+### Flexbox Overview
+
 - One Dimensional CSS Layout
 
 - <img class="img-fluid" src="./assets/image/css_flexbox_1.jpg" />
+
 - <img class="img-fluid" src="./assets/image/css_flexbox_2.jpg" />
+
+### Flex Container Properties
 
 ## Case Study
 
