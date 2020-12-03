@@ -93,9 +93,16 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-### Pseudo Classes
+### Pseudo Classes & Pseudo Elements
 
-### Pseudo Elements
+- <img class="img-fluid" src="./assets/image/css_pseudo.jpg" />
+
+- <iframe src="https://codesandbox.io/embed/pseudo-classes-1-9qilg?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Pseudo Classes 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ### Positions
 
@@ -103,11 +110,19 @@
 
 ### Backgrounds
 
+- https://css-tricks.com/almanac/properties/b/background/
+
 ### Transitions
+
+- https://css-tricks.com/almanac/properties/t/transition/
 
 ### Transforms
 
+- https://css-tricks.com/almanac/properties/t/transform/
+
 ### Animations
+
+- https://css-tricks.com/almanac/properties/a/animation/
 
 ## CSS Flexbox
 
