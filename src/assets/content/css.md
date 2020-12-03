@@ -31,7 +31,13 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-### Combinators
+### CSS Combinators
+
+- Defines relationships between selectors
+  - Descendant ( Space )
+  - Child ( > )
+  - Adjacent Sibling ( + )
+  - General Sibling ( ~ )
 
 ### Colors
 
