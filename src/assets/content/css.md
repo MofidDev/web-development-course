@@ -82,7 +82,9 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-### Box Model
+### CSS Box Model
+
+- <img class="img-fluid" src="./assets/image/css_box_model.jpg" />
 
 ### Pseudo Classes
 
