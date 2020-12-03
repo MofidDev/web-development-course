@@ -55,9 +55,9 @@
   - Hexadecimal
     - <img class="img-fluid" src="./assets/image/css_colors_4.jpg" />
 
-### Text Formatting
-
 ### Inheritance
+
+### Text Formatting
 
 ### Box Model
 
