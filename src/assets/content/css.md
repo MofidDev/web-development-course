@@ -1,8 +1,10 @@
-## bootstrap library
+## Case Study
 
-## font awesome library
+### bootstrap library
 
-## vazir web font
+### font awesome library
+
+### vazir web font
 
 ## For further reading
 
