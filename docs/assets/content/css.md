@@ -104,25 +104,67 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-### Positions
+- <iframe src="https://codesandbox.io/embed/pseudo-classes-2-t71lv?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Pseudo Classes 2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+- <iframe src="https://codesandbox.io/embed/pseudo-elements-1-ks8l3?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Pseudo Elements 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+### CSS Measurement Units
+
+- <img class="img-fluid" src="./assets/image/css_measurement_units.jpg" />
+
+- <iframe src="https://codesandbox.io/embed/measurement-units-1-slxrt?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Measurement Units 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+- <iframe src="https://codesandbox.io/embed/measurement-units-2-ns706?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Measurement Units 2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+### CSS Positions
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+### CSS Overflow
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+
+### CSS Floats
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/float
 
 ## Advanced CSS
 
 ### Backgrounds
 
-- https://css-tricks.com/almanac/properties/b/background/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background
 
 ### Transitions
 
-- https://css-tricks.com/almanac/properties/t/transition/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 ### Transforms
 
-- https://css-tricks.com/almanac/properties/t/transform/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 
 ### Animations
 
-- https://css-tricks.com/almanac/properties/a/animation/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
 ## CSS Flexbox
 
@@ -138,5 +180,4 @@
 
 ## For further reading
 
-- https://css-tricks.com/guides
-- https://css-tricks.com/almanac
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
