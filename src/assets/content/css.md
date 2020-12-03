@@ -152,19 +152,19 @@
 
 ### Backgrounds
 
-- https://css-tricks.com/almanac/properties/b/background/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background
 
 ### Transitions
 
-- https://css-tricks.com/almanac/properties/t/transition/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 ### Transforms
 
-- https://css-tricks.com/almanac/properties/t/transform/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 
 ### Animations
 
-- https://css-tricks.com/almanac/properties/a/animation/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
 ## CSS Flexbox
 
