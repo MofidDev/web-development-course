@@ -174,13 +174,22 @@
 
 - One Dimensional CSS Layout
 
+- <img class="img-fluid" src="./assets/image/css_flexbox_1.jpg" />
+- <img class="img-fluid" src="./assets/image/css_flexbox_2.jpg" />
+
 ## Case Study
 
 ### bootstrap library
 
+- https://getbootstrap.com/
+
 ### font awesome library
 
+- https://fontawesome.com/
+
 ### vazir web font
+
+- https://github.com/rastikerdar/vazir-font
 
 ## For further reading
 
