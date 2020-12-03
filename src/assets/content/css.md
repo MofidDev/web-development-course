@@ -28,6 +28,10 @@
 
 ### Animations
 
+## CSS Flexbox
+
+- One Dimensional CSS Layout
+
 ## Case Study
 
 ### bootstrap library
