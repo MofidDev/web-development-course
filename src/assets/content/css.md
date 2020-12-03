@@ -45,6 +45,16 @@
 
 ### CSS Colors
 
+- Colors are displayed combining RED, GREEN, and BLUE light
+  - name
+    - <img class="img-fluid" src="./assets/image/css_colors_1.jpg" />
+  - rgb()
+    - <img class="img-fluid" src="./assets/image/css_colors_2.jpg" />
+  - rgba()
+    - <img class="img-fluid" src="./assets/image/css_colors_3.jpg" />
+  - Hexadecimal
+    - <img class="img-fluid" src="./assets/image/css_colors_4.jpg" />
+
 ### Text Formatting
 
 ### Inheritance
