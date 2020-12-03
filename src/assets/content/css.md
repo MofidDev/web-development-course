@@ -166,6 +166,10 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
+## Layout in CSS
+
+- <img class="img-fluid" src="./assets/image/css_layouts.jpg" />
+
 ## CSS Flexbox
 
 - One Dimensional CSS Layout
