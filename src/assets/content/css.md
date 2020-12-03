@@ -35,11 +35,15 @@
 
 - Defines relationships between selectors
   - All Descendant ( Space )
+    - <img class="img-fluid" src="./assets/image/combinators_01_descendant.jpg" />
   - All Immidiate Child ( > )
+    - <img class="img-fluid" src="./assets/image/combinators_02_child.jpg" />
   - Adjacent Sibling / Immediately Following Sibling ( + )
+    - <img class="img-fluid" src="./assets/image/combinators_03_adjacent_sibling.jpg" />
   - General Sibling / All Sibling After ( ~ )
+    - <img class="img-fluid" src="./assets/image/combinators_04_general_sibling.jpg" />
 
-### Colors
+### CSS Colors
 
 ### Text Formatting
 
