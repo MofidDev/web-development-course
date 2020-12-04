@@ -885,13 +885,6 @@
 
 - ```html
   <p>
-    <dfn>HTML</dfn> is a standardized way of adding semantic information to
-    support rich formatting of content.
-  </p>
-  ```
-
-- ```html
-  <p>
     <dfn id="htmlDef" title="HyperText Markup Language">HTML</dfn> is a
     standardized way of adding semantic information to support rich formatting
     of content. <br />
@@ -901,17 +894,32 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="GRjoeeX" src="https://codepen.io/HoseinGhanbari/embed/GRjoeeX?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/GRjoeeX'>GRjoeeX</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Subscript (sub)
 
 - ```html
   <p>H<sub>2</sub>O is the chemical formula for water.<br /></p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEgYBv" src="https://codepen.io/HoseinGhanbari/embed/poEgYBv?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEgYBv'>poEgYBv</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Superscript (sup)
 
 - ```html
   <p>e=mc<sup>2</sup> is the formula for mass-energy equivalence.</p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="eYdJXaz" src="https://codepen.io/HoseinGhanbari/embed/eYdJXaz?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdJXaz'>eYdJXaz</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Time (time)
 
