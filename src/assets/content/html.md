@@ -681,7 +681,6 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-
 ### Phrasing HTML Elements
 
 - In this chapter I’ll demonstrate the HTML elements that are used to mark up the actual text content. When creating your content, these should also be chosen for semantic reasons.
@@ -985,9 +984,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="bGwEZPy" src="https://codepen.io/HoseinGhanbari/embed/bGwEZPy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/bGwEZPy'>bGwEZPy</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/bGwEZPy'>bGwEZPy</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Inline Quote (q)
 
@@ -1001,9 +1000,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="BaLjbXE" src="https://codepen.io/HoseinGhanbari/embed/BaLjbXE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/BaLjbXE'>BaLjbXE</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/BaLjbXE'>BaLjbXE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Citation (cite)
 
@@ -1025,9 +1024,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="ExgPJYm" src="https://codepen.io/HoseinGhanbari/embed/ExgPJYm?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgPJYm'>ExgPJYm</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgPJYm'>ExgPJYm</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Span (span)
 
@@ -1039,9 +1038,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="OJRMGLq" src="https://codepen.io/HoseinGhanbari/embed/OJRMGLq?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRMGLq'>OJRMGLq</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRMGLq'>OJRMGLq</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Line Break (br)
 
@@ -1056,9 +1055,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="abmdxbw" src="https://codepen.io/HoseinGhanbari/embed/abmdxbw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmdxbw'>abmdxbw</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmdxbw'>abmdxbw</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Word Break Opportunity (wbr)
 
@@ -1071,9 +1070,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="NWRxmWQ" src="https://codepen.io/HoseinGhanbari/embed/NWRxmWQ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxmWQ'>NWRxmWQ</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxmWQ'>NWRxmWQ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Soft Hyphen (shy)
 
@@ -1088,9 +1087,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="MWjKRYe" src="https://codepen.io/HoseinGhanbari/embed/MWjKRYe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjKRYe'>MWjKRYe</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjKRYe'>MWjKRYe</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Bidirectional Isolation (bdi)
 
@@ -1098,13 +1097,16 @@
   <h1>World wrestling championships</h1>
 
   <ul>
-    <li><bdi class="name">Evil Steven</bdi>: 1st place</li>
-    <li><bdi class="name">François fatale</bdi>: 2nd place</li>
-    <li><span class="name">تیز سمی</span>: 3rd place</li>
-    <li><bdi class="name">الرجل القوي إيان</bdi>: 4th place</li>
-    <li><span class="name" dir="auto">تیز سمی</span>: 5th place</li>
+    <li>User <bdi>Evil Steven</bdi>: 60 points</li>
+    <li>User <bdi>François fatale</bdi>: 80 points</li>
+    <li>User <bdi>إيان</bdi>: 90 points</li>
   </ul>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="yLaeWZQ" src="https://codepen.io/HoseinGhanbari/embed/yLaeWZQ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/yLaeWZQ'>yLaeWZQ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Bidirectional Overriding (bdo)
 
@@ -1115,13 +1117,17 @@
 
 - In all other elements, the dir attribute defines the flow direction of its child elements. The bdo element is a special case; when the dir attribute is used in the bdo element it affects the text direction.
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLwMy" src="https://codepen.io/HoseinGhanbari/embed/vYXLwMy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLwMy'>vYXLwMy</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Ruby Annotation (ruby)
 
 - ```html
-  <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
-  ```
-
-- ```html
+  <p>
+    <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+  </p>
   <p>
     <ruby>$<rp>(</rp><rt>Dollar</rt><rt>USD</rt><rp>)</rp></ruby>
     <br />
@@ -1133,6 +1139,11 @@
     <br />
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="zYKrQXg" src="https://codepen.io/HoseinGhanbari/embed/zYKrQXg?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/zYKrQXg'>zYKrQXg</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Summary
 
