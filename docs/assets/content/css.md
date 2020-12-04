@@ -138,15 +138,39 @@
 
 ### CSS Positions
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/position
+- <iframe src="https://codesandbox.io/embed/css-positions-1-h21f1?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CSS Positions 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+- <iframe src="https://codesandbox.io/embed/css-positions-2-wopi6?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CSS Positions 2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ### CSS Overflow
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+- <img class="img-fluid" src="./assets/image/css_overflow.jpg" />
+
+- <iframe src="https://codesandbox.io/embed/css-overflow-tldpb?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CSS Overflow"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ### CSS Floats
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/float
+- <iframe src="https://codesandbox.io/embed/css-floats-mlnxs?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="CSS Floats"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## Advanced CSS
 
@@ -166,17 +190,51 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
+## Layout in CSS
+
+- <img class="img-fluid" src="./assets/image/css_layouts.jpg" />
+
 ## CSS Flexbox
 
+### Flexbox Overview
+
 - One Dimensional CSS Layout
+
+- <img class="img-fluid" src="./assets/image/css_flexbox_1.jpg" />
+
+- <img class="img-fluid" src="./assets/image/css_flexbox_2.jpg" />
+
+### Flex Container Properties
+
+- <iframe src="https://codesandbox.io/embed/flex-container-properties-zp8d6?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Flex Container Properties"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+### Flex Item Properties
+
+- <iframe src="https://codesandbox.io/embed/flex-item-properties-5lfug?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Flex Item Properties"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## Case Study
 
 ### bootstrap library
 
+- https://getbootstrap.com/
+
 ### font awesome library
 
+- https://fontawesome.com/
+
 ### vazir web font
+
+- https://github.com/rastikerdar/vazir-font
 
 ## For further reading
 
