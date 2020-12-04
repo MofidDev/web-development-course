@@ -131,22 +131,25 @@
    ></iframe>
 
 - ```css
-  a:link
+  a: link;
   ```
+
   - قبل از اینکه کاربر وارد لینک شود
 
 - ```css
-  a:visited
+  a: visited;
   ```
+
   - وقتی کاربر قبلا از لینک بازدید کرده است
 
 - ```css
-  a:hover
+  a: hover;
   ```
+
   - وقتی کاربر موس اور می کند
 
 - ```css
-  a:active
+  a: active;
   ```
   - وقتی کاربر پیوسته کلیک موس را نگه می دارد
 
@@ -167,6 +170,18 @@
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
+
+- ```
+  em
+  ```
+
+  - از والد خود پیروی می‌کند
+
+- ```
+  rem
+  ```
+
+  - هیچکاری به پرنت ندارد و از تگ اچ‌.‌تی‌.‌ام‌.‌ال پیروی می کند
 
 ### CSS Positions
 
