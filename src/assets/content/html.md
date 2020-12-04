@@ -93,7 +93,7 @@
 
 - There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
 
-### Head Related Tags
+### Head Related Elements
 
 #### Title Element
 
@@ -226,15 +226,6 @@
   - \_top - opens in the topmost frame
 
 - The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
-
-### Examples
-
-- <iframe src="https://codesandbox.io/embed/html5-head-related-tags-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="HTML5 Head Related Tags"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
 
 ## Body Element
 
@@ -1725,6 +1716,15 @@
 - In this chapter I explained how forms are submitted and the input element that is used to collect this information. The same input element is used for almost every type of information. The type attribute is used to indicate the specific data input and validation that should be used.
 
 - In this chapter I explained the capabilities that are provided by most major browsers. There are a few that have somewhat limited support, as of this writing, which I have pointed out. You should be able to use everything I have demonstrated with confidence that most of your users will have a good experience. Check with sites such as html5test.com, to see the latest browser support, as new capabilities are released periodically.
+
+## Examples
+
+- <iframe src="https://codesandbox.io/embed/html5-head-related-tags-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## For further reading
 
