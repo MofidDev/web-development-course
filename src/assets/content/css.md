@@ -253,6 +253,14 @@
 
 ### CSS Floats
 
+- نکات
+
+- تقریبا بلااستفاده شده است باتوجه به وجود فلکس‌باکس و گرید
+- المنت از نرمال فلو خارج می‌شود
+- المنت تا جایی که می‌تواند به سمت راست یا به سمت چپ عنصر والدش می‌چسبد
+- حتما باید طول هم تنظیم شده باشد
+
+
 - <iframe src="https://codesandbox.io/embed/css-floats-mlnxs?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="CSS Floats"
