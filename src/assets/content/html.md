@@ -1350,11 +1350,26 @@
   </table>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="bGwEPGM" src="https://codepen.io/HoseinGhanbari/embed/bGwEPGM?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/bGwEPGM'>bGwEPGM</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Spanning Cells
 
 - <img class="img-fluid" src="./assets/image/table_colspan_attr.jpg" />
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="KKgVjwr" src="https://codepen.io/HoseinGhanbari/embed/KKgVjwr?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/KKgVjwr'>KKgVjwr</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 - <img class="img-fluid" src="./assets/image/table_colspan_rowspan_attr.jpg" />
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="eYdJwZq" src="https://codepen.io/HoseinGhanbari/embed/eYdJwZq?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdJwZq'>eYdJwZq</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Summary
 
