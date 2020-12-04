@@ -93,6 +93,18 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
+- ```css
+  box-sizing: content-box;
+  ```
+
+  - بردر و پدینگ در مجموع طول و عرض لحاظ نمی شود
+
+- ```css
+  box-sizing: border-box;
+  ```
+
+  - بردر و پدینگ در مجموع طول و عرض لحاظ می شود
+
 ### Pseudo Classes & Pseudo Elements
 
 - <img class="img-fluid" src="./assets/image/css_pseudo.jpg" />
@@ -117,6 +129,21 @@
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
+
+- ```css
+  a:link
+  ```
+  - قبل از اینکه کاربر وارد لینک شود
+
+- ```css
+  a:hover
+  ```
+  - وقتی کاربر موس اور می کند
+
+- ```css
+  a:active
+  ```
+  - وقتی کاربر پیوسته کلیک موس را نگه می دارد
 
 ### CSS Measurement Units
 
