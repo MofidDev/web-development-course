@@ -1751,3 +1751,4 @@
 - https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
 - https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
 - https://softwareengineering.stackexchange.com/questions/114156/why-are-there-are-no-put-and-delete-methods-on-html-forms
+- https://developer.mozilla.org/en-US/docs/Glossary
