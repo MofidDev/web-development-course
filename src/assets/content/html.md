@@ -1692,6 +1692,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="NWRxZgE" src="https://codepen.io/HoseinGhanbari/embed/NWRxZgE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxZgE'>NWRxZgE</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 - ```html
   <select name="Toppings" multiple size="4">
     <option label="Mushrooms?" value="Mushrooms" />
@@ -1700,6 +1705,11 @@
   </select>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="rNMxEza" src="https://codepen.io/HoseinGhanbari/embed/rNMxEza?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/rNMxEza'>rNMxEza</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 - ```html
   <p>
     Number of utensils:
@@ -1707,13 +1717,25 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="JjRGQyR" src="https://codepen.io/HoseinGhanbari/embed/JjRGQyR?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/JjRGQyR'>JjRGQyR</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 - ```html
   <p>
     Select file(s) to upload:
+    <br />
     <input type="file" name="music" accept="audio/*" />
+    <br />
     <input type="file" name="pictures" multiple accept=".jpg, .png" />
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="PoGZrKe" src="https://codepen.io/HoseinGhanbari/embed/PoGZrKe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZrKe'>PoGZrKe</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 - ```html
   <datalist id="SurveyStops">
