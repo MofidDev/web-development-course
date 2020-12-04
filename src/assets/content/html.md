@@ -1693,9 +1693,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="NWRxZgE" src="https://codepen.io/HoseinGhanbari/embed/NWRxZgE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxZgE'>NWRxZgE</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxZgE'>NWRxZgE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <select name="Toppings" multiple size="4">
@@ -1706,9 +1706,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="rNMxEza" src="https://codepen.io/HoseinGhanbari/embed/rNMxEza?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/rNMxEza'>rNMxEza</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/rNMxEza'>rNMxEza</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <p>
@@ -1718,9 +1718,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="JjRGQyR" src="https://codepen.io/HoseinGhanbari/embed/JjRGQyR?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/JjRGQyR'>JjRGQyR</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/JjRGQyR'>JjRGQyR</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <p>
@@ -1733,9 +1733,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="PoGZrKe" src="https://codepen.io/HoseinGhanbari/embed/PoGZrKe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZrKe'>PoGZrKe</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZrKe'>PoGZrKe</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <datalist id="SurveyStops">
@@ -1759,9 +1759,19 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="zYKrVpr" src="https://codepen.io/HoseinGhanbari/embed/zYKrVpr?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/zYKrVpr'>zYKrVpr</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 - ```html
   <input id="prodId" name="prodId" type="hidden" value="xm234jq" />
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="RwGrzxx" src="https://codepen.io/HoseinGhanbari/embed/RwGrzxx?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/RwGrzxx'>RwGrzxx</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <p>
@@ -1773,6 +1783,7 @@
       max="2016-08-11"
       placeholder="mm/dd/yy"
     />
+    <br />
     Date/Time:
     <input
       type="datetime-local"
@@ -1780,6 +1791,7 @@
       step="30"
       placeholder="mm/dd/yy hh:mm:ss AM"
     />
+    <br />
     Time:
     <input
       type="time"
@@ -1789,6 +1801,7 @@
       step="15"
       placeholder="hh:mm:ss AM"
     />
+    <br />
     Month:
     <input
       type="month"
@@ -1797,6 +1810,7 @@
       max="2017-12-31"
       placeholder="yyyy-mm"
     />
+    <br />
     Week:
     <input
       type="week"
@@ -1808,21 +1822,10 @@
   </p>
   ```
 
-- ```html
-  <p>
-    Deliver to: <br />
-    <label>
-      Address:
-      <input type="text" size="30" name="Address" />
-    </label>
-    <label>
-      ZipCode:
-      <input type="text" maxlength="5" size="5" name="Zip" />
-    </label>
-    <label for="telephone">Phone #:</label>
-    <input type="tel" id="telephone" name="Phone" />
-  </p>
-  ```
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEgXpX" src="https://codepen.io/HoseinGhanbari/embed/poEgXpX?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEgXpX'>poEgXpX</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <p>
@@ -1832,6 +1835,11 @@
     </label>
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="bGwEPLO" src="https://codepen.io/HoseinGhanbari/embed/bGwEPLO?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/bGwEPLO'>bGwEPLO</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <p>
@@ -1851,6 +1859,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="eYdJwMN" src="https://codepen.io/HoseinGhanbari/embed/eYdJwMN?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdJwMN'>eYdJwMN</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 - ```html
   <p>
     Progress example:
@@ -1860,10 +1873,20 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLqRp" src="https://codepen.io/HoseinGhanbari/embed/vYXLqRp?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLqRp'>vYXLqRp</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 - ```html
   <!--<input type="submit" value="Submit" />-->
   <button type="submit">Submit</button>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="NWRxZYo" src="https://codepen.io/HoseinGhanbari/embed/NWRxZYo?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxZYo'>NWRxZYo</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 - ```html
   <fieldset>
@@ -1879,6 +1902,11 @@
     <input type="radio" name="Crust" value="DeepDish" />Deep Dish
   </fieldset>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="zYKrVjq" src="https://codepen.io/HoseinGhanbari/embed/zYKrVjq?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/zYKrVjq'>zYKrVjq</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Summary
 
