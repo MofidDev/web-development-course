@@ -224,15 +224,15 @@
     https://httpbin.org/cookies/delete?family=ghanbari Cookie:name=hosein;family=ghanbari
     ```
 
-## مشاهده کوکی‌های فعال در یک صفحه وب
+## افزونه مشاهده کوکی‌های فعال در یک صفحه وب
 
 - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
 
-## مشاهده تکنولوژی‌های یک صفحه وب
+## افزونه مشاهده تکنولوژی‌های یک صفحه وب
 
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
 
-## مشاهده بهتر فایل‌های json
+## افزونه مشاهده بهتر فایل‌های json
 
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 

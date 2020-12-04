@@ -79,7 +79,7 @@
 
 - Keep in mind that whitespace characters such as tabs, carriage returns, and extra spaces are ignored by the browser. You can left-align all of the text and the rendered HTML will be identical. You could even put the entire document on a single line if you really wanted to. But the general convention and best practice is to format the HTML like it is shown here.
 
-- HTML tags are case insensitive. The general convention is to use all lowercase tags and I’ll be doing that throughout this book. But you could use <HEAD> or <Head> and it would be just as valid.
+- HTML tags are case insensitive. The general convention is to use all lowercase tags and I’ll be doing that throughout this book. But you could use `<HEAD>` or `<Head>` and it would be just as valid.
 
 ## Html Element
 
@@ -93,7 +93,9 @@
 
 - There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
 
-### Title Element
+### Head Related Elements
+
+#### Title Element
 
 - ```html
   <title>Sample Document</title>
@@ -107,7 +109,7 @@
 
 - Although somewhat obvious, you can only have one title element in your document. If you choose to ignore this rule, the browser will usually display the first title element and ignore the rest.
 
-### Meta Element
+#### Meta Element
 
 - The meta element is an abbreviation for metadata, which is data that describes other data. In this case, the meta element describes the contents of the HTML document. The head element can include any number of meta elements, each providing a single data point using the name/value pair construct
 
@@ -132,7 +134,7 @@
 
 - There are a lot of other meta names that you can use.
 
-### Script Element
+#### Script Element
 
 - The script element is used to load JavaScript in your page. In order to use a function, you must either define it or load an external script file that contains the function. Either can be done in the script element.
 
@@ -163,7 +165,7 @@
 
 - You should use the defer attribute if the script has code that references any of the HTML elements. If it executes before the document is parsed, the script might fail because the elements are not yet available.
 
-### Link Element
+#### Link Element
 
 - The link element is used to reference additional external resources, which can be grouped into two categories. First, links are used to load resources that are used to render the source document – the most common of these being cascading style sheets. The second category is links to other related documents. The reader may choose to navigate to these documents but they are not needed to render the current page.
 
@@ -177,7 +179,7 @@
 
 - The link element can be used to reference many different types of resources for a lot of different reasons. Unfortunately, the term relationship does not always convey the best meaning of this attribute. For some of the most common values such as stylesheet and icon, this may be better interpreted as the type of resource rather than a relationship. For some, such as first, next, and alternate, relationship is indeed the proper term to use. However, for the sake of consistency, the rel attribute is used for all linked resources.
 
-### Style Element
+#### Style Element
 
 - The specific style attributes of an element such as color or size can be specified explicitly on the element, which is referred to as inline styles. The more common, and preferred, method however, is to define a set of rules that are used to determine the specific style attributes that are applied to the entire document.
 
@@ -205,7 +207,7 @@
 
 - However, media queries have been enhanced significantly giving you the ability to adjust the styles based on many different factors. One of the more common uses of this is in creating a responsive design where the format and layout of the page automatically adjusts depending on the screen resolution.
 
-### Base Element
+#### Base Element
 
 - The base element is used to define the base URL that should be used for all other references in the document. This allows you to use relative URLs everywhere else. This saves a bit of typing but also makes it easy if you need to change the base address. The base element supports two specific attributes: href, which defines the base URL; and target, which specifies the default behavior when a link is selected.
 
@@ -224,6 +226,15 @@
   - \_top - opens in the topmost frame
 
 - The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
+
+### Examples
+
+- <iframe src="https://codesandbox.io/embed/html5-head-related-tags-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## Body Element
 
@@ -654,6 +665,22 @@
 
 - By using these elements, you provide semantic details about your content, which will make it easier to apply consistent styling rules. Even without any custom CSS, the document begins to take “shape” as the default styling renders the content consistently with the semantic purposes of each element.
 
+#### Examples
+
+- <iframe src="https://codesandbox.io/embed/html5-example-2-hh3x1?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+- <iframe src="https://codesandbox.io/embed/html5-example-3-63j3v?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 3"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ### Phrasing HTML Elements
 
 - In this chapter I’ll demonstrate the HTML elements that are used to mark up the actual text content. When creating your content, these should also be chosen for semantic reasons.
@@ -665,12 +692,21 @@
     <strong>Warning!</strong> Be sure to <strong>extinguish</strong> all fires!
   </strong>
   ```
+- <iframe height="265" style="width: 100%;" scrolling="no" title="VwKeRbW" src="https://codepen.io/HoseinGhanbari/embed/VwKeRbW?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/VwKeRbW'>VwKeRbW</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Emphasis (em)
 
 - ```html
   <p>Get out of bed <em>now</em>!</p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="abmdMyZ" src="https://codepen.io/HoseinGhanbari/embed/abmdMyZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmdMyZ'>abmdMyZ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Relevance (mark)
 
@@ -690,19 +726,21 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="BaLjbdO" src="https://codepen.io/HoseinGhanbari/embed/BaLjbdO?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/BaLjbdO'>BaLjbdO</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Alternative Voice (i)
 
 - ```html
   <p>I looked at it and thought <i>This can't be real!</i></p>
   ```
 
-- ```html
-  <p>
-    Class, pay attention!
-    <i>I wonder if they're even listening to me.</i> Who's ready for tomorrow's
-    exam?
-  </p>
-  ```
+- <iframe height="265" style="width: 100%;" scrolling="no" title="xxEZBXE" src="https://codepen.io/HoseinGhanbari/embed/xxEZBXE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/xxEZBXE'>xxEZBXE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Small (small)
 
@@ -722,11 +760,12 @@
   </p>
   ```
 
-#### Strikethrough (s)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="PoGZLJa" src="https://codepen.io/HoseinGhanbari/embed/PoGZLJa?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZLJa'>PoGZLJa</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <p>For a limited time only <s>$9.95</s> $7.99 will get you a...</p>
-  ```
+#### Strikethrough (s)
 
 - ```html
   <p><s>There will be a few tickets available at the box office tonight.</s></p>
@@ -734,14 +773,12 @@
   <p>SOLD OUT!</p>
   ```
 
-#### Stylistically Offset (b)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLPpp" src="https://codepen.io/HoseinGhanbari/embed/vYXLPpp?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLPpp'>vYXLPpp</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <p>
-    The text highlighting elements include <b class="keyword">importance</b>,
-    <b class="keyword">emphasis</b>, and <b class="keyword">alternate voice</b>.
-  </p>
-  ```
+#### Stylistically Offset (b)
 
 - ```html
   <p>
@@ -752,6 +789,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="MWjKxqw" src="https://codepen.io/HoseinGhanbari/embed/MWjKxqw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjKxqw'>MWjKxqw</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Unarticulated (u)
 
 - ```html
@@ -761,11 +803,12 @@
   </p>
   ```
 
-#### Computer Code (code)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLPzR" src="https://codepen.io/HoseinGhanbari/embed/vYXLPzR?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLPzR'>vYXLPzR</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <code class="language-javascript">Item.prototype.isAvailable = true;</code>.
-  ```
+#### Computer Code (code)
 
 - ```html
   <pre>
@@ -777,6 +820,11 @@
   </pre>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="JjRGzmN" src="https://codepen.io/HoseinGhanbari/embed/JjRGzmN?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/JjRGzmN'>JjRGzmN</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Computer Input (kbd)
 
 - ```html
@@ -785,6 +833,11 @@
     an MDN page.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="OJRMqBa" src="https://codepen.io/HoseinGhanbari/embed/OJRMqBa?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRMqBa'>OJRMqBa</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Computer Output (samp)
 
@@ -795,6 +848,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEgYQo" src="https://codepen.io/HoseinGhanbari/embed/poEgYQo?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEgYQo'>poEgYQo</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Variable (var)
 
 - ```html
@@ -803,6 +861,11 @@
     <var>l</var> * <var>w</var>.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="dypGrQZ" src="https://codepen.io/HoseinGhanbari/embed/dypGrQZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/dypGrQZ'>dypGrQZ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Abbreviations (abbr)
 
@@ -813,14 +876,12 @@
   </p>
   ```
 
-#### Definition (dfn)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="WNGrmYB" src="https://codepen.io/HoseinGhanbari/embed/WNGrmYB?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/WNGrmYB'>WNGrmYB</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <p>
-    <dfn>HTML</dfn> is a standardized way of adding semantic information to
-    support rich formatting of content.
-  </p>
-  ```
+#### Definition (dfn)
 
 - ```html
   <p>
@@ -833,17 +894,32 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="GRjoeeX" src="https://codepen.io/HoseinGhanbari/embed/GRjoeeX?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/GRjoeeX'>GRjoeeX</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Subscript (sub)
 
 - ```html
   <p>H<sub>2</sub>O is the chemical formula for water.<br /></p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEgYBv" src="https://codepen.io/HoseinGhanbari/embed/poEgYBv?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEgYBv'>poEgYBv</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Superscript (sup)
 
 - ```html
   <p>e=mc<sup>2</sup> is the formula for mass-energy equivalence.</p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="eYdJXaz" src="https://codepen.io/HoseinGhanbari/embed/eYdJXaz?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdJXaz'>eYdJXaz</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Time (time)
 
@@ -853,6 +929,11 @@
     <time datetime="2016-06-28">Tuesday</time>.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="GRjoeaY" src="https://codepen.io/HoseinGhanbari/embed/GRjoeaY?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/GRjoeaY'>GRjoeaY</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Edits (del) (ins)
 
@@ -865,6 +946,11 @@
     <p>“A wizard is never late …”</p>
   </ins>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="eYdJXwz" src="https://codepen.io/HoseinGhanbari/embed/eYdJXwz?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdJXwz'>eYdJXwz</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Quoting Block (blockquote)
 
@@ -897,11 +983,12 @@
   </blockquote>
   ```
 
-#### Inline Quote (q)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="bGwEZPy" src="https://codepen.io/HoseinGhanbari/embed/bGwEZPy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/bGwEZPy'>bGwEZPy</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <p>As Abraham Lincoln once said, <q>Whatever you are, be a good one</q>.</p>
-  ```
+#### Inline Quote (q)
 
 - ```html
   <p>
@@ -911,6 +998,11 @@
     </q>
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="BaLjbXE" src="https://codepen.io/HoseinGhanbari/embed/BaLjbXE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/BaLjbXE'>BaLjbXE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Citation (cite)
 
@@ -931,6 +1023,11 @@
   </blockquote>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="ExgPJYm" src="https://codepen.io/HoseinGhanbari/embed/ExgPJYm?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgPJYm'>ExgPJYm</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Span (span)
 
 - ```html
@@ -939,6 +1036,11 @@
     <span class="blue">blue</span>, and <span class="yellow">yellow</span>.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="OJRMGLq" src="https://codepen.io/HoseinGhanbari/embed/OJRMGLq?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRMGLq'>OJRMGLq</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Line Break (br)
 
@@ -952,6 +1054,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="abmdxbw" src="https://codepen.io/HoseinGhanbari/embed/abmdxbw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmdxbw'>abmdxbw</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Word Break Opportunity (wbr)
 
 - ```html
@@ -961,6 +1068,11 @@
     Super<wbr />cali<wbr />fragilistic<wbr />expiali<wbr />docious
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="NWRxmWQ" src="https://codepen.io/HoseinGhanbari/embed/NWRxmWQ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxmWQ'>NWRxmWQ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Soft Hyphen (shy)
 
@@ -974,19 +1086,27 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="MWjKRYe" src="https://codepen.io/HoseinGhanbari/embed/MWjKRYe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjKRYe'>MWjKRYe</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Bidirectional Isolation (bdi)
 
 - ```html
   <h1>World wrestling championships</h1>
 
   <ul>
-    <li><bdi class="name">Evil Steven</bdi>: 1st place</li>
-    <li><bdi class="name">François fatale</bdi>: 2nd place</li>
-    <li><span class="name">تیز سمی</span>: 3rd place</li>
-    <li><bdi class="name">الرجل القوي إيان</bdi>: 4th place</li>
-    <li><span class="name" dir="auto">تیز سمی</span>: 5th place</li>
+    <li>User <bdi>Evil Steven</bdi>: 60 points</li>
+    <li>User <bdi>François fatale</bdi>: 80 points</li>
+    <li>User <bdi>إيان</bdi>: 90 points</li>
   </ul>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="yLaeWZQ" src="https://codepen.io/HoseinGhanbari/embed/yLaeWZQ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/yLaeWZQ'>yLaeWZQ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Bidirectional Overriding (bdo)
 
@@ -997,13 +1117,17 @@
 
 - In all other elements, the dir attribute defines the flow direction of its child elements. The bdo element is a special case; when the dir attribute is used in the bdo element it affects the text direction.
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLwMy" src="https://codepen.io/HoseinGhanbari/embed/vYXLwMy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLwMy'>vYXLwMy</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Ruby Annotation (ruby)
 
 - ```html
-  <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
-  ```
-
-- ```html
+  <p>
+    <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+  </p>
   <p>
     <ruby>$<rp>(</rp><rt>Dollar</rt><rt>USD</rt><rp>)</rp></ruby>
     <br />
@@ -1015,6 +1139,11 @@
     <br />
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="zYKrQXg" src="https://codepen.io/HoseinGhanbari/embed/zYKrQXg?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/zYKrQXg'>zYKrQXg</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Summary
 
@@ -1715,6 +1844,8 @@
 
 - In this chapter I explained the capabilities that are provided by most major browsers. There are a few that have somewhat limited support, as of this writing, which I have pointed out. You should be able to use everything I have demonstrated with confidence that most of your users will have a good experience. Check with sites such as html5test.com, to see the latest browser support, as new capabilities are released periodically.
 
+## Examples
+
 ## For further reading
 
 - https://html.spec.whatwg.org/multipage/syntax.html
@@ -1733,3 +1864,4 @@
 - https://matthews.sites.wfu.edu/misc/graphics/formats/formats.html
 - https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element
 - https://softwareengineering.stackexchange.com/questions/114156/why-are-there-are-no-put-and-delete-methods-on-html-forms
+- https://developer.mozilla.org/en-US/docs/Glossary
