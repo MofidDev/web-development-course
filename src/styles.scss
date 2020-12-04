@@ -37,6 +37,13 @@ a:hover {
   text-decoration: none;
 }
 
+.mark,
+mark {
+  background-color: #ffee97;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
 // bootstrap
 
 .card h6.card-title {

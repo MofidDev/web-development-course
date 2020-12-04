@@ -1,6 +1,6 @@
 ## Hypertext Markup Language
 
-- html layer: the actual content that will be rendered in a web page
+- html layer: <mark>the actual content</mark> that will be rendered in a web page
 
 - Recall your earlier school days when your teacher returned your homework with red marks on it. Misspelled words, bad grammar, or other such mistakes would be circled or highlighted. You might call that a marked-up document.
 
