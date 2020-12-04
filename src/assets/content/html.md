@@ -667,12 +667,21 @@
     <strong>Warning!</strong> Be sure to <strong>extinguish</strong> all fires!
   </strong>
   ```
+- <iframe height="265" style="width: 100%;" scrolling="no" title="VwKeRbW" src="https://codepen.io/HoseinGhanbari/embed/VwKeRbW?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/VwKeRbW'>VwKeRbW</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Emphasis (em)
 
 - ```html
   <p>Get out of bed <em>now</em>!</p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="abmdMyZ" src="https://codepen.io/HoseinGhanbari/embed/abmdMyZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmdMyZ'>abmdMyZ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Relevance (mark)
 
@@ -692,19 +701,21 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="BaLjbdO" src="https://codepen.io/HoseinGhanbari/embed/BaLjbdO?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/BaLjbdO'>BaLjbdO</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Alternative Voice (i)
 
 - ```html
   <p>I looked at it and thought <i>This can't be real!</i></p>
   ```
 
-- ```html
-  <p>
-    Class, pay attention!
-    <i>I wonder if they're even listening to me.</i> Who's ready for tomorrow's
-    exam?
-  </p>
-  ```
+- <iframe height="265" style="width: 100%;" scrolling="no" title="xxEZBXE" src="https://codepen.io/HoseinGhanbari/embed/xxEZBXE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/xxEZBXE'>xxEZBXE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Small (small)
 
@@ -724,17 +735,23 @@
   </p>
   ```
 
-#### Strikethrough (s)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="PoGZLJa" src="https://codepen.io/HoseinGhanbari/embed/PoGZLJa?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZLJa'>PoGZLJa</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-- ```html
-  <p>For a limited time only <s>$9.95</s> $7.99 will get you a...</p>
-  ```
+#### Strikethrough (s)
 
 - ```html
   <p><s>There will be a few tickets available at the box office tonight.</s></p>
 
   <p>SOLD OUT!</p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLPpp" src="https://codepen.io/HoseinGhanbari/embed/vYXLPpp?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLPpp'>vYXLPpp</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Stylistically Offset (b)
 
