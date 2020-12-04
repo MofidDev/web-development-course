@@ -93,7 +93,9 @@
 
 - There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
 
-### Title Element
+### Head Related Tags
+
+#### Title Element
 
 - ```html
   <title>Sample Document</title>
@@ -107,7 +109,7 @@
 
 - Although somewhat obvious, you can only have one title element in your document. If you choose to ignore this rule, the browser will usually display the first title element and ignore the rest.
 
-### Meta Element
+#### Meta Element
 
 - The meta element is an abbreviation for metadata, which is data that describes other data. In this case, the meta element describes the contents of the HTML document. The head element can include any number of meta elements, each providing a single data point using the name/value pair construct
 
@@ -132,7 +134,7 @@
 
 - There are a lot of other meta names that you can use.
 
-### Script Element
+#### Script Element
 
 - The script element is used to load JavaScript in your page. In order to use a function, you must either define it or load an external script file that contains the function. Either can be done in the script element.
 
@@ -163,7 +165,7 @@
 
 - You should use the defer attribute if the script has code that references any of the HTML elements. If it executes before the document is parsed, the script might fail because the elements are not yet available.
 
-### Link Element
+#### Link Element
 
 - The link element is used to reference additional external resources, which can be grouped into two categories. First, links are used to load resources that are used to render the source document – the most common of these being cascading style sheets. The second category is links to other related documents. The reader may choose to navigate to these documents but they are not needed to render the current page.
 
@@ -177,7 +179,7 @@
 
 - The link element can be used to reference many different types of resources for a lot of different reasons. Unfortunately, the term relationship does not always convey the best meaning of this attribute. For some of the most common values such as stylesheet and icon, this may be better interpreted as the type of resource rather than a relationship. For some, such as first, next, and alternate, relationship is indeed the proper term to use. However, for the sake of consistency, the rel attribute is used for all linked resources.
 
-### Style Element
+#### Style Element
 
 - The specific style attributes of an element such as color or size can be specified explicitly on the element, which is referred to as inline styles. The more common, and preferred, method however, is to define a set of rules that are used to determine the specific style attributes that are applied to the entire document.
 
@@ -205,7 +207,7 @@
 
 - However, media queries have been enhanced significantly giving you the ability to adjust the styles based on many different factors. One of the more common uses of this is in creating a responsive design where the format and layout of the page automatically adjusts depending on the screen resolution.
 
-### Base Element
+#### Base Element
 
 - The base element is used to define the base URL that should be used for all other references in the document. This allows you to use relative URLs everywhere else. This saves a bit of typing but also makes it easy if you need to change the base address. The base element supports two specific attributes: href, which defines the base URL; and target, which specifies the default behavior when a link is selected.
 
@@ -224,6 +226,15 @@
   - \_top - opens in the topmost frame
 
 - The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
+
+### Examples
+
+- <iframe src="https://codesandbox.io/embed/html5-head-related-tags-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Head Related Tags"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## Body Element
 
@@ -1714,15 +1725,6 @@
 - In this chapter I explained how forms are submitted and the input element that is used to collect this information. The same input element is used for almost every type of information. The type attribute is used to indicate the specific data input and validation that should be used.
 
 - In this chapter I explained the capabilities that are provided by most major browsers. There are a few that have somewhat limited support, as of this writing, which I have pointed out. You should be able to use everything I have demonstrated with confidence that most of your users will have a good experience. Check with sites such as html5test.com, to see the latest browser support, as new capabilities are released periodically.
-
-## Examples
-
-- <iframe src="https://codesandbox.io/embed/html5-example-1-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="HTML5 Example 1"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
 
 ## For further reading
 
