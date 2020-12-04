@@ -1176,6 +1176,11 @@
   </table>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="QWKyRXB" src="https://codepen.io/HoseinGhanbari/embed/QWKyRXB?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/QWKyRXB'>QWKyRXB</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Column and Row Headings
 
 - ```html
@@ -1211,43 +1216,12 @@
   </table>
   ```
 
-#### Column Groups
+- <iframe height="265" style="width: 100%;" scrolling="no" title="GRjoaVE" src="https://codepen.io/HoseinGhanbari/embed/GRjoaVE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/GRjoaVE'>GRjoaVE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <table>
-    <caption>
-      Squares and Cubes
-    </caption>
-    <colgroup span="1"></colgroup>
-    <colgroup span="1"></colgroup>
-    <colgroup span="2" style="background-color: #b6ff00"></colgroup>
-    <tr>
-      <td></td>
-      <!-- empty cell -->
-      <th scope="col">Number</th>
-      <th scope="col">Squared</th>
-      <th scope="col">Cubed</th>
-    </tr>
-    <tr>
-      <th scope="row">Two</th>
-      <td>2</td>
-      <td>4</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th scope="row">Three</th>
-      <td>3</td>
-      <td>9</td>
-      <td>27</td>
-    </tr>
-    <tr>
-      <th scope="row">Four</th>
-      <td>4</td>
-      <td>16</td>
-      <td>64</td>
-    </tr>
-  </table>
-  ```
+#### Column Groups
 
 - ```html
   <table>
@@ -1288,6 +1262,11 @@
     </tr>
   </table>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="ExgPBxx" src="https://codepen.io/HoseinGhanbari/embed/ExgPBxx?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgPBxx'>ExgPBxx</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Table Heading and Footer
 
