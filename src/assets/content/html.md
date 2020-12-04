@@ -736,9 +736,9 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="PoGZLJa" src="https://codepen.io/HoseinGhanbari/embed/PoGZLJa?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZLJa'>PoGZLJa</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGZLJa'>PoGZLJa</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Strikethrough (s)
 
@@ -749,18 +749,11 @@
   ```
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLPpp" src="https://codepen.io/HoseinGhanbari/embed/vYXLPpp?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLPpp'>vYXLPpp</a> by HoseinGhanbari
-  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLPpp'>vYXLPpp</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Stylistically Offset (b)
-
-- ```html
-  <p>
-    The text highlighting elements include <b class="keyword">importance</b>,
-    <b class="keyword">emphasis</b>, and <b class="keyword">alternate voice</b>.
-  </p>
-  ```
 
 - ```html
   <p>
@@ -771,6 +764,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="MWjKxqw" src="https://codepen.io/HoseinGhanbari/embed/MWjKxqw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjKxqw'>MWjKxqw</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Unarticulated (u)
 
 - ```html
@@ -780,11 +778,12 @@
   </p>
   ```
 
-#### Computer Code (code)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXLPzR" src="https://codepen.io/HoseinGhanbari/embed/vYXLPzR?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXLPzR'>vYXLPzR</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
-- ```html
-  <code class="language-javascript">Item.prototype.isAvailable = true;</code>.
-  ```
+#### Computer Code (code)
 
 - ```html
   <pre>
@@ -796,6 +795,11 @@
   </pre>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="JjRGzmN" src="https://codepen.io/HoseinGhanbari/embed/JjRGzmN?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/JjRGzmN'>JjRGzmN</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Computer Input (kbd)
 
 - ```html
@@ -804,6 +808,11 @@
     an MDN page.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="OJRMqBa" src="https://codepen.io/HoseinGhanbari/embed/OJRMqBa?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRMqBa'>OJRMqBa</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Computer Output (samp)
 
@@ -814,6 +823,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEgYQo" src="https://codepen.io/HoseinGhanbari/embed/poEgYQo?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEgYQo'>poEgYQo</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 #### Variable (var)
 
 - ```html
@@ -822,6 +836,11 @@
     <var>l</var> * <var>w</var>.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="dypGrQZ" src="https://codepen.io/HoseinGhanbari/embed/dypGrQZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/dypGrQZ'>dypGrQZ</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Abbreviations (abbr)
 
