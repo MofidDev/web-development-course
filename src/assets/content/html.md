@@ -93,15 +93,6 @@
 
 - There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
 
-### Head Related Examples
-
-- <iframe src="https://codesandbox.io/embed/html5-head-related-tags-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="HTML5 Example 1"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
-
 ### Head Related Elements
 
 #### Title Element
@@ -236,6 +227,15 @@
 
 - The frameset and frame elements are not supported in HTML5 so the \_parent and \_top values are not applicable unless you are using an iframe.
 
+### Head Element Examples
+
+- <iframe src="https://codesandbox.io/embed/html5-head-related-tags-2bpnh?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ## Body Element
 
 - HTML5 is all about semantics.The choice of which element to use is an important one.It conveys the meaning or purpose of the content.
@@ -247,22 +247,6 @@
   - **Form** elements, including input, button, label, and other elements used to create data entry forms.
 
 ### Structural HTML Elements
-
-#### Structural HTML Elements Examples
-
-- <iframe src="https://codesandbox.io/embed/html5-example-2-hh3x1?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="HTML5 Example 2"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
-
-- <iframe src="https://codesandbox.io/embed/html5-example-3-63j3v?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="HTML5 Example 3"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
 
 #### Sectioning Content
 
@@ -681,6 +665,23 @@
 
 - By using these elements, you provide semantic details about your content, which will make it easier to apply consistent styling rules. Even without any custom CSS, the document begins to take “shape” as the default styling renders the content consistently with the semantic purposes of each element.
 
+#### Structural HTML Elements Examples
+
+- <iframe src="https://codesandbox.io/embed/html5-example-2-hh3x1?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+- <iframe src="https://codesandbox.io/embed/html5-example-3-63j3v?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="HTML5 Example 3"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+
 ### Phrasing HTML Elements
 
 - In this chapter I’ll demonstrate the HTML elements that are used to mark up the actual text content. When creating your content, these should also be chosen for semantic reasons.
@@ -930,6 +931,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="GRjoeaY" src="https://codepen.io/HoseinGhanbari/embed/GRjoeaY?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/GRjoeaY'>GRjoeaY</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 #### Edits (del) (ins)
 
 - ```html
@@ -941,6 +947,11 @@
     <p>“A wizard is never late …”</p>
   </ins>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="eYdJXwz" src="https://codepen.io/HoseinGhanbari/embed/eYdJXwz?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdJXwz'>eYdJXwz</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 
 #### Quoting Block (blockquote)
 
@@ -973,11 +984,12 @@
   </blockquote>
   ```
 
-#### Inline Quote (q)
+- <iframe height="265" style="width: 100%;" scrolling="no" title="bGwEZPy" src="https://codepen.io/HoseinGhanbari/embed/bGwEZPy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/bGwEZPy'>bGwEZPy</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-- ```html
-  <p>As Abraham Lincoln once said, <q>Whatever you are, be a good one</q>.</p>
-  ```
+#### Inline Quote (q)
 
 - ```html
   <p>
@@ -987,6 +999,11 @@
     </q>
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="BaLjbXE" src="https://codepen.io/HoseinGhanbari/embed/BaLjbXE?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/BaLjbXE'>BaLjbXE</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Citation (cite)
 
@@ -1007,6 +1024,11 @@
   </blockquote>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="ExgPJYm" src="https://codepen.io/HoseinGhanbari/embed/ExgPJYm?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgPJYm'>ExgPJYm</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 #### Span (span)
 
 - ```html
@@ -1015,6 +1037,11 @@
     <span class="blue">blue</span>, and <span class="yellow">yellow</span>.
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="OJRMGLq" src="https://codepen.io/HoseinGhanbari/embed/OJRMGLq?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRMGLq'>OJRMGLq</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Line Break (br)
 
@@ -1028,6 +1055,11 @@
   </p>
   ```
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="abmdxbw" src="https://codepen.io/HoseinGhanbari/embed/abmdxbw?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmdxbw'>abmdxbw</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 #### Word Break Opportunity (wbr)
 
 - ```html
@@ -1037,6 +1069,11 @@
     Super<wbr />cali<wbr />fragilistic<wbr />expiali<wbr />docious
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="NWRxmWQ" src="https://codepen.io/HoseinGhanbari/embed/NWRxmWQ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRxmWQ'>NWRxmWQ</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Soft Hyphen (shy)
 
@@ -1049,6 +1086,11 @@
     Super&shy;cali&shy;fragilistic&shy;expiali&shy;docious
   </p>
   ```
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="MWjKRYe" src="https://codepen.io/HoseinGhanbari/embed/MWjKRYe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjKRYe'>MWjKRYe</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 #### Bidirectional Isolation (bdi)
 
