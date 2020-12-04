@@ -1,6 +1,6 @@
 ## Hypertext Markup Language
 
-- html layer: <mark>the actual content</mark> that will be rendered in a web page
+- html layer: the actual content that will be rendered in a web page
 
 - Recall your earlier school days when your teacher returned your homework with red marks on it. Misspelled words, bad grammar, or other such mistakes would be circled or highlighted. You might call that a marked-up document.
 
@@ -10,7 +10,7 @@
 
 ### HTML Document
 
-- <mark>HTML is generally produced and consumed as a document.</mark> We may talk about snippets of HTML but in most cases, a web site will respond to a request with a complete HTML document, which is then parsed by the client and rendered on a device.
+- HTML is generally produced and consumed as a document. We may talk about snippets of HTML but in most cases, a web site will respond to a request with a complete HTML document, which is then parsed by the client and rendered on a device.
 
 - ```html
   <!DOCTYPE html>
@@ -29,7 +29,7 @@
 
 - The document is comprised of several HTML elements that are nested in a hierarchical fashion
 
-- Like other markup languages, <mark>tags are used to annotate content with useful information</mark>
+- Like other markup languages, tags are used to annotate content with useful information
 
 - ```html
   <tag attribute="value" ...> content </tag>
@@ -47,7 +47,7 @@
 
 - As the HTML specifications evolved and matured, new browsers developed against the updated specifications would not work with the older web pages.
 
-- <mark>The DOCTYPE element was introduced so each page could specify the version of the specification that it was written against.</mark> The browser would need to interpret this and provide the necessary backward compatibility.
+- The DOCTYPE element was introduced so each page could specify the version of the specification that it was written against. The browser would need to interpret this and provide the necessary backward compatibility.
 
 - Fortunately, with HTML5 the DOCTYPE can be essentially ignored. Just set it to html:
 
@@ -57,33 +57,33 @@
 
 ### Attributes
 
-- <mark>An opening tag can include one or more attributes</mark> Attributes are used to provide details about an element.
+- An opening tag can include one or more attributes. Attributes are used to provide details about an element.
 
-- The html element, for example, contains `lang="en"`, which informs the browser that the content is written in English. The browser may use this to offer to translate the content if English is not the current language.
+- The html element, for example, contains lang="en", which informs the browser that the content is written in English. The browser may use this to offer to translate the content if English is not the current language.
 
-- There is a set of attributes called <mark>global attributes</mark> that can be used on any HTML element. The most common ones that you’ll use are `id`, `class` and `dir`. The id attribute defines a unique key for an element; it must be unique within the entire HTML document. This is often used when accessing an element in JavaScript. The class attribute is sometimes called the CSS class, because it is often used for applying styles to an element. Unlike id, the class attribute is a non-unique key; a single value is applied to elements that need to have identical formatting.
+- There is a set of attributes called global attributes that can be used on any HTML element. The most common ones that you’ll use are `id`, `class` and `dir`. The id attribute defines a unique key for an element; it must be unique within the entire HTML document. This is often used when accessing an element in JavaScript. The class attribute is sometimes called the CSS class, because it is often used for applying styles to an element. Unlike id, the class attribute is a non-unique key; a single value is applied to elements that need to have identical formatting.
 
-- <mark>In addition to the global attributes, each element type may support other attributes.</mark> Notice that the meta element includes a charset attribute:
+- In addition to the global attributes, each element type may support other attributes. Notice that the meta element includes a charset attribute:
 
 - ```html
   <meta charset="utf-8" />
   ```
 
-- The `charset` attribute specifies the type of character-set encoding that this page uses You should always define the character set; however, this is particularly important if your page needs to display nonstandard characters.
+- The charset attribute specifies the type of character-set encoding that this page uses You should always define the character set; however, this is particularly important if your page needs to display nonstandard characters.
 
-- There are some <mark>Boolean attributes</mark> that do not need a value; their existence indicates a true value and their absence means false. For example, a check box has a `checked` attribute if checked and this attribute is removed if not checked. You may see something like checked="checked", especially in dynamic HTML that is generated by server-side code. However, the browser will ignore the value and you only need to include the attribute; no value is needed.
+- There are some Boolean attributes that do not need a value; their existence indicates a true value and their absence means false. For example, a check box has a checked attribute if checked and this attribute is removed if not checked. You may see something like checked="checked", especially in dynamic HTML that is generated by server-side code. However, the browser will ignore the value and you only need to include the attribute; no value is needed.
 
 ### Miscellaneous Structure Rules
 
-- Notice that the meta element does not have a closing tag. There are a few elements that do not have to use a closing tag, which are referred to as <mark>self-closing tags</mark>. It may be somewhat obvious, but these elements cannot have any content since the content is placed between the opening and closing tags. The “/” character at the end of the tag is technically optional, but the general consensus is that it should be included and some HTML validators will flag this as a warning if it’s not there.
+- Notice that the meta element does not have a closing tag. There are a few elements that do not have to use a closing tag, which are referred to as self-closing tags. It may be somewhat obvious, but these elements cannot have any content since the content is placed between the opening and closing tags. The “/” character at the end of the tag is technically optional, but the general consensus is that it should be included and some HTML validators will flag this as a warning if it’s not there.
 
-- <mark>Keep in mind that whitespace characters such as tabs, carriage returns, and extra spaces are ignored by the browser.</mark> You can left-align all of the text and the rendered HTML will be identical. You could even put the entire document on a single line if you really wanted to. But the general convention and best practice is to format the HTML like it is shown here.
+- Keep in mind that whitespace characters such as tabs, carriage returns, and extra spaces are ignored by the browser. You can left-align all of the text and the rendered HTML will be identical. You could even put the entire document on a single line if you really wanted to. But the general convention and best practice is to format the HTML like it is shown here.
 
-- <mark>HTML tags are case insensitive.</mark> The general convention is to use all lowercase tags and I’ll be doing that throughout this book. But you could use `<HEAD>` or `<Head>` and it would be just as valid.
+- HTML tags are case insensitive. The general convention is to use all lowercase tags and I’ll be doing that throughout this book. But you could use `<HEAD>` or `<Head>` and it would be just as valid.
 
 ## Html Element
 
-- So, as you’ve already seen, <mark>the html element is the root node</mark>: the starting point of your document. There’s not much to say about it. The html element can contain one head element and one body element. In addition to the global attributes, it also supports the manifest attribute.
+- So, as you’ve already seen, the html element is the root node: the starting point of your document. There’s not much to say about it. The html element can contain one head element and one body element. In addition to the global attributes, it also supports the manifest attribute.
 
 - ```html
   <html dir="ltr" manifest="www.mywebsite.com/cache.appcache"></html>
@@ -91,7 +91,7 @@
 
 ## Head Element
 
-- <mark>There’s not any real content in the head element</mark>; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
+- There’s not any real content in the head element; that’s what the body element is for Now let’s look at the elements that can be included inside the head element. You’ve already seen the title and meta elements, which I’ll cover in a little more detail. There are a few other useful elements that belong here as well.
 
 ### Title Element
 
@@ -99,7 +99,7 @@
   <title>Sample Document</title>
   ```
 
-- The title element specifies <mark>the title of this page</mark>. This shows up in a couple of places:
+- The title element specifies the title of this page. This shows up in a couple of places:
 
   - In the browser title bar or tab
   - Search engines will usually include this in the search results
@@ -109,7 +109,7 @@
 
 ### Meta Element
 
-- The meta element is an abbreviation for metadata, which is data that describes other data. In this case, <mark>the meta element describes the contents of the HTML document</mark>. The head element can include any number of meta elements, each providing a single data point using the name/value pair construct
+- The meta element is an abbreviation for metadata, which is data that describes other data. In this case, the meta element describes the contents of the HTML document. The head element can include any number of meta elements, each providing a single data point using the name/value pair construct
 
 - ```html
   <meta name="author" content="Hosein Ghanbari" />
