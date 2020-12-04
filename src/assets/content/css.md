@@ -154,8 +154,6 @@
 
 ### CSS Overflow
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
-
 ### CSS Floats
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/float
@@ -226,5 +224,4 @@
 
 ## For further reading
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/position
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
