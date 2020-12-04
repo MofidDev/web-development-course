@@ -151,6 +151,7 @@
 - ```css
   a: active;
   ```
+
   - وقتی کاربر پیوسته کلیک موس را نگه می دارد
 
 ### CSS Measurement Units
