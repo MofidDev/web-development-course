@@ -1936,4 +1936,3 @@
 - https://softwareengineering.stackexchange.com/questions/114156/why-are-there-are-no-put-and-delete-methods-on-html-forms
 - https://developer.mozilla.org/en-US/docs/Glossary
 - http://validator.w3.org/
-- 
