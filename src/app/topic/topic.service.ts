@@ -49,12 +49,14 @@ export class TopicService {
       titlefa: 'JavaScript',
       path: 'javascript',
       file: 'js.md',
+      isltr: true,
     },
     {
       title: 'TypeScript',
       titlefa: 'TypeScript',
       path: 'typescript',
       file: 'ts.md',
+      isltr: true,
     },
     {
       title: 'Component',
