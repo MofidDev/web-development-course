@@ -78,6 +78,33 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
+### Loops
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="PoGGbPr" src="https://codepen.io/HoseinGhanbari/embed/PoGGbPr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/PoGGbPr'>PoGGbPr</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="abmmBNE" src="https://codepen.io/HoseinGhanbari/embed/abmmBNE?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/abmmBNE'>abmmBNE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEENbE" src="https://codepen.io/HoseinGhanbari/embed/poEENbE?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEENbE'>poEENbE</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="qBaaqNK" src="https://codepen.io/HoseinGhanbari/embed/qBaaqNK?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/qBaaqNK'>qBaaqNK</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="wvzzooB" src="https://codepen.io/HoseinGhanbari/embed/wvzzooB?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/wvzzooB'>wvzzooB</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 ## Case Study
 
 ### jquery library
