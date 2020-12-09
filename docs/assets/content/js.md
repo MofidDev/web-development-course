@@ -119,6 +119,34 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
+### Pop-up Boxes
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="MWjjELr" src="https://codepen.io/HoseinGhanbari/embed/MWjjELr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/MWjjELr'>MWjjELr</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+### Callbacks
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="NWRRamd" src="https://codepen.io/HoseinGhanbari/embed/NWRRamd?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRRamd'>NWRRamd</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+### OOP
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXXeqY" src="https://codepen.io/HoseinGhanbari/embed/vYXXeqY?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXXeqY'>vYXXeqY</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+### Function Context
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="NWRRwWj" src="https://codepen.io/HoseinGhanbari/embed/NWRRwWj?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRRwWj'>NWRRwWj</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 ## Case Study
 
 ### jquery library
