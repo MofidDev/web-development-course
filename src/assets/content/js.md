@@ -59,7 +59,12 @@
   (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+### Math Object
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="RwGGGyJ" src="https://codepen.io/HoseinGhanbari/embed/RwGGGyJ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/RwGGGyJ'>RwGGGyJ</a> by HoseinGhanbari
+  (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Case Study
 
@@ -76,3 +81,5 @@
 - https://masonry.desandro.com/
 
 ## For further reading
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
