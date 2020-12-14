@@ -64,6 +64,31 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="yLaMyLK" src="https://codepen.io/HoseinGhanbari/embed/yLaMyLK?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/yLaMyLK'>yLaMyLK</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="vYXxEgG" src="https://codepen.io/HoseinGhanbari/embed/vYXxEgG?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/vYXxEgG'>vYXxEgG</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEevdO" src="https://codepen.io/HoseinGhanbari/embed/poEevdO?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEevdO'>poEevdO</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="dypvPdM" src="https://codepen.io/HoseinGhanbari/embed/dypvPdM?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/dypvPdM'>dypvPdM</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="poEevVQ" src="https://codepen.io/HoseinGhanbari/embed/poEevVQ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/poEevVQ'>poEevVQ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 ### Math Object
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="RwGGGyJ" src="https://codepen.io/HoseinGhanbari/embed/RwGGGyJ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -175,4 +200,4 @@
 
 ## For further reading
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
