@@ -13,6 +13,13 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
+### Comments
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="mdrWdQy" src="https://codepen.io/HoseinGhanbari/embed/mdrWdQy?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/mdrWdQy'>mdrWdQy</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 ### Variables and Data Types
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="eYdzQpQ" src="https://codepen.io/HoseinGhanbari/embed/eYdzQpQ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -22,10 +29,13 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
 
 ### Arrays
 
@@ -184,10 +194,10 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
-### Comments
+### Error Handling
 
-- <iframe height="265" style="width: 100%;" scrolling="no" title="mdrWdQy" src="https://codepen.io/HoseinGhanbari/embed/mdrWdQy?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/mdrWdQy'>mdrWdQy</a> by HoseinGhanbari
+- <iframe height="265" style="width: 100%;" scrolling="no" title="xxEqGLq" src="https://codepen.io/HoseinGhanbari/embed/xxEqGLq?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/xxEqGLq'>xxEqGLq</a> by HoseinGhanbari
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
