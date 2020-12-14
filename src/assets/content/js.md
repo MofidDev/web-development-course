@@ -52,6 +52,11 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="ExgWxpe" src="https://codepen.io/HoseinGhanbari/embed/ExgWxpe?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgWxpe'>ExgWxpe</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 ### Operators
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="WNGGGXB" src="https://codepen.io/HoseinGhanbari/embed/WNGGGXB?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -144,6 +149,13 @@
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="NWRRwWj" src="https://codepen.io/HoseinGhanbari/embed/NWRRwWj?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
     See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/NWRRwWj'>NWRRwWj</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+### Comments
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="mdrWdQy" src="https://codepen.io/HoseinGhanbari/embed/mdrWdQy?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/mdrWdQy'>mdrWdQy</a> by HoseinGhanbari
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
