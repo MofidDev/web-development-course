@@ -1,10 +1,8 @@
 ## Language Basics
 
-### Chrome DevTools
+### Chrome DevTools Console
 
-- <img class="img-fluid" src="./assets/image/chrome_devtools_1.jpg" />
-
-- <img class="img-fluid" src="./assets/image/chrome_devtools_2.jpg" />
+- <img class="img-fluid" src="./assets/image/chrome_devtools_console.jpg" />
 
 ### Hello World
 
