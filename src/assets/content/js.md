@@ -1,4 +1,4 @@
-## Language Basics
+## JavaScript Basic
 
 ### Chrome DevTools Console
 
@@ -22,6 +22,11 @@
 
 - <iframe height="265" style="width: 100%;" scrolling="no" title="eYdzQpQ" src="https://codepen.io/HoseinGhanbari/embed/eYdzQpQ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
     See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/eYdzQpQ'>eYdzQpQ</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="WNGpvBb" src="https://codepen.io/HoseinGhanbari/embed/WNGpvBb?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/WNGpvBb'>WNGpvBb</a> by HoseinGhanbari
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
