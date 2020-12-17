@@ -141,3 +141,9 @@
 ## For further reading
 
 - https://www.typescriptlang.org/docs
+- https://www.typescriptlang.org/docs/handbook/functions.html
+- https://www.typescriptlang.org/docs/handbook/classes.html
+- https://www.typescriptlang.org/docs/handbook/interfaces.html
+- https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
+- https://www.typescriptlang.org/docs/handbook/advanced-types.html
+- https://www.typescriptlang.org/docs/handbook/generics.html
