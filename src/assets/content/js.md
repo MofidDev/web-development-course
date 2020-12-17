@@ -1,4 +1,4 @@
-## JavaScript Basic
+## Javascript Basic
 
 ### Chrome DevTools Console
 
