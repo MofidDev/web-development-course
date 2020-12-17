@@ -229,6 +229,16 @@
     (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
   </iframe>
 
+- <iframe height="265" style="width: 100%;" scrolling="no" title="OJRmrmX" src="https://codepen.io/HoseinGhanbari/embed/OJRmrmX?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/OJRmrmX'>OJRmrmX</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
+- <iframe height="265" style="width: 100%;" scrolling="no" title="ExgmGXd" src="https://codepen.io/HoseinGhanbari/embed/ExgmGXd?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/HoseinGhanbari/pen/ExgmGXd'>ExgmGXd</a> by HoseinGhanbari
+    (<a href='https://codepen.io/HoseinGhanbari'>@HoseinGhanbari</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+
 ## Global Objects
 
 ### Math Object
@@ -283,6 +293,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 - https://developer.mozilla.org/en-US/docs/Web/API/Window
--
+
+- https://developer.mozilla.org/en-US/docs/Web/Events
