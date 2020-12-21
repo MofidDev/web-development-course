@@ -59,6 +59,12 @@ export class TopicService {
       isltr: true,
     },
     {
+      title: 'Directive',
+      titlefa: 'دستورالعمل‌ها (دیرکتیو)',
+      path: 'directive',
+      file: 'directive.md',
+    },
+    {
       title: 'Component',
       titlefa: 'کامپوننت',
       path: 'component',
@@ -69,12 +75,6 @@ export class TopicService {
       titlefa: 'الحاق داده',
       path: 'data-binding',
       file: 'data-binding.md',
-    },
-    {
-      title: 'Directive',
-      titlefa: 'دستورالعمل‌ها (دیرکتیو)',
-      path: 'directive',
-      file: 'directive.md',
     },
     {
       title: 'Service',

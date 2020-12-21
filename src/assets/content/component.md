@@ -12,27 +12,7 @@
 
 ## اولین کامپوننت
 
-- first.component.ts
-
-  - ```typescript
-    import { Component, OnInit } from "@angular/core";
-
-    @Component({
-      selector: "app-first",
-      templateUrl: "./first.component.html",
-      styleUrls: ["./first.component.css"],
-    })
-    export class FirstComponent implements OnInit {
-      constructor() {}
-
-      ngOnInit() {}
-    }
-    ```
-
-- app.component.html
-  - ```markup
-    <app-first></app-first>
-    ```
+- <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-first-component?ctl=1&embed=1&file=src/app/app.component.html"></iframe>
 
 ### توضیحات تکمیلی
 
