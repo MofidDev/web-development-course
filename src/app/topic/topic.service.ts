@@ -90,7 +90,7 @@ export class TopicService {
     },
     {
       title: 'Observables',
-      titlefa: 'الگوی publish و subscribe',
+      titlefa: 'الگوی observer',
       path: 'observables',
       file: 'observables.md',
     },
