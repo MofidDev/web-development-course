@@ -9,8 +9,8 @@ export class TopicService {
     {
       title: 'Introduction',
       titlefa: 'مقدمه',
-      path: 'introduction',
-      file: 'introduction.md',
+      path: 'intro',
+      file: 'intro.md',
     },
     {
       title: 'HTTP',
