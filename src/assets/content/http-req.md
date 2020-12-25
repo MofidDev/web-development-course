@@ -19,10 +19,6 @@
   export class AppModule {}
   ```
 
-## خواندن فایل تنظیمات
+## خواندن فایل تنظیمات و کار با HTTPClient
 
--
-
-## کار با JsonPlaceHolder
-
--
+- <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-reading-config-file?ctl=1&embed=1"></iframe>
