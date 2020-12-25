@@ -9,6 +9,11 @@
   - نصب پکیج parse
     - `parse:latest`
     - `npm install --save parse`
+  - اضافه کردن متغیرهای محیطی در پوشه environments
+  - راه‌اندازی پکیج parse در app.module.ts
+  - ایجاد سرویس AuthService
+  - ایجاد کامپوننت‌های ثبت‌نام، ورود و خانه
+  - تعریف مسیرهای لازم در ماژول app-routing.module.ts
 
 - **مراحل بک‌اند**
 
