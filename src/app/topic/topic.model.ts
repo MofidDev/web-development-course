@@ -3,5 +3,9 @@ export interface Topic {
   titlefa: string;
   path: string;
   file: string;
+
   isltr?: boolean;
+
+  done?: boolean;
+  inprogress?: boolean;
 }

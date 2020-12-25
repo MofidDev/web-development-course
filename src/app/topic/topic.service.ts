@@ -11,6 +11,7 @@ export class TopicService {
       titlefa: 'مقدمه',
       path: 'intro',
       file: 'intro.md',
+      done: true,
     },
     {
       title: 'HTTP',
