@@ -8,6 +8,14 @@
 - **Structural directives**: با اضافه یا کم کردن عناصر DOM باعث تغییر ساختار DOM می‌شود. مثل NgFor و NgIf و NgSwitch
 - **Attribute directives**: باعث تغییر ظاهر یا رفتار یک عنصر، کامپوننت یا دستورالعمل دیگر می‌شود. مثل NgStyle و NgClass و NgModel
 
-## Highlight Directive
+## Using NgFor, NgIf, NgSwitch
+
+- <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src=""></iframe>
+
+### Using NgStyle, NgClass, NgModel
+
+- <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src=""></iframe>
+
+## Custom Highlight Directive
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-highlight-directive?ctl=1&embed=1&file=src/app/highlight.directive.ts"></iframe>
