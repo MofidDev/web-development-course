@@ -12,10 +12,11 @@
   - اضافه کردن متغیرهای محیطی در پوشه environments
   - راه‌اندازی پکیج parse در app.module.ts
   - ایجاد سرویس AuthService
-  - ایجاد کامپوننت‌های ثبت‌نام، ورود و خانه
+  - ایجاد کامپوننت‌های Home, SignUp و SignIn
   - تعریف مسیرهای لازم در ماژول app-routing.module.ts
 
 - **مراحل بک‌اند**
 
   - ثبت‌نام در سایت back4app.com
   - ایجاد یک پروژه جدید در سایت back4app.com
+  - بدست آورن کلیدهای ارتباط با API از قسمت App Settings و سپس Security & Keys
