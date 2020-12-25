@@ -17,6 +17,8 @@
             <div class="col-md-4" *ngFor="let item of topics">
                 <div class="card mb-4">
                     <div class="card-body d-flex flex-column justify-content-center">
+                        <span class="status done-mark" *ngIf="item.done"><i class="fas fa-check"></i></span>
+                        <span class="status pending-mark" *ngIf="item.pending"><i class="fas fa-spinner"></i></span>
                         <h5 class="card-title text-center font-weight-bold">{{item.title}}</h5>
                         <a [routerLink]="['/topic', item.path]" class="btn btn-raised btn-primary">ورود به مبحث</a>
                     </div>

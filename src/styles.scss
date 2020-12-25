@@ -82,6 +82,34 @@ mark {
       padding: 4rem 4rem;
     }
   }
+
+  .card {
+    position: relative;
+
+    .status {
+      top: 1.25rem;
+      right: 1.25rem;
+      position: absolute;
+      padding: 2px 5px;
+      padding-top: 4px;
+      border-radius: 50%;
+      font-size: 0.8rem;
+    }
+
+    .status i {
+      vertical-align: middle;
+    }
+
+    .done-mark {
+      background-color: #4caf50;
+      color: #fff;
+    }
+
+    .pending-mark {
+      background-color: #ff9800;
+      color: #fff;
+    }
+  }
 }
 
 // topic
