@@ -11,10 +11,6 @@
   npm install -g surge
   ```
 
-## آماده‌سازی پروژه‌های AngularCLI برای استقرار
-
-## آماده‌سازی پروژه‌های StackBlitz برای استقرار
-
 ## استقرار در surge.sh
 
 - ```
@@ -33,13 +29,13 @@
 
 - ```
   1) ng build --prod --output-path docs --base-href /web-development-course/
-  
+
   2) cp ./docs/index.html ./docs/404.html
-  
+
   3) git add .
-  
+
   4) git commit -m "deploy"
-  
+
   5) git push origin master
   ```
 
