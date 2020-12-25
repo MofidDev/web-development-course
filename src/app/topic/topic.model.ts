@@ -7,5 +7,5 @@ export interface Topic {
   isltr?: boolean;
 
   done?: boolean;
-  inprogress?: boolean;
+  pending?: boolean;
 }
