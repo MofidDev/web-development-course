@@ -53,3 +53,7 @@
 
   6) npm install --save-dev babel-loader
   ```
+
+## برای مطالعه بیشتر
+
+- https://angular.io/guide/deployment
