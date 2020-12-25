@@ -19,6 +19,10 @@
   export class AppModule {}
   ```
 
+## خواندن فایل تنظیمات
+
+-
+
 ## کار با JsonPlaceHolder
 
-- 
+-
