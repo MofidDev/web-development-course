@@ -107,10 +107,10 @@ export class TopicService {
       file: 'pipe.md',
     },
     {
-      title: 'HTTP Requests',
+      title: 'HTTPClient',
       titlefa: 'ارتباط با API',
-      path: 'http-req',
-      file: 'http-req.md',
+      path: 'http-client',
+      file: 'http-client.md',
     },
     {
       title: 'Authentication',
