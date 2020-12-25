@@ -39,6 +39,8 @@
   5) git push origin master
   ```
 
+- <img class="img-fluid" src="./assets/image/github_pages.jpg" />
+
 ## رفع اشکالات احتمالی
 
 - ```
