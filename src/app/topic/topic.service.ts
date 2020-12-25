@@ -18,18 +18,21 @@ export class TopicService {
       titlefa: 'پروتکل HTTP',
       path: 'http',
       file: 'http.md',
+      done: true,
     },
     {
       title: 'GIT',
       titlefa: 'ورژن کنترل سیستم، گیت',
       path: 'git',
       file: 'git.md',
+      done: true,
     },
     {
       title: 'Environment Setup',
       titlefa: 'آماده‌سازی محیط توسعه و نوشتن اولین پروژه',
       path: 'env-setup',
       file: 'env-setup.md',
+      done: true,
     },
     {
       title: 'HTML',
@@ -37,6 +40,7 @@ export class TopicService {
       path: 'html',
       file: 'html.md',
       isltr: true,
+      done: true,
     },
     {
       title: 'CSS',
@@ -44,6 +48,7 @@ export class TopicService {
       path: 'css',
       file: 'css.md',
       isltr: true,
+      pending: true,
     },
     {
       title: 'JavaScript',
