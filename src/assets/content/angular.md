@@ -162,3 +162,33 @@
 </table>
 
 <br />
+
+<table dir="ltr" class="table table-striped">
+    <colgroup>
+       <col style="width: 25%;">
+       <col style="width: 75%;">
+    </colgroup>
+    <thead class="thead-light">
+        <tr>
+        <th>END-TO-END TEST FILES</th>
+        <th>PURPOSE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            <code>e2e/src/app.e2e-spec.ts</code><br/>
+            <code>e2e/src/app.po.ts</code>
+            </td>
+            <td>end-to-end tests for my-app</td>
+        </tr>
+        <tr>
+            <td><code>e2e/protractor.conf.js</code></td>
+            <td>test-tool config</td>
+        </tr>
+        <tr>
+            <td><code>e2e/tsconfig.json</code></td>
+            <td>TypeScript config inherits from workspace</td>
+        </tr>
+    </tbody>
+</table>
