@@ -24,4 +24,4 @@
 
     - Unit Testing & End-to-End Testing, With Karma & Protractor, Made Easy & Fast
     - Built-in Support for high-performance and complex Animations
-    - Built-in Support for Accessibility Related Technologies, to easily Create accessible applications
+    - Built-in Support for Digital Accessibility Technologies
