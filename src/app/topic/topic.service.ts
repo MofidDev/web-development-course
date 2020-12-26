@@ -65,6 +65,13 @@ export class TopicService {
       isltr: true,
     },
     {
+      title: 'Angular',
+      titlefa: 'فریم‌ورک انگولار',
+      path: 'angular',
+      file: 'angular.md',
+      isltr: true,
+    },
+    {
       title: 'Directive',
       titlefa: 'دستورالعمل‌ها (دیرکتیو)',
       path: 'directive',
