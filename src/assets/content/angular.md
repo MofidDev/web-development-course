@@ -16,12 +16,12 @@
 
   - **<mark>Productivity</mark>**
 
-    - Templates
-    - Angular CLI
-    - IDEs
+    - Built-in Template Syntax to Quickly Create UI
+    - Angular CLI as a All-in-One Solution
+    - IDEs Support for Intelligent code completion, instant errors, and ...
 
   - **<mark>Full Development Story</mark>**
 
-    - Testing
-    - Animation
-    - Accessibility
+    - Unit Testing & End-to-End Testing, With Karma & Protractor, Made Easy & Fast
+    - Built-in Support for high-performance and complex Animations
+    - Built-in Support for Accessibility Related Technologies, to easily Create accessible applications
