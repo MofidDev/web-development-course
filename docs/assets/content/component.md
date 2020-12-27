@@ -11,3 +11,12 @@
 ## First Component
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-first-component?ctl=1&embed=1&file=src/app/app.component.html"></iframe>
+
+## برای مطالعه بیشتر
+
+- https://angular.io/guide/architecture-components
+- https://angular.io/guide/component-overview
+- https://angular.io/guide/lifecycle-hooks
+- https://angular.io/guide/view-encapsulation
+- https://angular.io/guide/dynamic-component-loader
+- https://angular.io/guide/elements

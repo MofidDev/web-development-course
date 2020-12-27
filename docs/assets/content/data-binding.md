@@ -19,3 +19,11 @@
 ## ShoppingList + ShoppingListItem + ShoppingForm
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-shopping-list?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
+
+## برای مطالعه بیشتر
+
+- https://angular.io/guide/binding-syntax
+- https://angular.io/guide/interpolation
+- https://angular.io/guide/property-binding
+- https://angular.io/guide/event-binding
+- https://angular.io/guide/two-way-binding

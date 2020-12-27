@@ -5,3 +5,11 @@
 ## Using Route Params
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-simple-routing-params?ctl=1&embed=1&file=src/app/app.component.html"></iframe>
+
+## Simple Live Clock
+
+- <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-live-clock?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
+
+## برای مطالعه بیشتر
+
+- https://www.learnrxjs.io
