@@ -23,3 +23,7 @@
 ## برای مطالعه بیشتر
 
 - https://angular.io/guide/binding-syntax
+- https://angular.io/guide/interpolation
+- https://angular.io/guide/property-binding
+- https://angular.io/guide/event-binding
+- https://angular.io/guide/two-way-binding
