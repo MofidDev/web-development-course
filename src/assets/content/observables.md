@@ -12,4 +12,4 @@
 
 ## برای مطالعه بیشتر
 
-- https://www.learnrxjs.io/
+- https://www.learnrxjs.io
