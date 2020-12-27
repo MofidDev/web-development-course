@@ -165,6 +165,10 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
+## TypeScript Interfaces
+
+## TypeScript Generics
+
 ## For further reading
 
 - https://www.typescriptlang.org/docs
