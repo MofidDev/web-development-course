@@ -8,6 +8,6 @@
   ng g c First
   ```
 
-## اولین کامپوننت
+## First Component
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-first-component?ctl=1&embed=1&file=src/app/app.component.html"></iframe>
