@@ -24,3 +24,8 @@
 ## Cross Component Communication
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-cross-component-communication?ctl=1&embed=1&file=src/app/logout-form/logout-form.component.ts"></iframe>
+
+## برای مطالعه بیشتر
+
+- https://angular.io/guide/hierarchical-dependency-injection
+- https://angular.io/guide/singleton-services
