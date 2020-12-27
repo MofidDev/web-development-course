@@ -29,3 +29,4 @@
 
 - https://angular.io/guide/hierarchical-dependency-injection
 - https://angular.io/guide/singleton-services
+- https://angular.io/guide/architecture-services
