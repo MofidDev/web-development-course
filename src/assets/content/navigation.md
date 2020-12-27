@@ -9,3 +9,7 @@
 ## Simple Routing
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-simple-routing?ctl=1&embed=1&file=src/app/app.component.html"></iframe>
+
+## برای مطالعه بیشتر
+
+- https://angular.io/guide/router
