@@ -17,3 +17,8 @@
 ## First Reactive Form
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-simple-reactive-form?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
+
+## برای مطالعه بیشتر
+
+- https://angular.io/guide/forms-overview
+- https://angular.io/guide/reactive-forms
