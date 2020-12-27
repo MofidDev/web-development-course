@@ -16,6 +16,6 @@
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-simple-ngmodel?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
 
-## ShoppingList & ShoppingListItem
+## ShoppingList + ShoppingListItem + ShoppingForm
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-shopping-list?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
