@@ -22,3 +22,4 @@
 
 - https://angular.io/guide/forms-overview
 - https://angular.io/guide/reactive-forms
+- https://angular.io/guide/form-validation
