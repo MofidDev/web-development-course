@@ -6,6 +6,10 @@
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-simple-pipe-usages?ctl=1&embed=1&file=src/app/app.component.html"></iframe>
 
+## Using Async Pipe
+
+- <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-using-async-pipe?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
+
 ## Custom Filter Pipe
 
 - <iframe height="512" style="width: 100%;" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" src="https://stackblitz.com/edit/angular-ivy-simple-filter-pipe?ctl=1&embed=1&file=src/app/app.component.ts"></iframe>
