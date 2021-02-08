@@ -335,3 +335,5 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 - https://www.samanthaming.com/flexbox30/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://tobiasahlin.com/blog/common-flexbox-patterns/#masonry-or-mosaic
