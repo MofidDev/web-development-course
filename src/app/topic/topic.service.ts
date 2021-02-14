@@ -48,7 +48,7 @@ export class TopicService {
       path: 'css',
       file: 'css.md',
       isltr: true,
-      pending: true,
+      done: true,
     },
     {
       title: 'JavaScript',
@@ -56,6 +56,7 @@ export class TopicService {
       path: 'javascript',
       file: 'js.md',
       isltr: true,
+      pending: true,
     },
     {
       title: 'TypeScript',
